@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Util on My little geek webpage</title>
+    <link>http://dmolina.github.io/tags/util/</link>
+    <description>Recent content in Util on My little geek webpage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Tue, 10 Jul 2012 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="http://dmolina.github.io/tags/util/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Callback that stop algorithm in R</title>
+      <link>http://dmolina.github.io/post/rmain/</link>
+      <pubDate>Tue, 10 Jul 2012 00:00:00 +0200</pubDate>
+      
+      <guid>http://dmolina.github.io/post/rmain/</guid>
+      <description>Today I was making a little programming using the mathematical software R (very useful for statistics, by the way), for a little test.
+I&amp;rsquo;m one of the authors of a Cran package (Rmalschains) for continuous optimization, and I was testing another packages to compare results.
+Comparing a particular package I realise that the API doesn&amp;rsquo;t give me enough control for the comparisons. Briefly, to compare different algorithms all of them should stop when the same number of solutions is achieved.</description>
+    </item>
+    
+  </channel>
+</rss>

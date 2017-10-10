@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Performance on My little geek webpage</title>
+    <link>http://dmolina.github.io/tags/performance/</link>
+    <description>Recent content in Performance on My little geek webpage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Sun, 15 Jul 2012 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="http://dmolina.github.io/tags/performance/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Improving performance in Python</title>
+      <link>http://dmolina.github.io/post/improving_python1/</link>
+      <pubDate>Sun, 15 Jul 2012 00:00:00 +0200</pubDate>
+      
+      <guid>http://dmolina.github.io/post/improving_python1/</guid>
+      <description>All the source code of this post is available at github.
+In the previous post, I recognized my predilection for Python. For me, it is a great language for create prototypes in many areas. For my research work, I usually creates/designs algorithms for continuous optimization using evolutionary algorithms. For these algorithms, languages like C/C++ or Java are widely used, specially for its good performance (to publish, it is usual to have to make many comparisons between algorithms, so the performance could be critical.</description>
+    </item>
+    
+  </channel>
+</rss>

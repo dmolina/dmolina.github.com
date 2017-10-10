@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://dmolina.github.io/post/python_bi/</loc>
+    <lastmod>2017-10-10T15:37:17+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://dmolina.github.io/about/</loc>
+    <lastmod>2017-10-09T17:11:44+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://dmolina.github.io/post/improving_python1/</loc>
+    <lastmod>2017-10-10T15:37:08+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://dmolina.github.io/post/rmain/</loc>
+    <lastmod>2017-10-10T15:36:18+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://dmolina.github.io/categories/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dmolina.github.io/</loc>
+    <lastmod>2017-10-10T15:37:17+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dmolina.github.io/tags/performance/</loc>
+    <lastmod>2017-10-10T15:37:08+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dmolina.github.io/post/</loc>
+    <lastmod>2017-10-10T15:37:17+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dmolina.github.io/categories/programming/</loc>
+    <lastmod>2017-10-10T15:37:17+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dmolina.github.io/tags/python/</loc>
+    <lastmod>2017-10-10T15:37:17+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dmolina.github.io/tags/r/</loc>
+    <lastmod>2017-10-10T15:36:18+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dmolina.github.io/tags/</loc>
+    <lastmod>2017-10-10T15:37:08+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dmolina.github.io/tags/teaching/</loc>
+    <lastmod>2017-10-10T15:37:17+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dmolina.github.io/categories/teaching/</loc>
+    <lastmod>2017-10-10T15:37:17+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dmolina.github.io/tags/util/</loc>
+    <lastmod>2017-10-10T15:36:18+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
