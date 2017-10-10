@@ -42,5 +42,14 @@ I&amp;rsquo;m one of the authors of a Cran package (Rmalschains) for continuous 
 Comparing a particular package I realise that the API doesn&amp;rsquo;t give me enough control for the comparisons. Briefly, to compare different algorithms all of them should stop when the same number of solutions is achieved.</description>
     </item>
     
+    <item>
+      <title>Learning new languages?</title>
+      <link>http://dmolina.github.io/post/languages/</link>
+      <pubDate>Wed, 04 Jul 2012 00:00:00 +0200</pubDate>
+      
+      <guid>http://dmolina.github.io/post/languages/</guid>
+      <description>I love to learn new programming languages, specially whose that has new features that could be used to change your personal programming way. Also, it is very useful to get used to accept new ideas and avoid get in in the famous language wars. In this post, I&amp;rsquo;m going to give my personal idea of these languages, starting from a C/C++ and Java programmer. Over all, this is my personal opinion, after hours of working in these languages, not only using a joy program.</description>
+    </item>
+    
   </channel>
 </rss>
