@@ -1,0 +1,93 @@
+---
+title: "Learning new languages?"
+date: 2012-07-04T21:49:10+02:00
+draft: true
+---
+
+I love to learn new programming languages, specially whose that has new features that could be used to change your personal
+programming way. Also, it is very useful to get used to accept new ideas and avoid get in in the famous /language wars/.
+In this post, I'm going to give my personal idea of these languages, starting from a C/C++ and Java
+programmer. Over all, this is my personal opinion, after hours of working in these languages, not only using a 
+joy program. 
+
+* Perl
+
+It was my first /scripting language/, and I've been working in Perl in a proyect for a private company for two years
+eight hours per day (my first job without extra hours without been paid). In that case, it was a good language decision,
+and I learnt many tricks to write readable programs in *Perl*.
+
+- _community_:
+  A community that likes to create an ecosystem to reuse, that create the [[http://www.cpan.org][CPAN]]. At the same time, a
+  community that enforces freedom, allowing each one to use the library and guidelines that considers good. 
+
+- _The good:_
+  The [[http://www.cpan.org][CPAN]], and the conciseness and flexbility of the language, with packages like [[http://search.cpan.org/search?q%3DMoose][Moose]] and several test packages
+  (and very strange packages in /ACME/ domain :-) ). At the same time, there is always simpler version of packages if
+  you want them. 
+
+- _The bad:_
+  The original Object-Oriented, the complexity in creating your own modules (in comparisons to the simpler
+  packages model like python). Also, if you don't want to use object-oriented, sometimes you need to create complex
+  combinations of /hashes/ and /arrays/ with references, and it is not very readable.
+  
+- _Developer tools_: I usually edit with [[http://www.vim.org][Vim]], I don't need any particular framework, but I strongly recommend strict
+  mode, and essential packages like [[http://search.cpan.org/search?q%3Dautodie][autodie]], [[http://search.cpan.org/search?q%3DMoose][Moose]], [[http://search.cpan.org/search?q%3DFile::IO][File::IO]], test packages like [[http://search.cpan.org/search?q%3DTest::More][Test::More]]. Always check [[http://www.cpan.org][CPAN]] before a new
+  proyect.
+
+I resume, although many people say that Perl is dead, it is still alive, and if you learn it, you don't regret it, it is
+a very useful tool. I still makes many small programs almost everyday using Perl because it's a very useful language,
+mainly for text processing (probably the best one).
+
+To learn more I recommend the free book [[http://hop.perl.plover.com/][Higher-Order Perl]], it is a opening book. Also, the freely book [[http://www.modernperlbooks.com][Modern Perl]] is a
+useful book to see new modern programming ways and wonderful packages.
+
+* Python 
+
+My first love, a very simple but more readable, and very useful tools for any field. The most beautiful syntax in my
+opinion. I have been deeply working in Python, for prototyping and several complex project.  Also, very good in web
+developer (my favourite is [[http://www.djangoproject.com][Django]] but there are many good ones). 
+
+- _The good:_ Its syntax, packages and object models. Also, its libraries have tendency to have simple APIs (by a
+  community very worried about that). The great interactive shell [[http://ipython.org][ipython]]. Also, it have many interesting tools for
+  scientific researchers: [[http://numpy.scipy.org/][numpy]], [[http://matplotlib.sourceforge.net/][matplotlib]], several parallel libraries, [[http://www.scipy.org/][scipy]].
+
+- _The bad:_ nothing really serious, the inherent problems with duck typing, like excessive trivial testing. However,
+  tools like [[http://pypi.python.org/pypi/pyflakes/][pyflakes]] or [[http://pypi.python.org/pypi/pylint/][pylint]] allow developers reduce trivial errors.
+
+- _Developer tools:_ Sometimes I edit with [[http://www.vim.org][Vim]], but nowadays I uses [[http://code.google.com/p/spyderlib/][spyder 2]] by its integration with  [[http://pypi.python.org/pypi/pyflakes/][pyflakes]] and
+  [[http://ipython.org][ipython]]. There are also very good IDEs like [[http://eric-ide.python-projects.org/][eric4]]. For performance aspects, there are many tools, in a future
+  post, I am going to put a real example of improvement.
+
+I resume, it is a very good language that any developer should now, because it is very simple and useful. Specially for
+scientific works, not only by the mathematical tool [[http://www.sagemath.org/][Sage]] but also by many libraries.
+
+* Scala
+
+The most recent adquisition to this list is the [[http://www.scala-lang.org/][Scala language]]. This *JVM language* is similar to [[http://groovy.codehaus.org/][Groovy]] but in my
+opinion, superior.  However, it is a very good language but I think that it is not very popular in pragmatic programmer
+by the scientific origin of its author, clearly seen in its documentation. Also, sometimes the /converse/ developers
+likes to show how flexible and powerful is the language with complex examples (not in length, but in its syntax) have
+given the idea of a complex language.
+
+- _The good:_ Its syntax is very orthogonal and simple (reducing the verbosity of Java). It is a strong typing system
+  (different with *groovy*) with a auto-detection of types (like auto keywords in other languages). It enforces to uses
+  immutable classes and method, allowing you a functional programming.
+
+- _The bad:_ Differences in generical contenedors with Java. There are very powerful but you have to converse from one
+  to another.
+
+- _Developer tools:_ like in Java, I recommed [[http://www.eclipse.org][Eclipse]] with [[http://scala-ide.org/][scala plugins]]. For compiling proyects in both
+  languages you can use [[http://maven.apache.org/][maven]] but you need several plugins (only if you combine them). Another compiling tools like
+  [[https://github.com/harrah/xsbt/wiki/][sbt]] or [[http://gradle.org/][grandle]] could be useful.
+
+In resume, a very interesting language that java developer should give a look, but it still have a promising future. 
+In my opinion, its community should 'break' the idea of complexity or it going to be a very niching language while groovy would
+be stronger and widely used.
+
+* In resume
+
+I always recommend to learn new languages. You can learn many possibilites: clojure, immutability, libraries, ... that are not 
+so visible in your current main language. 
+
+PS: I have let out other languages that I've been playing in: R, Ruby, Haskell, groovy, F# because I want to write only about languages
+in which I have a strong knowledge, and used it in real-word projects (and not only joy projects).
