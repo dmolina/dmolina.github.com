@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Testing on My little geek webpage</title>
+    <link>http://dmolina.github.io/tags/testing/</link>
+    <description>Recent content in Testing on My little geek webpage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Tue, 24 Oct 2017 17:37:00 +0200</lastBuildDate>
+    
+	<atom:link href="http://dmolina.github.io/tags/testing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Property-Based Testing</title>
+      <link>http://dmolina.github.io/post/hypothesis_test/</link>
+      <pubDate>Tue, 24 Oct 2017 17:37:00 +0200</pubDate>
+      
+      <guid>http://dmolina.github.io/post/hypothesis_test/</guid>
+      <description>Today I was reviewing a paper that I am doing in collaboration with other colleagues, a Phd student living in Sweden (in Västerås, a lovely city at a hour from Stockholm, I had a stay for 3 months three years ago). Then, to be sure that the proposed algorithm, a memetic version of a Differential Evolution, I started to implement it.
+During the code, I need to create group of random variables, without repetition.</description>
+    </item>
+    
+  </channel>
+</rss>

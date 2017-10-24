@@ -4,7 +4,7 @@
     <head>
         
             
-                <title>Learning new languages?</title>
+                <title>Property-Based Testing</title>
             
         
 
@@ -21,19 +21,21 @@
             
         
 
-        <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Learning new languages?"/>
-<meta name="twitter:description" content="I love to learn new programming languages, specially whose that has new features that could be used to change your personal programming way. Also, it is very useful to get used to accept new ideas and avoid get in in the famous language wars. In this post, I&rsquo;m going to give my personal idea of these languages, starting from a C/C&#43;&#43; and Java programmer. Over all, this is my personal opinion, after hours of working in these languages, not only using a joy program."/>
+        <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Property-Based Testing"/>
+<meta name="twitter:description" content="Today I was reviewing a paper that I am doing in collaboration with other colleagues, a Phd student living in Sweden (in Västerås, a lovely city at a hour from Stockholm, I had a stay for 3 months three years ago). Then, to be sure that the proposed algorithm, a memetic version of a Differential Evolution, I started to implement it.
+During the code, I need to create group of random variables, without repetition."/>
 <meta name="twitter:site" content="@danimolina_"/>
 
-        <meta property="og:title" content="Learning new languages?" />
-<meta property="og:description" content="I love to learn new programming languages, specially whose that has new features that could be used to change your personal programming way. Also, it is very useful to get used to accept new ideas and avoid get in in the famous language wars. In this post, I&rsquo;m going to give my personal idea of these languages, starting from a C/C&#43;&#43; and Java programmer. Over all, this is my personal opinion, after hours of working in these languages, not only using a joy program." />
+        <meta property="og:title" content="Property-Based Testing" />
+<meta property="og:description" content="Today I was reviewing a paper that I am doing in collaboration with other colleagues, a Phd student living in Sweden (in Västerås, a lovely city at a hour from Stockholm, I had a stay for 3 months three years ago). Then, to be sure that the proposed algorithm, a memetic version of a Differential Evolution, I started to implement it.
+During the code, I need to create group of random variables, without repetition." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://dmolina.github.io/post/languages/" />
+<meta property="og:url" content="http://dmolina.github.io/post/hypothesis_test/" />
 
 
 
-<meta property="article:published_time" content="2012-07-04T00:00:00&#43;02:00"/>
-<meta property="article:modified_time" content="2017-10-10T17:57:39&#43;02:00"/>
+<meta property="article:published_time" content="2017-10-24T17:37:00&#43;02:00"/>
+<meta property="article:modified_time" content="2017-10-24T17:41:59&#43;02:00"/>
 
 
 
@@ -46,16 +48,17 @@
 
 
         
-<meta itemprop="name" content="Learning new languages?">
-<meta itemprop="description" content="I love to learn new programming languages, specially whose that has new features that could be used to change your personal programming way. Also, it is very useful to get used to accept new ideas and avoid get in in the famous language wars. In this post, I&rsquo;m going to give my personal idea of these languages, starting from a C/C&#43;&#43; and Java programmer. Over all, this is my personal opinion, after hours of working in these languages, not only using a joy program.">
+<meta itemprop="name" content="Property-Based Testing">
+<meta itemprop="description" content="Today I was reviewing a paper that I am doing in collaboration with other colleagues, a Phd student living in Sweden (in Västerås, a lovely city at a hour from Stockholm, I had a stay for 3 months three years ago). Then, to be sure that the proposed algorithm, a memetic version of a Differential Evolution, I started to implement it.
+During the code, I need to create group of random variables, without repetition.">
 
 
-<meta itemprop="dateModified" content="2012-07-04T00:00:00&#43;02:00" />
-<meta itemprop="wordCount" content="916">
+<meta itemprop="dateModified" content="2017-10-24T17:37:00&#43;02:00" />
+<meta itemprop="wordCount" content="836">
 
 
 
-<meta itemprop="keywords" content="" />
+<meta itemprop="keywords" content="python,testing," />
 
         
 
@@ -242,43 +245,43 @@
             
 
 
-<li><a href="//twitter.com/share?url=http%3a%2f%2fdmolina.github.io%2fpost%2flanguages%2f&text=Learning%20new%20languages%3f&via=danimolina_" target="_blank" class="share-btn twitter">
+<li><a href="//twitter.com/share?url=http%3a%2f%2fdmolina.github.io%2fpost%2fhypothesis_test%2f&text=Property-Based%20Testing&via=danimolina_" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
 </a></li>
 
 
-<li><a href="//plus.google.com/share?url=http%3a%2f%2fdmolina.github.io%2fpost%2flanguages%2f" target="_blank" class="share-btn google-plus">
+<li><a href="//plus.google.com/share?url=http%3a%2f%2fdmolina.github.io%2fpost%2fhypothesis_test%2f" target="_blank" class="share-btn google-plus">
     <i class="fa fa-google-plus"></i>
     <p>Google+</p>
 </a></li>
 
 
-<li><a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fdmolina.github.io%2fpost%2flanguages%2f" target="_blank" class="share-btn facebook">
+<li><a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fdmolina.github.io%2fpost%2fhypothesis_test%2f" target="_blank" class="share-btn facebook">
     <i class="fa fa-facebook"></i>
     <p>Facebook</p>
 </a></li>
 
 
-<li><a href="//reddit.com/submit?url=http%3a%2f%2fdmolina.github.io%2fpost%2flanguages%2f&title=Learning%20new%20languages%3f" target="_blank" class="share-btn reddit">
+<li><a href="//reddit.com/submit?url=http%3a%2f%2fdmolina.github.io%2fpost%2fhypothesis_test%2f&title=Property-Based%20Testing" target="_blank" class="share-btn reddit">
     <i class="fa fa-reddit-alien"></i>
     <p>Reddit</p>
 </a></li>
 
 
-<li><a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2fdmolina.github.io%2fpost%2flanguages%2f&title=Learning%20new%20languages%3f" target="_blank" class="share-btn linkedin">
+<li><a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2fdmolina.github.io%2fpost%2fhypothesis_test%2f&title=Property-Based%20Testing" target="_blank" class="share-btn linkedin">
     <i class="fa fa-linkedin"></i>
     <p>LinkedIn</p>
 </a></li>
 
 
-<li><a href="//www.stumbleupon.com/submit?url=http%3a%2f%2fdmolina.github.io%2fpost%2flanguages%2f&title=Learning%20new%20languages%3f" target="_blank" class="share-btn stumbleupon">
+<li><a href="//www.stumbleupon.com/submit?url=http%3a%2f%2fdmolina.github.io%2fpost%2fhypothesis_test%2f&title=Property-Based%20Testing" target="_blank" class="share-btn stumbleupon">
     <i class="fa fa-stumbleupon"></i>
     <p>StumbleUpon</p>
 </a></li>
 
 
-<li><a href="mailto:?subject=Check out this post by &body=http%3a%2f%2fdmolina.github.io%2fpost%2flanguages%2f" target="_blank" class="share-btn email">
+<li><a href="mailto:?subject=Check out this post by &body=http%3a%2f%2fdmolina.github.io%2fpost%2fhypothesis_test%2f" target="_blank" class="share-btn email">
     <i class="fa fa-envelope"></i>
     <p>Email</p>
 </a></li>
@@ -295,7 +298,7 @@
     <header>
     <div class="title">
         
-            <h1><a href="http://dmolina.github.io/post/languages/">Learning new languages?</a></h1>
+            <h1><a href="http://dmolina.github.io/post/hypothesis_test/">Property-Based Testing</a></h1>
             
         
         
@@ -304,11 +307,11 @@
         
 
         <time class="published"
-            datetime='2012-07-04'>
-            July 4, 2012</time>
+            datetime='2017-10-24'>
+            October 24, 2017</time>
         <span class="author"></span>
         
-            <p>5 minute read</p>
+            <p>4 minute read</p>
         
         
     </div>
@@ -321,43 +324,43 @@
             
 
 
-<li><a href="//twitter.com/share?url=http%3a%2f%2fdmolina.github.io%2fpost%2flanguages%2f&text=Learning%20new%20languages%3f&via=danimolina_" target="_blank" class="share-btn twitter">
+<li><a href="//twitter.com/share?url=http%3a%2f%2fdmolina.github.io%2fpost%2fhypothesis_test%2f&text=Property-Based%20Testing&via=danimolina_" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
 </a></li>
 
 
-<li><a href="//plus.google.com/share?url=http%3a%2f%2fdmolina.github.io%2fpost%2flanguages%2f" target="_blank" class="share-btn google-plus">
+<li><a href="//plus.google.com/share?url=http%3a%2f%2fdmolina.github.io%2fpost%2fhypothesis_test%2f" target="_blank" class="share-btn google-plus">
     <i class="fa fa-google-plus"></i>
     <p>Google+</p>
 </a></li>
 
 
-<li><a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fdmolina.github.io%2fpost%2flanguages%2f" target="_blank" class="share-btn facebook">
+<li><a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fdmolina.github.io%2fpost%2fhypothesis_test%2f" target="_blank" class="share-btn facebook">
     <i class="fa fa-facebook"></i>
     <p>Facebook</p>
 </a></li>
 
 
-<li><a href="//reddit.com/submit?url=http%3a%2f%2fdmolina.github.io%2fpost%2flanguages%2f&title=Learning%20new%20languages%3f" target="_blank" class="share-btn reddit">
+<li><a href="//reddit.com/submit?url=http%3a%2f%2fdmolina.github.io%2fpost%2fhypothesis_test%2f&title=Property-Based%20Testing" target="_blank" class="share-btn reddit">
     <i class="fa fa-reddit-alien"></i>
     <p>Reddit</p>
 </a></li>
 
 
-<li><a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2fdmolina.github.io%2fpost%2flanguages%2f&title=Learning%20new%20languages%3f" target="_blank" class="share-btn linkedin">
+<li><a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2fdmolina.github.io%2fpost%2fhypothesis_test%2f&title=Property-Based%20Testing" target="_blank" class="share-btn linkedin">
     <i class="fa fa-linkedin"></i>
     <p>LinkedIn</p>
 </a></li>
 
 
-<li><a href="//www.stumbleupon.com/submit?url=http%3a%2f%2fdmolina.github.io%2fpost%2flanguages%2f&title=Learning%20new%20languages%3f" target="_blank" class="share-btn stumbleupon">
+<li><a href="//www.stumbleupon.com/submit?url=http%3a%2f%2fdmolina.github.io%2fpost%2fhypothesis_test%2f&title=Property-Based%20Testing" target="_blank" class="share-btn stumbleupon">
     <i class="fa fa-stumbleupon"></i>
     <p>StumbleUpon</p>
 </a></li>
 
 
-<li><a href="mailto:?subject=Check out this post by &body=http%3a%2f%2fdmolina.github.io%2fpost%2flanguages%2f" target="_blank" class="share-btn email">
+<li><a href="mailto:?subject=Check out this post by &body=http%3a%2f%2fdmolina.github.io%2fpost%2fhypothesis_test%2f" target="_blank" class="share-btn email">
     <i class="fa fa-envelope"></i>
     <p>Email</p>
 </a></li>
@@ -369,102 +372,182 @@
     
 
     <div id="content">
-        
+        <p>Today I was reviewing a paper that I am doing in collaboration with other colleagues,
+a Phd student living in Sweden (in Västerås, a lovely city at a hour from Stockholm,
+I had a stay for 3 months three years ago). Then, to be sure that the proposed algorithm,
+a memetic version of a Differential Evolution, I started to implement it.</p>
 
-<p>I love to learn new programming languages, specially whose that has new features that could be used to change your personal
-programming way. Also, it is very useful to get used to accept new ideas and avoid get in in the famous <em>language wars</em>.
-In this post, I&rsquo;m going to give my personal idea of these languages, starting from a C/C++ and Java
-programmer. Over all, this is my personal opinion, after hours of working in these languages, not only using a
-joy program.</p>
+<p>During the code, I need to create group of random variables, without repetition.</p>
 
-<h2 id="perl">Perl</h2>
+<p>it could be generated in the following way:</p>
 
-<p>It was my first <em>scripting language</em>, and I&rsquo;ve been working in Perl in a proyect for a private company for two years
-eight hours per day (my first job without extra hours without been paid). In that case, it was a good language decision,
-and I learnt many tricks to write readable programs in <strong>Perl</strong>.</p>
+<pre><code class="language-python">for i in range(popsize):
+    r1[i] = np.random.rand...
+    r2[i] = np.random.rand...
 
-<ul>
-<li><p><span class="underline">community</span>:
-A community that likes to create an ecosystem to reuse, that create the <a href="http://www.cpan.org">CPAN</a>. At the same time, a
-community that enforces freedom, allowing each one to use the library and guidelines that considers good.</p></li>
+    while r1[i] == r2[i]:
+        r2[i] = np.random.rand...
+</code></pre>
 
-<li><p><span class="underline">The good:</span>
-The <a href="http://www.cpan.org">CPAN</a>, and the conciseness and flexbility of the language, with packages like <a href="http://search.cpan.org/search?q%3DMoose">Moose</a> and several test packages
-(and very strange packages in <em>ACME</em> domain :-) ). At the same time, there is always simpler version of packages if
-you want them.</p></li>
+<p>However, it is not practical, for Matlab/Numpy it is better to work as vectors:</p>
 
-<li><p><span class="underline">The bad:</span>
-The original Object-Oriented, the complexity in creating your own modules (in comparisons to the simpler
-packages model like python). Also, if you don&rsquo;t want to use object-oriented, sometimes you need to create complex
-combinations of <em>hashes</em> and <em>arrays</em> with references, and it is not very readable.</p></li>
+<pre><code class="language-python">r1 = np.random.choice(popsize, popsize)
+r2 = np.random.choice(popsize, popsize)
+# Avoid repeated values
+r2 = change_repeated(r2, r1, popsize)
+</code></pre>
 
-<li><p><span class="underline">Developer tools</span>: I usually edit with <a href="http://www.vim.org">Vim</a>, I don&rsquo;t need any particular framework, but I strongly recommend strict
-mode, and essential packages like <a href="http://search.cpan.org/search?q%3Dautodie">autodie</a>, <a href="http://search.cpan.org/search?q%3DMoose">Moose</a>, <a href="http://search.cpan.org/search?q%3DFile::IO">&lt;:IO&gt;</a>, test packages like <a href="http://search.cpan.org/search?q%3DTest::More">Test::More</a>. Always check <a href="http://www.cpan.org">CPAN</a> before a new
-proyect.</p></li>
-</ul>
+<p>I need <strong>change_repeated</strong> to randomly generated again the values in r2 when it is equals
+than r1 (in the same position).</p>
 
-<p>I resume, although many people say that Perl is dead, it is still alive, and if you learn it, you don&rsquo;t regret it, it is
-a very useful tool. I still makes many small programs almost everyday using Perl because it&rsquo;s a very useful language,
-mainly for text processing (probably the best one).</p>
+<p>Then, I create the function:</p>
 
-<p>To learn more I recommend the free book <a href="http://hop.perl.plover.com/">Higher-Order Perl</a>, it is a opening book. Also, the freely book <a href="http://www.modernperlbooks.com">Modern Perl</a> is a
-useful book to see new modern programming ways and wonderful packages.</p>
+<pre><code class="language-python">def change_repeated(values, original, maxvalue: int):
+    &quot;&quot;&quot;
+    Repeat the values which are equals than original (position by position)
 
-<h2 id="python">Python</h2>
+    :param values: array vector
+    :param original: array vector or elements to not repeat
+    :param maxvalue: maximum value (new ones will be between [0,  maxvalue])
+    :returns: list of new values
+    :rtype: ndarray.
 
-<p>My first love, a very simple but more readable, and very useful tools for any field. The most beautiful syntax in my
-opinion. I have been deeply working in Python, for prototyping and several complex project.  Also, very good in web
-developer (my favourite is <a href="http://www.djangoproject.com">Django</a> but there are many good ones).</p>
+    &quot;&quot;&quot;
+    equals, = np.nonzero(values == original)
 
-<ul>
-<li><p><span class="underline">The good:</span> Its syntax, packages and object models. Also, its libraries have tendency to have simple APIs (by a
-community very worried about that). The great interactive shell <a href="http://ipython.org">ipython</a>. Also, it have many interesting tools for
-scientific researchers: <a href="http://numpy.scipy.org/">numpy</a>, <a href="http://matplotlib.sourceforge.net/">matplotlib</a>, several parallel libraries, <a href="http://www.scipy.org/">scipy</a>.</p></li>
+    while len(equals) &gt; 0:
+        size = len(equals)
+        values[equals] = np.random.choice(maxvalue, size)
+        equals, = np.nonzero(values == original)
 
-<li><p><span class="underline">The bad:</span> nothing really serious, the inherent problems with duck typing, like excessive trivial testing. However,
-tools like <a href="http://pypi.python.org/pypi/pyflakes/">pyflakes</a> or <a href="http://pypi.python.org/pypi/pylint/">pylint</a> allow developers reduce trivial errors.</p></li>
+    return values
+</code></pre>
 
-<li><p><span class="underline">Developer tools:</span> Sometimes I edit with <a href="http://www.vim.org">Vim</a>, but nowadays I uses <a href="http://code.google.com/p/spyderlib/">spyder 2</a> by its integration with  <a href="http://pypi.python.org/pypi/pyflakes/">pyflakes</a> and
-<a href="http://ipython.org">ipython</a>. There are also very good IDEs like <a href="http://eric-ide.python-projects.org/">eric4</a>. For performance aspects, there are many tools, in a future
-post, I am going to put a real example of improvement.</p></li>
-</ul>
+<p>Great! Now, how I could test it? It could give several examples, and test again them. However,
+this type of tests can be very boring, so I applied <a href="https://es.slideshare.net/ScottWlaschin/an-introduction-to-property-based-testing">Property-based testing</a>.</p>
 
-<p>I resume, it is a very good language that any developer should now, because it is very simple and useful. Specially for
-scientific works, not only by the mathematical tool <a href="http://www.sagemath.org/">Sage</a> but also by many libraries.</p>
+<p>In this type of tests, instead of comparing examples of inputs and outputs, you test properties
+that the function should follow for every possible input.</p>
 
-<h2 id="scala">Scala</h2>
-
-<p>The most recent adquisition to this list is the <a href="http://www.scala-lang.org/">Scala language</a>. This <strong>JVM language</strong> is similar to <a href="http://groovy.codehaus.org/">Groovy</a> but in my
-opinion, superior.  However, it is a very good language but I think that it is not very popular in pragmatic programmer
-by the scientific origin of its author, clearly seen in its documentation. Also, sometimes the <em>converse</em> developers
-likes to show how flexible and powerful is the language with complex examples (not in length, but in its syntax) have
-given the idea of a complex language.</p>
+<p>For instance, if you have implemented sqrt function:</p>
 
 <ul>
-<li><p><span class="underline">The good:</span> Its syntax is very orthogonal and simple (reducing the verbosity of Java). It is a strong typing system
-(different with <strong>groovy</strong>) with a auto-detection of types (like auto keywords in other languages). It enforces to uses
-immutable classes and method, allowing you a functional programming.</p></li>
+<li><p><strong>Traditional testing:</strong> Check sqrt(25)==5,  sqrt(16)==4,  sqrt(9)==3,  sqrt(5)=2.23&hellip;.</p></li>
 
-<li><p><span class="underline">The bad:</span> Differences in generical contenedors with Java. There are very powerful but you have to converse from one
-to another.</p></li>
-
-<li><p><span class="underline">Developer tools:</span> like in Java, I recommed <a href="http://www.eclipse.org">Eclipse</a> with <a href="http://scala-ide.org/">scala plugins</a>. For compiling proyects in both
-languages you can use <a href="http://maven.apache.org/">maven</a> but you need several plugins (only if you combine them). Another compiling tools like
-<a href="https://github.com/harrah/xsbt/wiki/">sbt</a> or <a href="http://gradle.org/">grandle</a> could be useful.</p></li>
+<li><p><strong>Property-based testing:</strong> Check that the result of sqrt multiply for itself gives the original number.</p></li>
 </ul>
 
-<p>In resume, a very interesting language that java developer should give a look, but it still have a promising future.</p>
+<p>When you are using property-based testing, you can use a particular library to
+automatically run your test with random inputs (with some constraints) hundreds
+of times.
+There are many tools for this: from the original <a href="https://en.wikipedia.org/wiki/QuickCheck">QuickCheck</a>, <a href="https://www.scalacheck.org/">ScalaCheck</a> for Scala, or <a href="https://github.com/HypothesisWorks/hypothesis-python">Hypothesis</a> for Python.
+In our case,  we are using the simple Hypothesis, that it is very <a href="https://hypothesis.readthedocs.io/en/latest/quickstart.html">well-documented</a>.</p>
 
-<p>In my opinion, its community should &lsquo;break&rsquo; the idea of complexity or it going to be a very niching language while groovy would
-be stronger and widely used.</p>
+<p>In our case, the properties of repeated(ys, xs) are:</p>
 
-<h2 id="in-resume">In resume</h2>
+<ul>
+<li><p>when xs and ys have some variable in common:</p>
 
-<p>I always recommend to learn new languages. You can learn many possibilites: clojure, immutability, libraries, &hellip; that are not
-so visible in your current main language.</p>
+<ul>
+<li><p>repeated(ys,  xs) must be different than ys.</p></li>
 
-<p>PS: I have let out other languages that I&rsquo;ve been playing in: R, Ruby, Haskell, groovy, F# because I want to write only about languages
-in which I have a strong knowledge, and used it in real-word projects (and not only joy projects).</p>
+<li><p>the result must be different than original vector (to avoid to modify the original one).</p></li>
+
+<li><p>The indexes where ys and repeated(ys, xs) are different xs == ys.</p></li>
+</ul></li>
+</ul>
+
+<p>The testing was done in the following way:</p>
+
+<p>First the import:</p>
+
+<pre><code class="language-python">from hypothesis import given
+import hypothesis.strategies as st
+import numpy as np
+</code></pre>
+
+<ul>
+<li>Then, we describe the range of float values:</li>
+</ul>
+
+<pre><code class="language-python">type_index = st.integers(min_value=0, max_value=popsize)
+</code></pre>
+
+<p>In that way, type_index create random values between [0,  popsize-1]</p>
+
+<p>Then, we define the input as a list of previous integers:</p>
+
+<pre><code class="language-python">type_list = st.lists(type_index, min_size=popsize, max_size=popsize)
+</code></pre>
+
+<p>We have set the min_size and max_size equals to get lists with the same size.
+Hypothesis works by default with lists of different sizes.</p>
+
+<p>Then, we say the type of each parameter:</p>
+
+<pre><code class="language-python">@given(type_list, type_list)
+def test_random_norepeat(x, y):
+    xs = np.array(x)
+    ys_orig = np.array(y)
+    ys = np.copy(ys_orig)
+
+    if np.any(xs == ys):
+        ys = change_repeated(ys, xs, dim)
+        # It cannot be any repeated element
+        assert not np.any(xs == ys)
+        # It can be change any  algorithm
+        assert not np.all(ys == ys_orig)
+        # The change must be justify
+        assert np.all((ys == ys_orig) | (ys_orig == xs))
+        # Check that all values are between [0, dim]
+        assert np.all((ys &gt;= 0) &amp; (ys &lt; dim))
+</code></pre>
+
+<p>When it is run with <strong>py.test</strong> the hypothesis library will test the function with
+hundreds of random xs and ys, when xs and ys are lists of size <strong>popsize</strong> and the
+values between [0, popsize). If it fails, it will show you the <em>xs</em> and <em>ys</em>
+values for which the code fails the test, it is very useful.</p>
+
+<p>By the way, the original DE can be implemented like:</p>
+
+<pre><code class="language-python"># Init population
+pop = pop_init(popsize, dim, min=min_value, max=max_value)
+fit = np.array([eval(sol) for sol in pop])
+nevals = 0
+
+while nevals &lt;= maxevals:
+    # Generate all random positions
+    r1 = np.random.choice(popsize, popsize)
+    r2 = np.random.choice(popsize, popsize)
+    r3 = np.random.choice(popsize, popsize)
+    # Avoid repeated values
+    r2 = change_repeated(r2, r1, popsize)
+    r3 = change_repeated_list(r3, [r1, r2], popsize)
+    # New population, mutation
+    V = pop[r1] + F*(pop[r2]-pop[r3])
+    # Clipping
+    V = np.clip(V, min_value, max_value)
+    # Define U
+    U = np.copy(pop)
+    # Select cr
+    cr = np.random.rand(popsize*dim).reshape((popsize, dim))
+    # Make sure that for each individual a position is changed
+    cr[np.arange(popsize), np.random.choice(dim, popsize)] = 0
+    # Eq. 2 (crossover)
+    U.flat[cr.flat &lt; CR] = V.flat
+    fitU = [eval(sol) for sol in U]
+    nevals += popsize
+    # Replacement
+    better_cond = fitU &lt; fit
+    # Expand for dimension
+    better_cond = np.repeat(better_cond, dim).reshape((popsize, dim))
+    # Replace the best individual in population
+    pop = np.where(better_cond, U, pop)
+    fit = np.minimum(fit, fitU)
+</code></pre>
+
+<p>I have to organize it a little, but in only 35 lines (including comments) a complete
+<a href="https://en.wikipedia.org/wiki/Differential_evolution">Differential Evolution</a> can be implemented. Numpy is awesome!</p>
 
     </div>
 
@@ -504,10 +587,10 @@ in which I have a strong knowledge, and used it in real-word projects (and not o
 </article>
 <ul class="actions pagination">
     
-
+        <li><a href="http://dmolina.github.io/post/emacs_rss/"
+                class="button big previous">Elfeed: Using emacs for reading RSS</a></li>
     
-        <li><a href="http://dmolina.github.io/post/rmain/"
-                class="button big next">Callback that stop algorithm in R</a></li>
+
     
 </ul>
 
