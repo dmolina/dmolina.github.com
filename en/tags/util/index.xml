@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Util on My little geek webpage</title>
+    <link>http://dmolina.github.io/en/tags/util/</link>
+    <description>Recent content in Util on My little geek webpage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>All text is licensed under a Creative Commons Attribution 4.0 International License.</copyright>
+    <lastBuildDate>Tue, 10 Jul 2012 00:00:00 +0200</lastBuildDate>
+    
+        <atom:link href="http://dmolina.github.io/en/tags/util/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Callback that stop algorithm in R</title>
+      <link>http://dmolina.github.io/en/post/rmain/</link>
+      <pubDate>Tue, 10 Jul 2012 00:00:00 +0200</pubDate>
+      
+      <guid>http://dmolina.github.io/en/post/rmain/</guid>
+      <description>&lt;p&gt;Today I was making a little programming using the mathematical software R (very useful
+ for statistics, by the way), for a little test.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m one of the authors of a Cran package (&lt;a href=&#34;http://cran.r-project.org/web/packages/Rmalschains/index.html&#34;&gt;Rmalschains&lt;/a&gt;) for continuous optimization, and I was testing another packages to compare results.&lt;/p&gt;
+
+&lt;p&gt;Comparing a particular package I realise that the API doesn&amp;rsquo;t give me enough control for
+the comparisons. Briefly, to compare different algorithms all of them should stop when the same
+number of solutions is achieved. Unfortunately, for the DE package, the stopping criterion is the
+maximum iterations number, and for one strategy (the default strategy) this number differs,
+maintaining the same maximum iterations number, in function of the function to improve. I know, not
+so briefly :-).&lt;/p&gt;
+
+&lt;p&gt;In resume, I want to pass a function to evaluate solutions to an algorithm, and that only the first
+&lt;em&gt;maxEvals&lt;/em&gt; solutions could be considered. So, it should be nice that after &lt;em&gt;maxEvals&lt;/em&gt; function evaluations
+the algorithm will stop.&lt;/p&gt;
+
+&lt;p&gt;The aim is very simple in a theorical way, but I have only the control over a callback function used by
+the algorithm, and I cannot use an &amp;lsquo;exit&amp;rsquo; function into the function, because in that case will stop the global program,
+not only the current state of the algorithm.&lt;/p&gt;
+
+&lt;p&gt;The solution? Using these &amp;lsquo;complex&amp;rsquo; concepts that many people think that are useless, specially my CS students :-).
+Combining a call with continuation with a closure:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-R&#34;&gt;finalFitness = callCC (function(exitFitness) {
+     fitnessCheck &amp;lt;- function(fn, maxevals) {
+          function(x) {
+
+               if (total == 0 || total &amp;lt; maxevals) {
+                  total &amp;lt;&amp;lt;- total +1;
+                  fitness = fn(x);
+
+                  if (total == 1 || fitness &amp;lt; bestFitness) {
+                     bestFitness &amp;lt;&amp;lt;- fitness;
+                  }
+
+               }
+
+               if (total &amp;gt;= maxevals) {
+                  exitFitness(bestFitness);
+               }
+
+
+               fitness;
+           }
+
+      }
+
+
+      fitCheck = fitnessCheck(fun$fitness, fun$maxevals)
+
+      log &amp;lt;- capture.output({
+          total &amp;lt;- 0
+          result=DEoptim(fitCheck, lower, upper, control=list(itermax=fun$maxevals/NP))
+      })
+
+      exitFitness(result$optim$bestval)
+})
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I know, it is a bit confusing. callCC implement the concept of &lt;em&gt;call-with-current-continuation&lt;/em&gt;
+to run a code with an &lt;em&gt;exit&lt;/em&gt; function &lt;strong&gt;exitFitness&lt;/strong&gt; that allows me to stop the run of the algorithm.
+Because the function only does a run of the  algorithm (&lt;strong&gt;DEOptim&lt;/strong&gt;), I can stop when I want.
+Also, to make it more elegant, I use a closure &lt;strong&gt;fitnessCheck&lt;/strong&gt;  that receives a function and a
+maximum number of call, and it stops when the maximum calls number is achieved
+(&lt;em&gt;total&lt;/em&gt; and &lt;em&gt;bestFitness&lt;/em&gt; are global variable, so the way to modify their values is using
+&amp;lt;&amp;lt;- instead of the classical &amp;lt;- or =).&lt;/p&gt;
+
+&lt;p&gt;By the way, &lt;strong&gt;capture.output&lt;/strong&gt; is a function that disables all the output of DEoptim algorithm.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

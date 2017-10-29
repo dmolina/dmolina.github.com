@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming on My little geek webpage</title>
+    <link>http://dmolina.github.io/en/categories/programming/</link>
+    <description>Recent content in Programming on My little geek webpage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>All text is licensed under a Creative Commons Attribution 4.0 International License.</copyright>
+    <lastBuildDate>Mon, 09 Oct 2017 18:18:00 +0200</lastBuildDate>
+    
+        <atom:link href="http://dmolina.github.io/en/categories/programming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Using Python for Business Intelligence</title>
+      <link>http://dmolina.github.io/en/post/python_bi/</link>
+      <pubDate>Mon, 09 Oct 2017 18:18:00 +0200</pubDate>
+      
+      <guid>http://dmolina.github.io/en/post/python_bi/</guid>
+      <description>&lt;p&gt;Two weeks ago I started my first teaching day, replacing a teacher that has
+still not gone to Ceuta (because the temporal contract was offered to many
+people, and all of them refuse it). Do not worry, they will have the material, I
+said to myself, naïvely.&lt;/p&gt;
+
+&lt;p&gt;However, my Phd. advisor, the coordinator of the course, has decided to replace
+the practice classes from &lt;a href=&#34;https://www.knime.com/&#34;&gt;Knime&lt;/a&gt; to Python using the different tools availables.
+The reason? Because the Python, with R, are very popular in &lt;a href=&#34;https://en.wikipedia.org/wiki/Data_science&#34;&gt;Data Science&lt;/a&gt;. Also,
+in Python there are very good tools for data analysis (like &lt;a href=&#34;http://www.numpy.org/&#34;&gt;numpy&lt;/a&gt;, &lt;a href=&#34;http://pandas.pydata.org/&#34;&gt;pandas&lt;/a&gt;) or
+machine learning (&lt;a href=&#34;http://scikit-learn.org/stable/&#34;&gt;scikit-learn&lt;/a&gt;, &amp;hellip;). It seems a good idea, but I have not
+material, and I have only two days :-O.&lt;/p&gt;
+
+&lt;p&gt;Even more, I had still no access to the Moodle for the material of the course.
+So, after a very busy Saturday, I finished including a material,  in
+&lt;a href=&#34;http://github.com/dmolina/es_intro_python&#34;&gt;http://github.com/dmolina/es_intro_python&lt;/a&gt;, with interesting references and an
+install introduction.&lt;/p&gt;
+
+&lt;p&gt;Also, I use a very curious tool, &lt;a href=&#34;https://gitpitch.com&#34;&gt;https://gitpitch.com&lt;/a&gt;, that allow to create
+slides from a markdown file from the repository github, &lt;a href=&#34;https://gitpitch.com/dmolina/es_intro_python/master?grs=github&amp;amp;t=moon&#34;&gt;Slides using Pitch&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;My final experience was:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Very few students, so it was very relaxed because you can solve the problems
+for each student. However, using the &lt;a href=&#34;https://www.anaconda.com/&#34;&gt;anaconda&lt;/a&gt; there is few problems (and the .
+In prevision of the big size of the anaconda distribution, my downloaded
+version was copied by USB Disk to students.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The &lt;a href=&#34;http://jupyter.org/&#34;&gt;jupyter notebook&lt;/a&gt; allow to test the python code without installing or
+learning an IDE (later they can install which they prefer, but for teaching
+you do not need any of them).&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;You have to prepare exercises, because if not, you talk and show and you can
+finished in few minutes a material that takes you many hours.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;When you have only a weekend for preparing material, I must have already strong
+knowledge about the topic (fortunately,  it was my case). If not, you will not
+be confident teaching it.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For the second day, I was preparing another slide for teaching pandas (with the
+most useful operations, by my experience), available as pdf format here:
+&lt;a href=&#34;./slides/slides_pandas.pdf&#34;&gt;slides_pandas.pdf&lt;/a&gt; (In a future post, I will say as I
+prepare my slides using Emacs+Org-mode). &lt;em&gt;Unfortunately&lt;/em&gt;, the new teacher was
+ready,  and I have to finish my courses using python for BI.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Improving performance in Python</title>
+      <link>http://dmolina.github.io/en/post/improving_python1/</link>
+      <pubDate>Sun, 15 Jul 2012 00:00:00 +0200</pubDate>
+      
+      <guid>http://dmolina.github.io/en/post/improving_python1/</guid>
+      <description>
+
+&lt;p&gt;All the source code of this post is available at &lt;a href=&#34;https://github.com/dmolina/pyreal&#34;&gt;github&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In the previous post, I recognized my predilection for Python. For me, it is a great language for create prototypes in
+many areas. For my research work, I usually creates/designs algorithms for continuous optimization using
+&lt;a href=&#34;http://en.wikipedia.org/wiki/Evolutionary_algorithm&#34;&gt;evolutionary algorithms&lt;/a&gt;. For these algorithms, languages like C/C++ or Java are widely used, specially for its
+good performance (to publish, it is usual to have to make many comparisons between algorithms, so the performance
+could be critical. However, for testing new ideas, many authors uses other tools like Mathlab that reduces the
+developer time at the cost of a higher computing time.&lt;/p&gt;
+
+&lt;p&gt;I agree that Mathlab is great for numerical algorithms, but I still prefer Python over Mathlab, because I&amp;rsquo;m more confortable
+with it, and have many libraries, and it&amp;rsquo;s more simpler to call code in other languages, written in C or Java. That allow us
+to increase the performance, and I like to test how much it could be improved.&lt;/p&gt;
+
+&lt;p&gt;Several months ago, I start writing my most succesful algorithm, &lt;a href=&#34;http://sci2s.ugr.es/EAMHCO/#macmals&#34;&gt;Memetic Algorithms based on LS Chaining&lt;/a&gt;, in Python. I had several
+doubts about the performance, so I start writing one element, an Steady-State Genetic Algorithm, in Python.&lt;/p&gt;
+
+&lt;h2 id=&#34;calling-c-c-code-from-python&#34;&gt;Calling C/C++ code from python&lt;/h2&gt;
+
+&lt;p&gt;The first challenge I had to tackle was to allow my python program to use the same benchmark functions than other implementations,
+&lt;a href=&#34;http://sci2s.ugr.es/EAMHCO/#TestF&#34;&gt;CEC&amp;rsquo;2005 benchmark&lt;/a&gt;.
+This benchmark define the functions to optimize, thus its main funtionality is
+evaluate my solutions, when each solution is a vector of real numbers, with a real fitness value.
+The benchmark code was implemented (by its authors) in C/C++. So, my python code have to call C++ code.&lt;/p&gt;
+
+&lt;p&gt;For doing that, I used the library &lt;a href=&#34;http://www.boost.org/doc/libs/1_50_0/libs/python/doc/index.html&#34;&gt;boost::python&lt;/a&gt;, that is, in my opinion, the simpler way to call C/C++ code, specially
+when we uses &lt;a href=&#34;http://numpy.scipy.org/&#34;&gt;numpy&lt;/a&gt; package.&lt;/p&gt;
+
+&lt;p&gt;In my case, it is very simple, because I need few functions:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;#include &amp;lt;boost/python.hpp&amp;gt;
+#include &amp;lt;boost/python/numeric.hpp&amp;gt;
+#include &amp;lt;boost/python/list.hpp&amp;gt;
+#include &amp;lt;iostream&amp;gt;
+#include &amp;quot;cec2005/cec2005.h&amp;quot;
+#include &amp;quot;cec2005/srandom.h&amp;quot;
+
+using namespace boost::python;
+
+Random r(new SRandom(12345679));
+
+void set_function(int fun, int dim) {
+    init_cec2005(&amp;amp;r, fun, dim);
+}
+
+double evalua(const numeric::array &amp;amp;el) {
+   const tuple &amp;amp;shape = extract&amp;lt;tuple&amp;gt;(el.attr(&amp;quot;shape&amp;quot;));
+   unsigned n = boost::python::extract&amp;lt;unsigned&amp;gt;(shape[0]);
+   double *tmp = new double[n];
+  for(unsigned int i = 0; i &amp;lt; n; i++)
+    {
+      tmp[i] = boost::python::extract&amp;lt;double&amp;gt;(el[i]);
+    }
+  double result = eval_cec2005(tmp, n);
+  delete tmp;
+  return result;
+}
+...
+
+BOOST_PYTHON_MODULE(libpycec2005)
+{
+    using namespace boost::python;
+    numeric::array::set_module_and_type( &amp;quot;numpy&amp;quot;, &amp;quot;ndarray&amp;quot;);
+    def(&amp;quot;config&amp;quot;, &amp;amp;set_function);
+    def(&amp;quot;evaluate&amp;quot;, &amp;amp;evalua);
+    ...
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;More info in the good &lt;a href=&#34;http://www.boost.org/doc/libs/1_50_0/libs/python/doc/index.html&#34;&gt;boost::python&lt;/a&gt; documentation.&lt;/p&gt;
+
+&lt;p&gt;One we can call C/C++ code, we have implemented the algorithm in python code.
+The test code was the following:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from ssga import SSGA
+from readargs import ArgsCEC05
+import libpycec2005 as cec2005
+import numpy
+
+def check_dimension(option, opt, value):
+    if value not in [2, 10, 30, 50]:
+        raise OptionValueError(
+            &amp;quot;option %s: invalid dimensionality value: %r&amp;quot; % (opt, value))
+
+def main():
+    &amp;quot;&amp;quot;&amp;quot;
+    Main program
+    &amp;quot;&amp;quot;&amp;quot;
+    args = ArgsCEC05()
+
+    if  args.hasError:
+        args.print_help_exit()
+
+    fun = args.function
+    dim = args.dimension
+
+    print &amp;quot;Function: %d&amp;quot; %fun
+    print &amp;quot;Dimension: %d&amp;quot; %dim
+    cec2005.config(fun, dim)
+    domain = cec2005.domain(fun)
+    print &amp;quot;Domain: &amp;quot;, domain
+    ea = SSGA(domain=domain, size=60, dim=dim, fitness=cec2005.evaluate)
+
+    for x in xrange(25):
+        ea.run(maxeval=dim*10000)
+        [bestsol, bestfit] = ea.getBest()
+        print &amp;quot;BestSol: &amp;quot;, bestsol
+        print &amp;quot;BestFitness: %e&amp;quot; %bestfit
+        ea.reset()
+
+if __name__ == &amp;quot;__main__&amp;quot;:
+    main()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This source code run the algorithm 25 times, and in each run the algorithm stops when they are created 10000*dim solutions.
+These conditions are indicated in the &lt;a href=&#34;http://sci2s.ugr.es/EAMHCO/Tech-Report-May-30-05.pdf&#34;&gt;benchmark specification&lt;/a&gt;. The only parameter was the function (-f, used function 1 by
+default) and dimension (-d) from 10, 30, 50.&lt;/p&gt;
+
+&lt;h2 id=&#34;profiling-the-computing-time&#34;&gt;Profiling the computing time&lt;/h2&gt;
+
+&lt;p&gt;How much time it takes? I have changed xrange(25) for xrange(1) and we have run its current version.
+The final time was 7 minutes for dimension 10, and 21 minutes for dimension 30 (for only one function).&lt;/p&gt;
+
+&lt;p&gt;Because I like to make more interesting things,  that only waiting computing time, I use the profile, only
+one run for the function, to detect the functions/method more expensive in computing time.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;python -m cProfile runcec.py -f 1 -d 10
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The output was the following:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;        2943600 function calls (2943531 primitive calls) in 31.031 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+....
+      1    0.001    0.001    0.126    0.126 ssga.py:1(&amp;lt;module&amp;gt;)
+    99940    0.561    0.000   17.463    0.000 ssga.py:109(cross)
+        1    0.000    0.000    0.000    0.000 ssga.py:123(reset)
+        1    5.559    5.559   51.129   51.129 ssga.py:126(run)
+        1    0.000    0.000    0.000    0.000 ssga.py:14(__init__)
+        1    0.000    0.000    0.000    0.000 ssga.py:158(getBest)
+        1    0.000    0.000    0.000    0.000 ssga.py:31(set_mutation_rate)
+    99940    0.730    0.000    1.885    0.000 ssga.py:45(mutation)
+    12438    0.286    0.000    0.758    0.000 ssga.py:50(mutationBGA)
+        1    0.002    0.002    0.002    0.002 ssga.py:77(initPopulation)
+   105883    1.101    0.000    5.604    0.000 ssga.py:89(updateWorst)
+        1    0.000    0.000    0.000    0.000 ssga.py:9(SSGA)
+    99940    1.049    0.000   20.617    0.000 ssga.py:97(getParents)
+...
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;With the profile we can observe the most expensive methods in our code:
+getParents (20 seconds), crossover operator (17 seconds), and updateWorst (5 seconds).
+These methods are the 85% of the computing time, and the first two methods the 74%
+of the computing time.&lt;/p&gt;
+
+&lt;h2 id=&#34;optimising-the-code&#34;&gt;Optimising the code&lt;/h2&gt;
+
+&lt;p&gt;That proves the majority of computing time is due to a minority of the code,
+only three methods. If we can optimize these methods, our code could be
+improved a lot.&lt;/p&gt;
+
+&lt;p&gt;We can uses again the &lt;a href=&#34;http://www.boost.org/doc/libs/1_50_0/libs/python/doc/index.html&#34;&gt;boost::python&lt;/a&gt; package, but it&amp;rsquo;s a bit tedious to use it. So, we have
+used the &lt;a href=&#34;http://www.cython.org/&#34;&gt;cython&lt;/a&gt; package. With cython we can optimize the source code adding
+information about the types.&lt;/p&gt;
+
+&lt;p&gt;For instead, Instead of the following code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import numpy as np
+
+def distance(ind1,ind2):
+    &amp;quot;&amp;quot;&amp;quot;
+    Euclidean distance
+    ind1 -- first array to compare
+    ind2 -- second array to compare
+
+    Return euclidean distance between the individuals
+
+    &amp;gt;&amp;gt;&amp;gt; from numpy.random import rand
+    &amp;gt;&amp;gt;&amp;gt; import numpy as np
+    &amp;gt;&amp;gt;&amp;gt; dim = 30
+    &amp;gt;&amp;gt;&amp;gt; sol = rand(dim)
+    &amp;gt;&amp;gt;&amp;gt; distance(sol,sol)
+    0.0
+    &amp;gt;&amp;gt;&amp;gt; ref=np.zeros(dim)
+    &amp;gt;&amp;gt;&amp;gt; dist=distance(sol,ref)
+    &amp;gt;&amp;gt;&amp;gt; dist &amp;gt; 0
+    True
+    &amp;gt;&amp;gt;&amp;gt; dist2 = distance(sol*2,ref)
+    &amp;gt;&amp;gt;&amp;gt; 2*dist == dist2
+    True
+    &amp;quot;&amp;quot;&amp;quot;
+    dif = ind1-ind2
+    sum = (dif*dif).sum()
+    return math.sqrt(sum)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;we can write:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;cimport numpy as np
+cimport cython
+DTYPE = np.double
+ctypedef np.double_t DTYPE_t
+ctypedef np.int_t BTYPE_t
+
+def distance(np.ndarray[DTYPE_t, ndim=1]ind1, np.ndarray[DTYPE_t, ndim=1] ind2):
+    &amp;quot;&amp;quot;&amp;quot;
+    Euclidean distance
+    ind1 -- first array to compare
+    ind2 -- second array to compare
+
+    ....
+    &amp;quot;&amp;quot;&amp;quot;
+    cdef np.ndarray[DTYPE_t, ndim=1] dif = ind1-ind2
+    cdef double sum = (dif*dif).sum()
+    return math.sqrt(sum)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;We can see that is still very readable. we only have put information about the type
+and dimension in the vector parameters and about the variables, using the keyword
+cdef.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s see as an example the first method, the crossover operator, implemented
+in the crossBLX method:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import numpy as np
+import math
+
+def crossBLX(mother,parent,domain,alpha):
+    &amp;quot;&amp;quot;&amp;quot;
+    crossover operator BLX-alpha
+
+    mother -- mother (first individual)
+    parent -- parent (second individual)
+    domain -- domain to check
+    alpha  -- parameter alpha
+
+    Returns the new children following the expression children = random(x-alpha*dif, y+alpha*dif),
+                where dif=abs(x,y) and x=lower(mother,parents), y=upper(mother,parents)
+
+    &amp;gt;&amp;gt;&amp;gt; import numpy as np
+    &amp;gt;&amp;gt;&amp;gt; low=-5
+    &amp;gt;&amp;gt;&amp;gt; upper = 5
+    &amp;gt;&amp;gt;&amp;gt; dim=30
+    &amp;gt;&amp;gt;&amp;gt; sol = np.array([1,2,3,2,1])
+    &amp;gt;&amp;gt;&amp;gt; crossBLX(sol,sol,[low,upper],0)
+    array([ 1.,  2.,  3.,  2.,  1.])
+    &amp;quot;&amp;quot;&amp;quot;
+    diff = abs(mother-parent)
+    dim = mother.size
+    I=diff*alpha
+    points = np.array([mother,parent])
+    A=np.amin(points,axis=0)-I
+    B=np.amax(points,axis=0)+I
+    children = np.random.uniform(A,B,dim)
+    [low,high]=domain
+    return np.clip(children, low, high)
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;We can see that it is very simple to implement using numpy, but it is still very slow. With cython I have
+defined directly implement the many operations, the following code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;def crossBLX(np.ndarray[DTYPE_t, ndim=1] mother,np.ndarray[DTYPE_t, ndim=1] parent,list domain, double alpha):
+    &amp;quot;&amp;quot;&amp;quot;
+    ...
+    &amp;quot;&amp;quot;&amp;quot;
+    cdef np.ndarray[DTYPE_t, ndim=1] C, r
+    cdef int low, high, dim
+    cdef double x, y
+    cdef double I, A, B
+    cdef unsigned i
+    [low,high]=domain
+    dim = mother.shape[0]
+    C = np.zeros(dim)
+    r = random.randreal(0,1,dim)
+
+    for i in range(dim):
+        if mother[i] &amp;lt; parent[i]:
+           (x,y) = (mother[i],parent[i])
+        else:
+           (y,x) = (mother[i],parent[i])
+
+        I = alpha*(y-x)
+        A=x-I
+        B=y+I
+
+        if (A &amp;lt; low):
+            A = low
+        if (B &amp;gt; high):
+            B = high
+
+        C[i] = A+r[i]*(B-A)
+
+    return C
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It&amp;rsquo;s true that the source code is more complicated, but it is still very readable.
+I have compared the two implementation to make sure both return the same values.&lt;/p&gt;
+
+&lt;h2 id=&#34;measuring-the-improvement&#34;&gt;Measuring the improvement&lt;/h2&gt;
+
+&lt;p&gt;How much these small changes in the code?
+I have profile the source code again and it gives me:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;         1020045 function calls (1019976 primitive calls) in 18.003 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+....
+        1    0.001    0.001    0.127    0.127 ssga.py:1(&amp;lt;module&amp;gt;)
+    99940    0.425    0.000    2.432    0.000 ssga.py:109(cross)
+        1    0.000    0.000    0.000    0.000 ssga.py:123(reset)
+        1    5.415    5.415   17.864   17.864 ssga.py:126(run)
+        1    0.000    0.000    0.000    0.000 ssga.py:14(__init__)
+        1    0.000    0.000    0.000    0.000 ssga.py:158(getBest)
+        1    0.000    0.000    0.000    0.000 ssga.py:31(set_mutation_rate)
+    99940    0.699    0.000    2.006    0.000 ssga.py:45(mutation)
+    12544    0.338    0.000    0.929    0.000 ssga.py:50(mutationBGA)
+        1    0.002    0.002    0.002    0.002 ssga.py:77(initPopulation)
+   105959    0.775    0.000    1.343    0.000 ssga.py:89(updateWorst)
+        1    0.000    0.000    0.000    0.000 ssga.py:9(SSGA)
+    99940    0.940    0.000    6.665    0.000 ssga.py:97(getParents)
+....
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;We can see the improvement obtained.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Method&lt;/th&gt;
+&lt;th&gt;Python&lt;/th&gt;
+&lt;th&gt;Cython&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;cross          :&lt;/td&gt;
+&lt;td&gt;17.4&lt;/td&gt;
+&lt;td&gt;2.4&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;getParents     :&lt;/td&gt;
+&lt;td&gt;20.6&lt;/td&gt;
+&lt;td&gt;6.6&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;updateWorst    :&lt;/td&gt;
+&lt;td&gt;5.6&lt;/td&gt;
+&lt;td&gt;1.3&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Total&lt;/td&gt;
+&lt;td&gt;43.6&lt;/td&gt;
+&lt;td&gt;10.3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;The new code takes only a 23% of the computing time of the previous code.
+With these changes, we have reduced the total time from 51 seconds to 18 code.&lt;/p&gt;
+
+&lt;h2 id=&#34;in-perspective&#34;&gt;In perspective&lt;/h2&gt;
+
+&lt;p&gt;Now, I run the source code without the profile, and test the source code obtaining the
+following time:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Method&lt;/th&gt;
+&lt;th&gt;dim=10&lt;/th&gt;
+&lt;th&gt;dim=30&lt;/th&gt;
+&lt;th&gt;dim=50&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Python&lt;/td&gt;
+&lt;td&gt;44s&lt;/td&gt;
+&lt;td&gt;3240s (54m)&lt;/td&gt;
+&lt;td&gt;&amp;ndash;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Cython&lt;/td&gt;
+&lt;td&gt;10s&lt;/td&gt;
+&lt;td&gt;28s&lt;/td&gt;
+&lt;td&gt;48s&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Improvement&lt;/td&gt;
+&lt;td&gt;77%&lt;/td&gt;
+&lt;td&gt;99%&lt;/td&gt;
+&lt;td&gt;&amp;mdash;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;In the following table, we test the maximum time for one and 25 runs (the time depends on the
+function used).&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;#functions&lt;/th&gt;
+&lt;th&gt;dim=10&lt;/th&gt;
+&lt;th&gt;dim=30&lt;/th&gt;
+&lt;th&gt;dim=50&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;10s/18s&lt;/td&gt;
+&lt;td&gt;28s/40s&lt;/td&gt;
+&lt;td&gt;48s/1m&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;25&lt;/td&gt;
+&lt;td&gt;3/7m&lt;/td&gt;
+&lt;td&gt;15/21m&lt;/td&gt;
+&lt;td&gt;38m/&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;So, the total computing time is 7 minutes for dimension 10, and 21 minutes for dimension 30.
+These numbers are very acceptable, specially because we can test in parallel the different functions
+in a cluster of computers. Unfortunately, an implementation in Mathlab not only take more time, but
+also, for licensing reasons, it could not run in parallel without limit.&lt;/p&gt;
+
+&lt;p&gt;In resume, we can uses python code, not only to create experimental prototypes, but also to create
+functional prototypes.&lt;/p&gt;
+
+&lt;p&gt;And about the possible testing problem, I&amp;rsquo;ve been working on it, but I think it is enough for a post,
+didn&amp;rsquo;t it? :-)&lt;/p&gt;
+
+&lt;p&gt;All the code refered in the post, both in python and cython, is available at &lt;a href=&#34;https://github.com/dmolina/pyreal&#34;&gt;github&lt;/a&gt;, if you want to see it.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Callback that stop algorithm in R</title>
+      <link>http://dmolina.github.io/en/post/rmain/</link>
+      <pubDate>Tue, 10 Jul 2012 00:00:00 +0200</pubDate>
+      
+      <guid>http://dmolina.github.io/en/post/rmain/</guid>
+      <description>&lt;p&gt;Today I was making a little programming using the mathematical software R (very useful
+ for statistics, by the way), for a little test.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m one of the authors of a Cran package (&lt;a href=&#34;http://cran.r-project.org/web/packages/Rmalschains/index.html&#34;&gt;Rmalschains&lt;/a&gt;) for continuous optimization, and I was testing another packages to compare results.&lt;/p&gt;
+
+&lt;p&gt;Comparing a particular package I realise that the API doesn&amp;rsquo;t give me enough control for
+the comparisons. Briefly, to compare different algorithms all of them should stop when the same
+number of solutions is achieved. Unfortunately, for the DE package, the stopping criterion is the
+maximum iterations number, and for one strategy (the default strategy) this number differs,
+maintaining the same maximum iterations number, in function of the function to improve. I know, not
+so briefly :-).&lt;/p&gt;
+
+&lt;p&gt;In resume, I want to pass a function to evaluate solutions to an algorithm, and that only the first
+&lt;em&gt;maxEvals&lt;/em&gt; solutions could be considered. So, it should be nice that after &lt;em&gt;maxEvals&lt;/em&gt; function evaluations
+the algorithm will stop.&lt;/p&gt;
+
+&lt;p&gt;The aim is very simple in a theorical way, but I have only the control over a callback function used by
+the algorithm, and I cannot use an &amp;lsquo;exit&amp;rsquo; function into the function, because in that case will stop the global program,
+not only the current state of the algorithm.&lt;/p&gt;
+
+&lt;p&gt;The solution? Using these &amp;lsquo;complex&amp;rsquo; concepts that many people think that are useless, specially my CS students :-).
+Combining a call with continuation with a closure:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-R&#34;&gt;finalFitness = callCC (function(exitFitness) {
+     fitnessCheck &amp;lt;- function(fn, maxevals) {
+          function(x) {
+
+               if (total == 0 || total &amp;lt; maxevals) {
+                  total &amp;lt;&amp;lt;- total +1;
+                  fitness = fn(x);
+
+                  if (total == 1 || fitness &amp;lt; bestFitness) {
+                     bestFitness &amp;lt;&amp;lt;- fitness;
+                  }
+
+               }
+
+               if (total &amp;gt;= maxevals) {
+                  exitFitness(bestFitness);
+               }
+
+
+               fitness;
+           }
+
+      }
+
+
+      fitCheck = fitnessCheck(fun$fitness, fun$maxevals)
+
+      log &amp;lt;- capture.output({
+          total &amp;lt;- 0
+          result=DEoptim(fitCheck, lower, upper, control=list(itermax=fun$maxevals/NP))
+      })
+
+      exitFitness(result$optim$bestval)
+})
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I know, it is a bit confusing. callCC implement the concept of &lt;em&gt;call-with-current-continuation&lt;/em&gt;
+to run a code with an &lt;em&gt;exit&lt;/em&gt; function &lt;strong&gt;exitFitness&lt;/strong&gt; that allows me to stop the run of the algorithm.
+Because the function only does a run of the  algorithm (&lt;strong&gt;DEOptim&lt;/strong&gt;), I can stop when I want.
+Also, to make it more elegant, I use a closure &lt;strong&gt;fitnessCheck&lt;/strong&gt;  that receives a function and a
+maximum number of call, and it stops when the maximum calls number is achieved
+(&lt;em&gt;total&lt;/em&gt; and &lt;em&gt;bestFitness&lt;/em&gt; are global variable, so the way to modify their values is using
+&amp;lt;&amp;lt;- instead of the classical &amp;lt;- or =).&lt;/p&gt;
+
+&lt;p&gt;By the way, &lt;strong&gt;capture.output&lt;/strong&gt; is a function that disables all the output of DEoptim algorithm.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learning new languages?</title>
+      <link>http://dmolina.github.io/en/post/languages/</link>
+      <pubDate>Wed, 04 Jul 2012 00:00:00 +0200</pubDate>
+      
+      <guid>http://dmolina.github.io/en/post/languages/</guid>
+      <description>
+
+&lt;p&gt;I love to learn new programming languages, specially whose that has new features that could be used to change your personal
+programming way. Also, it is very useful to get used to accept new ideas and avoid get in in the famous &lt;em&gt;language wars&lt;/em&gt;.
+In this post, I&amp;rsquo;m going to give my personal idea of these languages, starting from a C/C++ and Java
+programmer. Over all, this is my personal opinion, after hours of working in these languages, not only using a
+joy program.&lt;/p&gt;
+
+&lt;h2 id=&#34;perl&#34;&gt;Perl&lt;/h2&gt;
+
+&lt;p&gt;It was my first &lt;em&gt;scripting language&lt;/em&gt;, and I&amp;rsquo;ve been working in Perl in a proyect for a private company for two years
+eight hours per day (my first job without extra hours without been paid). In that case, it was a good language decision,
+and I learnt many tricks to write readable programs in &lt;strong&gt;Perl&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;underline&#34;&gt;community&lt;/span&gt;:
+A community that likes to create an ecosystem to reuse, that create the &lt;a href=&#34;http://www.cpan.org&#34;&gt;CPAN&lt;/a&gt;. At the same time, a
+community that enforces freedom, allowing each one to use the library and guidelines that considers good.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;underline&#34;&gt;The good:&lt;/span&gt;
+The &lt;a href=&#34;http://www.cpan.org&#34;&gt;CPAN&lt;/a&gt;, and the conciseness and flexbility of the language, with packages like &lt;a href=&#34;http://search.cpan.org/search?q%3DMoose&#34;&gt;Moose&lt;/a&gt; and several test packages
+(and very strange packages in &lt;em&gt;ACME&lt;/em&gt; domain :-) ). At the same time, there is always simpler version of packages if
+you want them.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;underline&#34;&gt;The bad:&lt;/span&gt;
+The original Object-Oriented, the complexity in creating your own modules (in comparisons to the simpler
+packages model like python). Also, if you don&amp;rsquo;t want to use object-oriented, sometimes you need to create complex
+combinations of &lt;em&gt;hashes&lt;/em&gt; and &lt;em&gt;arrays&lt;/em&gt; with references, and it is not very readable.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;underline&#34;&gt;Developer tools&lt;/span&gt;: I usually edit with &lt;a href=&#34;http://www.vim.org&#34;&gt;Vim&lt;/a&gt;, I don&amp;rsquo;t need any particular framework, but I strongly recommend strict
+mode, and essential packages like &lt;a href=&#34;http://search.cpan.org/search?q%3Dautodie&#34;&gt;autodie&lt;/a&gt;, &lt;a href=&#34;http://search.cpan.org/search?q%3DMoose&#34;&gt;Moose&lt;/a&gt;, &lt;a href=&#34;http://search.cpan.org/search?q%3DFile::IO&#34;&gt;&amp;lt;:IO&amp;gt;&lt;/a&gt;, test packages like &lt;a href=&#34;http://search.cpan.org/search?q%3DTest::More&#34;&gt;Test::More&lt;/a&gt;. Always check &lt;a href=&#34;http://www.cpan.org&#34;&gt;CPAN&lt;/a&gt; before a new
+proyect.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I resume, although many people say that Perl is dead, it is still alive, and if you learn it, you don&amp;rsquo;t regret it, it is
+a very useful tool. I still makes many small programs almost everyday using Perl because it&amp;rsquo;s a very useful language,
+mainly for text processing (probably the best one).&lt;/p&gt;
+
+&lt;p&gt;To learn more I recommend the free book &lt;a href=&#34;http://hop.perl.plover.com/&#34;&gt;Higher-Order Perl&lt;/a&gt;, it is a opening book. Also, the freely book &lt;a href=&#34;http://www.modernperlbooks.com&#34;&gt;Modern Perl&lt;/a&gt; is a
+useful book to see new modern programming ways and wonderful packages.&lt;/p&gt;
+
+&lt;h2 id=&#34;python&#34;&gt;Python&lt;/h2&gt;
+
+&lt;p&gt;My first love, a very simple but more readable, and very useful tools for any field. The most beautiful syntax in my
+opinion. I have been deeply working in Python, for prototyping and several complex project.  Also, very good in web
+developer (my favourite is &lt;a href=&#34;http://www.djangoproject.com&#34;&gt;Django&lt;/a&gt; but there are many good ones).&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;underline&#34;&gt;The good:&lt;/span&gt; Its syntax, packages and object models. Also, its libraries have tendency to have simple APIs (by a
+community very worried about that). The great interactive shell &lt;a href=&#34;http://ipython.org&#34;&gt;ipython&lt;/a&gt;. Also, it have many interesting tools for
+scientific researchers: &lt;a href=&#34;http://numpy.scipy.org/&#34;&gt;numpy&lt;/a&gt;, &lt;a href=&#34;http://matplotlib.sourceforge.net/&#34;&gt;matplotlib&lt;/a&gt;, several parallel libraries, &lt;a href=&#34;http://www.scipy.org/&#34;&gt;scipy&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;underline&#34;&gt;The bad:&lt;/span&gt; nothing really serious, the inherent problems with duck typing, like excessive trivial testing. However,
+tools like &lt;a href=&#34;http://pypi.python.org/pypi/pyflakes/&#34;&gt;pyflakes&lt;/a&gt; or &lt;a href=&#34;http://pypi.python.org/pypi/pylint/&#34;&gt;pylint&lt;/a&gt; allow developers reduce trivial errors.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;underline&#34;&gt;Developer tools:&lt;/span&gt; Sometimes I edit with &lt;a href=&#34;http://www.vim.org&#34;&gt;Vim&lt;/a&gt;, but nowadays I uses &lt;a href=&#34;http://code.google.com/p/spyderlib/&#34;&gt;spyder 2&lt;/a&gt; by its integration with  &lt;a href=&#34;http://pypi.python.org/pypi/pyflakes/&#34;&gt;pyflakes&lt;/a&gt; and
+&lt;a href=&#34;http://ipython.org&#34;&gt;ipython&lt;/a&gt;. There are also very good IDEs like &lt;a href=&#34;http://eric-ide.python-projects.org/&#34;&gt;eric4&lt;/a&gt;. For performance aspects, there are many tools, in a future
+post, I am going to put a real example of improvement.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I resume, it is a very good language that any developer should now, because it is very simple and useful. Specially for
+scientific works, not only by the mathematical tool &lt;a href=&#34;http://www.sagemath.org/&#34;&gt;Sage&lt;/a&gt; but also by many libraries.&lt;/p&gt;
+
+&lt;h2 id=&#34;scala&#34;&gt;Scala&lt;/h2&gt;
+
+&lt;p&gt;The most recent adquisition to this list is the &lt;a href=&#34;http://www.scala-lang.org/&#34;&gt;Scala language&lt;/a&gt;. This &lt;strong&gt;JVM language&lt;/strong&gt; is similar to &lt;a href=&#34;http://groovy.codehaus.org/&#34;&gt;Groovy&lt;/a&gt; but in my
+opinion, superior.  However, it is a very good language but I think that it is not very popular in pragmatic programmer
+by the scientific origin of its author, clearly seen in its documentation. Also, sometimes the &lt;em&gt;converse&lt;/em&gt; developers
+likes to show how flexible and powerful is the language with complex examples (not in length, but in its syntax) have
+given the idea of a complex language.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;underline&#34;&gt;The good:&lt;/span&gt; Its syntax is very orthogonal and simple (reducing the verbosity of Java). It is a strong typing system
+(different with &lt;strong&gt;groovy&lt;/strong&gt;) with a auto-detection of types (like auto keywords in other languages). It enforces to uses
+immutable classes and method, allowing you a functional programming.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;underline&#34;&gt;The bad:&lt;/span&gt; Differences in generical contenedors with Java. There are very powerful but you have to converse from one
+to another.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;underline&#34;&gt;Developer tools:&lt;/span&gt; like in Java, I recommed &lt;a href=&#34;http://www.eclipse.org&#34;&gt;Eclipse&lt;/a&gt; with &lt;a href=&#34;http://scala-ide.org/&#34;&gt;scala plugins&lt;/a&gt;. For compiling proyects in both
+languages you can use &lt;a href=&#34;http://maven.apache.org/&#34;&gt;maven&lt;/a&gt; but you need several plugins (only if you combine them). Another compiling tools like
+&lt;a href=&#34;https://github.com/harrah/xsbt/wiki/&#34;&gt;sbt&lt;/a&gt; or &lt;a href=&#34;http://gradle.org/&#34;&gt;grandle&lt;/a&gt; could be useful.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In resume, a very interesting language that java developer should give a look, but it still have a promising future.&lt;/p&gt;
+
+&lt;p&gt;In my opinion, its community should &amp;lsquo;break&amp;rsquo; the idea of complexity or it going to be a very niching language while groovy would
+be stronger and widely used.&lt;/p&gt;
+
+&lt;h2 id=&#34;in-resume&#34;&gt;In resume&lt;/h2&gt;
+
+&lt;p&gt;I always recommend to learn new languages. You can learn many possibilites: clojure, immutability, libraries, &amp;hellip; that are not
+so visible in your current main language.&lt;/p&gt;
+
+&lt;p&gt;PS: I have let out other languages that I&amp;rsquo;ve been playing in: R, Ruby, Haskell, groovy, F# because I want to write only about languages
+in which I have a strong knowledge, and used it in real-word projects (and not only joy projects).&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

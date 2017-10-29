@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Emacs on My little geek webpage</title>
+    <link>http://dmolina.github.io/en/categories/emacs/</link>
+    <description>Recent content in Emacs on My little geek webpage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>All text is licensed under a Creative Commons Attribution 4.0 International License.</copyright>
+    <lastBuildDate>Thu, 12 Oct 2017 17:53:00 +0200</lastBuildDate>
+    
+        <atom:link href="http://dmolina.github.io/en/categories/emacs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Elfeed: Using emacs for reading RSS</title>
+      <link>http://dmolina.github.io/en/post/emacs_rss/</link>
+      <pubDate>Thu, 12 Oct 2017 17:53:00 +0200</pubDate>
+      
+      <guid>http://dmolina.github.io/en/post/emacs_rss/</guid>
+      <description>&lt;p&gt;In last years I have been using Emacs for almost all my daily tasks:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Reading my emails (using &lt;a href=&#34;http://www.djcbsoftware.nl/code/mu/mu4e.html&#34;&gt;mu4e&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Creating the slides for my courses using org-beamer.&lt;/li&gt;
+&lt;li&gt;Using dired to navigate for the file system).&lt;/li&gt;
+&lt;li&gt;Publishing this blog (using &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; and &lt;a href=&#34;https://ox-hugo.scripter.co&#34;&gt;ox-hugo&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The last thing to integrate into emacs is reading blogs and news from RSS files.
+Adding &lt;a href=&#34;https://github.com/skeeto/elfeed&#34;&gt;elfeed&lt;/a&gt; and &lt;a href=&#34;https://github.com/remyhonig/elfeed-org&#34;&gt;elfeed-org&lt;/a&gt; I was able to create RSS. elfeed-org
+is very simple, it allows to add the feeds as items in org-mode:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-text&#34;&gt;- Blogs                                                              :elfeed:
+
+  - https://www.meneame.net/rss                                  :news:portada:
+  - https://www.meneame.net/rss?status=queued                            :news:
+  - http://planet.emacsen.org/atom.xml                                :emacs:
+  - https://www.reddit.com/r/programming/.rss                     :programming:
+  ...
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The tags for each feed will be shared for all articles.&lt;/p&gt;
+
+&lt;p&gt;Then, loading &lt;strong&gt;elfeed&lt;/strong&gt;, it can be obtained a screen showing the different articles:&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://dmolina.github.io/screen/elfeed.png&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;And selecting an article, it can be open, read and open each link by the default browser.&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://dmolina.github.io/screen/elfeed2.png&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;Several opinions about elfeed:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;It is very simple to use.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The use of tags is very powerful, not only they received the tags from the
+category, and you can add a tag to an article.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The search filter is simple and very powerful, you can filter both for date and for tags.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The search filter can be kept as bookmark, so using C-x r b it can be seen the
+article using a particular filter.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To summary, &lt;strong&gt;elfeed&lt;/strong&gt; has been a great discovery. If you use emacs, give it a try.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

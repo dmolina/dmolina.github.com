@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on My little geek webpage</title>
+    <link>http://dmolina.github.io/en/tags/</link>
+    <description>Recent content in Tags on My little geek webpage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>All text is licensed under a Creative Commons Attribution 4.0 International License.</copyright>
+    <lastBuildDate>Thu, 12 Oct 2017 17:53:00 +0200</lastBuildDate>
+    
+        <atom:link href="http://dmolina.github.io/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Emacs</title>
+      <link>http://dmolina.github.io/en/tags/emacs/</link>
+      <pubDate>Thu, 12 Oct 2017 17:53:00 +0200</pubDate>
+      
+      <guid>http://dmolina.github.io/en/tags/emacs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Performance</title>
+      <link>http://dmolina.github.io/en/tags/performance/</link>
+      <pubDate>Sun, 15 Jul 2012 00:00:00 +0200</pubDate>
+      
+      <guid>http://dmolina.github.io/en/tags/performance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>http://dmolina.github.io/en/tags/python/</link>
+      <pubDate>Mon, 09 Oct 2017 18:18:00 +0200</pubDate>
+      
+      <guid>http://dmolina.github.io/en/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>http://dmolina.github.io/en/tags/r/</link>
+      <pubDate>Tue, 10 Jul 2012 00:00:00 +0200</pubDate>
+      
+      <guid>http://dmolina.github.io/en/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>http://dmolina.github.io/en/tags/teaching/</link>
+      <pubDate>Mon, 09 Oct 2017 18:18:00 +0200</pubDate>
+      
+      <guid>http://dmolina.github.io/en/tags/teaching/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Util</title>
+      <link>http://dmolina.github.io/en/tags/util/</link>
+      <pubDate>Tue, 10 Jul 2012 00:00:00 +0200</pubDate>
+      
+      <guid>http://dmolina.github.io/en/tags/util/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

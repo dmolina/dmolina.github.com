@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sobre mí on Mi pequeño blog friki</title>
+    <link>http://dmolina.github.io/es/about/</link>
+    <description>Recent content in Sobre mí on Mi pequeño blog friki</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <copyright>All text is licensed under a Creative Commons Attribution 4.0 International License.</copyright>
+    <lastBuildDate>Mon, 09 Oct 2017 17:11:44 +0200</lastBuildDate>
+    
+        <atom:link href="http://dmolina.github.io/es/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
