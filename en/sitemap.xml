@@ -3,6 +3,20 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://dmolina.github.io/en/post/emacs_justify/</loc>
+    <lastmod>2017-12-15T11:28:42+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://dmolina.github.io/en/post/firefox35/</loc>
+    <lastmod>2017-12-15T12:23:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://dmolina.github.io/en/post/emacs_rss/</loc>
     <lastmod>2017-10-14T11:43:36+02:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -31,13 +45,6 @@
                 hreflang="en"
                 href="http://dmolina.github.io/en/about/"
                 />
-  </url>
-  
-  <url>
-    <loc>http://dmolina.github.io/en/post/posts/</loc>
-    <lastmod>2017-10-24T17:38:46+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
@@ -79,21 +86,35 @@
   
   <url>
     <loc>http://dmolina.github.io/en/tags/emacs/</loc>
-    <lastmod>2017-10-14T11:43:36+02:00</lastmod>
+    <lastmod>2017-12-15T11:28:42+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://dmolina.github.io/en/categories/emacs/</loc>
-    <lastmod>2017-10-14T11:43:36+02:00</lastmod>
+    <lastmod>2017-12-15T11:28:42+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dmolina.github.io/en/tags/firefox/</loc>
+    <lastmod>2017-12-15T12:23:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dmolina.github.io/en/tags/mouseless/</loc>
+    <lastmod>2017-12-15T12:23:00+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://dmolina.github.io/en/</loc>
-    <lastmod>2017-10-14T11:43:36+02:00</lastmod>
+    <lastmod>2017-12-15T11:28:42+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
     <xhtml:link
@@ -109,6 +130,20 @@
   </url>
   
   <url>
+    <loc>http://dmolina.github.io/en/tags/opensource/</loc>
+    <lastmod>2017-12-15T12:23:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dmolina.github.io/en/categories/opensource/</loc>
+    <lastmod>2017-12-15T12:23:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://dmolina.github.io/en/tags/performance/</loc>
     <lastmod>2017-10-10T15:37:08+02:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -117,7 +152,7 @@
   
   <url>
     <loc>http://dmolina.github.io/en/post/</loc>
-    <lastmod>2017-10-14T11:43:36+02:00</lastmod>
+    <lastmod>2017-12-15T11:28:42+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
@@ -145,7 +180,7 @@
   
   <url>
     <loc>http://dmolina.github.io/en/tags/</loc>
-    <lastmod>2017-10-14T11:43:36+02:00</lastmod>
+    <lastmod>2017-12-15T11:28:42+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
     <xhtml:link
@@ -170,6 +205,13 @@
   <url>
     <loc>http://dmolina.github.io/en/categories/teaching/</loc>
     <lastmod>2017-10-10T15:37:17+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dmolina.github.io/en/tags/trick/</loc>
+    <lastmod>2017-12-15T11:28:42+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>

@@ -7,10 +7,64 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>All text is licensed under a Creative Commons Attribution 4.0 International License.</copyright>
-    <lastBuildDate>Thu, 12 Oct 2017 17:53:00 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 15 Dec 2017 11:28:00 +0100</lastBuildDate>
     
         <atom:link href="http://dmolina.github.io/en/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Fill-more or the important of reading documentation</title>
+      <link>http://dmolina.github.io/en/post/emacs_justify/</link>
+      <pubDate>Fri, 15 Dec 2017 11:28:00 +0100</pubDate>
+      
+      <guid>http://dmolina.github.io/en/post/emacs_justify/</guid>
+      <description>&lt;p&gt;I &lt;strong&gt;love&lt;/strong&gt; Emacs and the auto-fill more. When I work I use it always to make
+easier to read the text (with a small value, like 80 or 100). Then, if I have
+to copy to a Word Document (in collaboration with other people) or a text (like
+in the submission of a review) I simple set the fill-column to a large value
+(2000 or similar), with C-x f. Later, I copy all the text.&lt;/p&gt;
+
+&lt;p&gt;Until now I have suffered in silence a small problem in text-mode (not in
+org-mode). If you put&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;Text.
+
+- Item 1.
+- Item 2.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;After the fill-mode, you have:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;Text.
+
+- Item 1 Item 2.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And to have in right you have to put a line between them:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;Text.
+
+- Item 1.
+
+- Item 2.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;(The line between Text and first item is also required).&lt;/p&gt;
+
+&lt;p&gt;I though it was something inevitable, but checking the documentation,&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.emacswiki.org/emacs/FillParagraph&#34;&gt;https://www.emacswiki.org/emacs/FillParagraph&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I have known that with a simple line in elisp that behavior is fixed:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-elisp&#34;&gt;;; The original value is &amp;quot;\f\\|[      ]*$&amp;quot;, so we add the bullets (-), (+), and (*).
+;; There is no need for &amp;quot;^&amp;quot; as the regexp is matched at the beginning of line.
+(setq paragraph-start &amp;quot;\f\\|[ \t]*$\\|[ \t]*[-+*] &amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I must check the available documentation more often :-).&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Elfeed: Using emacs for reading RSS</title>
