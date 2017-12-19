@@ -2,75 +2,103 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on My little geek webpage</title>
-    <link>http://dmolina.github.io/tags/</link>
+    <link>http://dmolina.github.io/en/tags/</link>
     <description>Recent content in Tags on My little geek webpage</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>es</language>
-    <lastBuildDate>Thu, 12 Oct 2017 17:53:00 +0200</lastBuildDate>
+    <language>en</language>
+    <copyright>All text is licensed under a Creative Commons Attribution 4.0 International License.</copyright>
+    <lastBuildDate>Fri, 15 Dec 2017 11:28:00 +0100</lastBuildDate>
     
-	<atom:link href="http://dmolina.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://dmolina.github.io/en/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Emacs</title>
-      <link>http://dmolina.github.io/tags/emacs/</link>
-      <pubDate>Thu, 12 Oct 2017 17:53:00 +0200</pubDate>
+      <link>http://dmolina.github.io/en/tags/emacs/</link>
+      <pubDate>Fri, 15 Dec 2017 11:28:00 +0100</pubDate>
       
-      <guid>http://dmolina.github.io/tags/emacs/</guid>
+      <guid>http://dmolina.github.io/en/tags/emacs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Firefox</title>
+      <link>http://dmolina.github.io/en/tags/firefox/</link>
+      <pubDate>Tue, 05 Dec 2017 12:10:00 +0100</pubDate>
+      
+      <guid>http://dmolina.github.io/en/tags/firefox/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mouseless</title>
+      <link>http://dmolina.github.io/en/tags/mouseless/</link>
+      <pubDate>Tue, 05 Dec 2017 12:10:00 +0100</pubDate>
+      
+      <guid>http://dmolina.github.io/en/tags/mouseless/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Opensource</title>
+      <link>http://dmolina.github.io/en/tags/opensource/</link>
+      <pubDate>Tue, 05 Dec 2017 12:10:00 +0100</pubDate>
+      
+      <guid>http://dmolina.github.io/en/tags/opensource/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Performance</title>
-      <link>http://dmolina.github.io/tags/performance/</link>
+      <link>http://dmolina.github.io/en/tags/performance/</link>
       <pubDate>Sun, 15 Jul 2012 00:00:00 +0200</pubDate>
       
-      <guid>http://dmolina.github.io/tags/performance/</guid>
+      <guid>http://dmolina.github.io/en/tags/performance/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Python</title>
-      <link>http://dmolina.github.io/tags/python/</link>
-      <pubDate>Tue, 24 Oct 2017 17:37:00 +0200</pubDate>
+      <link>http://dmolina.github.io/en/tags/python/</link>
+      <pubDate>Mon, 09 Oct 2017 18:18:00 +0200</pubDate>
       
-      <guid>http://dmolina.github.io/tags/python/</guid>
+      <guid>http://dmolina.github.io/en/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>http://dmolina.github.io/tags/r/</link>
+      <link>http://dmolina.github.io/en/tags/r/</link>
       <pubDate>Tue, 10 Jul 2012 00:00:00 +0200</pubDate>
       
-      <guid>http://dmolina.github.io/tags/r/</guid>
+      <guid>http://dmolina.github.io/en/tags/r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Teaching</title>
-      <link>http://dmolina.github.io/tags/teaching/</link>
+      <link>http://dmolina.github.io/en/tags/teaching/</link>
       <pubDate>Mon, 09 Oct 2017 18:18:00 +0200</pubDate>
       
-      <guid>http://dmolina.github.io/tags/teaching/</guid>
+      <guid>http://dmolina.github.io/en/tags/teaching/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Testing</title>
-      <link>http://dmolina.github.io/tags/testing/</link>
-      <pubDate>Tue, 24 Oct 2017 17:37:00 +0200</pubDate>
+      <title>Trick</title>
+      <link>http://dmolina.github.io/en/tags/trick/</link>
+      <pubDate>Fri, 15 Dec 2017 11:28:00 +0100</pubDate>
       
-      <guid>http://dmolina.github.io/tags/testing/</guid>
+      <guid>http://dmolina.github.io/en/tags/trick/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Util</title>
-      <link>http://dmolina.github.io/tags/util/</link>
+      <link>http://dmolina.github.io/en/tags/util/</link>
       <pubDate>Tue, 10 Jul 2012 00:00:00 +0200</pubDate>
       
-      <guid>http://dmolina.github.io/tags/util/</guid>
+      <guid>http://dmolina.github.io/en/tags/util/</guid>
       <description></description>
     </item>
     
