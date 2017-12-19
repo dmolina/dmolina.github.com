@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>All text is licensed under a Creative Commons Attribution 4.0 International License.</copyright>
-    <lastBuildDate>Fri, 15 Dec 2017 11:28:00 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 19 Dec 2017 17:01:00 +0100</lastBuildDate>
     
         <atom:link href="http://dmolina.github.io/en/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bokeh</title>
+      <link>http://dmolina.github.io/en/tags/bokeh/</link>
+      <pubDate>Tue, 19 Dec 2017 17:01:00 +0100</pubDate>
+      
+      <guid>http://dmolina.github.io/en/tags/bokeh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Django</title>
+      <link>http://dmolina.github.io/en/tags/django/</link>
+      <pubDate>Tue, 19 Dec 2017 17:01:00 +0100</pubDate>
+      
+      <guid>http://dmolina.github.io/en/tags/django/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Emacs</title>
@@ -27,6 +45,15 @@
       <pubDate>Tue, 05 Dec 2017 12:10:00 +0100</pubDate>
       
       <guid>http://dmolina.github.io/en/tags/firefox/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flask</title>
+      <link>http://dmolina.github.io/en/tags/flask/</link>
+      <pubDate>Tue, 19 Dec 2017 17:01:00 +0100</pubDate>
+      
+      <guid>http://dmolina.github.io/en/tags/flask/</guid>
       <description></description>
     </item>
     
@@ -60,7 +87,7 @@
     <item>
       <title>Python</title>
       <link>http://dmolina.github.io/en/tags/python/</link>
-      <pubDate>Mon, 09 Oct 2017 18:18:00 +0200</pubDate>
+      <pubDate>Tue, 19 Dec 2017 17:01:00 +0100</pubDate>
       
       <guid>http://dmolina.github.io/en/tags/python/</guid>
       <description></description>
