@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Emacs on My little geek webpage</title>
+    <title>emacs on My little geek webpage</title>
     <link>http://dmolina.github.io/en/categories/emacs/</link>
-    <description>Recent content in Emacs on My little geek webpage</description>
+    <description>Recent content in emacs on My little geek webpage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>All text is licensed under a Creative Commons Attribution 4.0 International License.</copyright>
@@ -98,23 +98,15 @@ is very simple, it allows to add the feeds as items in org-mode:&lt;/p&gt;
 
 &lt;p&gt;Then, loading &lt;strong&gt;elfeed&lt;/strong&gt;, it can be obtained a screen showing the different articles:&lt;/p&gt;
 
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://dmolina.github.io/screen/elfeed.png&#34; /&gt;
-    
-    
+&lt;figure&gt;
+    &lt;img src=&#34;http://dmolina.github.io/screen/elfeed.png&#34;/&gt; 
 &lt;/figure&gt;
 
 
 &lt;p&gt;And selecting an article, it can be open, read and open each link by the default browser.&lt;/p&gt;
 
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://dmolina.github.io/screen/elfeed2.png&#34; /&gt;
-    
-    
+&lt;figure&gt;
+    &lt;img src=&#34;http://dmolina.github.io/screen/elfeed2.png&#34;/&gt; 
 &lt;/figure&gt;
 
 

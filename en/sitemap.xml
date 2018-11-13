@@ -4,7 +4,7 @@
   
   <url>
     <loc>http://dmolina.github.io/en/post/rest_bokeh/</loc>
-    <lastmod>2017-12-19T17:44:13+01:00</lastmod>
+    <lastmod>2017-12-19T17:52:28+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -76,13 +76,6 @@
   </url>
   
   <url>
-    <loc>http://dmolina.github.io/en/tags/bokeh/</loc>
-    <lastmod>2017-12-19T17:44:13+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://dmolina.github.io/en/categories/</loc>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
@@ -99,8 +92,63 @@
   </url>
   
   <url>
+    <loc>http://dmolina.github.io/en/</loc>
+    <lastmod>2017-12-19T17:52:28+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://dmolina.github.io/es/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://dmolina.github.io/en/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://dmolina.github.io/en/post/</loc>
+    <lastmod>2017-12-19T17:52:28+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dmolina.github.io/en/tags/r/</loc>
+    <lastmod>2017-10-10T15:36:18+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dmolina.github.io/en/tags/</loc>
+    <lastmod>2017-10-10T15:36:18+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://dmolina.github.io/es/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://dmolina.github.io/en/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://dmolina.github.io/en/tags/bokeh/</loc>
+    <lastmod>2017-12-19T17:52:28+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://dmolina.github.io/en/tags/django/</loc>
-    <lastmod>2017-12-19T17:44:13+01:00</lastmod>
+    <lastmod>2017-12-19T17:52:28+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
@@ -128,7 +176,7 @@
   
   <url>
     <loc>http://dmolina.github.io/en/tags/flask/</loc>
-    <lastmod>2017-12-19T17:44:13+01:00</lastmod>
+    <lastmod>2017-12-19T17:52:28+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
@@ -138,23 +186,6 @@
     <lastmod>2017-12-19T17:44:16+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://dmolina.github.io/en/</loc>
-    <lastmod>2017-12-19T17:44:13+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://dmolina.github.io/es/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://dmolina.github.io/en/"
-                />
   </url>
   
   <url>
@@ -179,48 +210,17 @@
   </url>
   
   <url>
-    <loc>http://dmolina.github.io/en/post/</loc>
-    <lastmod>2017-12-19T17:44:13+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://dmolina.github.io/en/categories/programming/</loc>
-    <lastmod>2017-12-19T17:44:13+01:00</lastmod>
+    <lastmod>2017-12-19T17:52:28+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://dmolina.github.io/en/tags/python/</loc>
-    <lastmod>2017-12-19T17:44:13+01:00</lastmod>
+    <lastmod>2017-12-19T17:52:28+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://dmolina.github.io/en/tags/r/</loc>
-    <lastmod>2017-10-10T15:36:18+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://dmolina.github.io/en/tags/</loc>
-    <lastmod>2017-12-19T17:44:13+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://dmolina.github.io/es/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://dmolina.github.io/en/tags/"
-                />
   </url>
   
   <url>

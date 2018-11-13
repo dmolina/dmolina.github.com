@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Python on My little geek webpage</title>
+    <title>python on My little geek webpage</title>
     <link>http://dmolina.github.io/en/tags/python/</link>
-    <description>Recent content in Python on My little geek webpage</description>
+    <description>Recent content in python on My little geek webpage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>All text is licensed under a Creative Commons Attribution 4.0 International License.</copyright>
@@ -203,12 +203,8 @@ figure, and tags is the div in which the figure will be shown.&lt;/p&gt;
 
 &lt;p&gt;And the result is:&lt;/p&gt;
 
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://dmolina.github.io/img/rest_test.png&#34; /&gt;
-    
-    
+&lt;figure&gt;
+    &lt;img src=&#34;http://dmolina.github.io/img/rest_test.png&#34;/&gt; 
 &lt;/figure&gt;
 
 </description>

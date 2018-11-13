@@ -203,12 +203,8 @@ figure, and tags is the div in which the figure will be shown.&lt;/p&gt;
 
 &lt;p&gt;And the result is:&lt;/p&gt;
 
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://dmolina.github.io/img/rest_test.png&#34; /&gt;
-    
-    
+&lt;figure&gt;
+    &lt;img src=&#34;http://dmolina.github.io/img/rest_test.png&#34;/&gt; 
 &lt;/figure&gt;
 
 </description>
@@ -350,23 +346,15 @@ is very simple, it allows to add the feeds as items in org-mode:&lt;/p&gt;
 
 &lt;p&gt;Then, loading &lt;strong&gt;elfeed&lt;/strong&gt;, it can be obtained a screen showing the different articles:&lt;/p&gt;
 
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://dmolina.github.io/screen/elfeed.png&#34; /&gt;
-    
-    
+&lt;figure&gt;
+    &lt;img src=&#34;http://dmolina.github.io/screen/elfeed.png&#34;/&gt; 
 &lt;/figure&gt;
 
 
 &lt;p&gt;And selecting an article, it can be open, read and open each link by the default browser.&lt;/p&gt;
 
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://dmolina.github.io/screen/elfeed2.png&#34; /&gt;
-    
-    
+&lt;figure&gt;
+    &lt;img src=&#34;http://dmolina.github.io/screen/elfeed2.png&#34;/&gt; 
 &lt;/figure&gt;
 
 
