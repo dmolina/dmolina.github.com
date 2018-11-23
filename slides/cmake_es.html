@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>CMake: Compilando en C/C++ fácilmente</title>
+<meta name="author" content="(Daniel Molina Cabrera)"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="http://cdn.jsdelivr.net/reveal.js/3.0.0/css/reveal.css"/>
+
+<link rel="stylesheet" href="http://cdn.jsdelivr.net/reveal.js/3.0.0/css/theme/moon.css" id="theme"/>
+
+<link rel="stylesheet" href="style_simple.css"/>
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'http://cdn.jsdelivr.net/reveal.js/3.0.0/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1 class="title">CMake: Compilando en C/C++ fácilmente</h1><h2 class="author">Daniel Molina Cabrera</h2><h2 class="date">dmolina@decsai.ugr.es</h2><p class="date">Created: 2018-11-23 Fri 08:06</p>
+</section>
+
+<section>
+<section id="slide-orgb83d524">
+<h2 id="orgb83d524">Necesidad de CMake</h2>
+<div class="outline-text-2" id="text-orgb83d524">
+</div>
+</section>
+<section id="slide-org35e9a47">
+<h3 id="org35e9a47">El uso de Makefile es deseable</h3>
+<ul>
+<li>Compilar sólo los ficheros cambiados es deseable. 
+<ul>
+<li>Compilación puede ser muy larga.</li>
+
+</ul></li>
+
+<li>Es necesario formato independiente del IDE. 
+
+<ul>
+<li>Cada uno use el IDE que prefiera.</li>
+
+</ul></li>
+
+<li>Facilitar la instalación.</li>
+
+</ul>
+
+</section>
+<section id="slide-org176ac21">
+<h3 id="org176ac21">Los makefiles presentan muchos problemas</h3>
+<ul>
+<li>Compilar un simple programa supone muchas líneas.</li>
+
+<li>No es intuitivo.</li>
+
+<li>Es difícil que sea multiplataforma.</li>
+
+</ul>
+
+</section>
+<section id="slide-orga7d7eb1">
+<h3 id="orga7d7eb1">¿Que hacéis los alumnos?</h3>
+<ul>
+<li class="fragment roll-in">Dejarlos para el final 😟.</li>
+
+<li class="fragment roll-in">No poner dependencias, o un <i>bash</i> 😧.</li>
+
+<li class="fragment roll-in">No usarlo, compilar <i>a mano</i> 😨.</li>
+
+</ul>
+
+</section>
+<section id="slide-org0036985">
+<h3 id="org0036985">Los makefiles pueden generalizarse</h3>
+<div class="org-src-container">
+
+<pre  class="src src-make">CC=g++
+CFLAGS=-Wall
+EXEC = main
+DEPS = polinomio.h
+SOURCES = $(shell ls *.cpp)
+OBJS = $(SOURCES:%.cpp=%.o)
+
+$(EXEC): $(OBJS)
+  $(CC) $(CFLAGS) -o $(EXEC) $(OBJS)
+
+%.o: %.cpp $(DEPS)
+  $(CC) $(CFLAGS) -c $&lt; -o $@
+
+.PHONY: clean
+
+clean:
+  rm *.o $(EXEC)
+
+</pre>
+</div>
+
+</section>
+<section id="slide-org412a2f9">
+<h3 id="org412a2f9">Procedimiento <i>usual</i></h3>
+<ol>
+<li>Buscar makefile de otro proyecto.</li>
+
+<li>Adaptar las variables.</li>
+
+</ol>
+
+<p class="fragment (roll-in)">
+No es trivial, no resuelve:
+</p>
+
+<ul>
+<li class="fragment roll-in">Adaptar distintos entornos.</li>
+<li class="fragment roll-in">Dependencias complejas.</li>
+
+</ul>
+
+</section>
+<section id="slide-org480e77f">
+<h3 id="org480e77f">¿Y las librerías?</h3>
+<ul>
+<li>No se puede comprobar fácilmente si están.</li>
+
+<li>Crear librerías es aún más complejo.</li>
+
+<li>Complicado crear tanto librerías como programas.</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-orgdb60c29">
+<h2 id="orgdb60c29">Alternativa: CMake</h2>
+<div class="outline-text-2" id="text-orgdb60c29">
+</div>
+</section>
+<section id="slide-org581d1a8">
+<h3 id="org581d1a8">Qué es CMake</h3>
+<ul>
+<li>Un programa que genera Makefiles por nosotros.</li>
+
+<li>Diseñado para ser <b>portable</b>.</li>
+
+<li>Mucho más fácil de usar.</li>
+
+</ul>
+
+
+</section>
+<section id="slide-org5a70d38">
+<h3 id="org5a70d38">Ventajas</h3>
+<ul>
+<li>Más portable.</li>
+
+<li>Mucho más sencillo en casos no complejos.</li>
+
+<li>Muy buen soporte de librerías.</li>
+
+</ul>
+
+</section>
+<section id="slide-orgc228cbd">
+<h3 id="orgc228cbd">Desventajas de CMake</h3>
+<ul>
+<li><b>Dependencia</b>: Requiere para compilar:
+<ul>
+<li>Make.</li>
+<li>Compilador.</li>
+<li>CMake.</li>
+
+</ul></li>
+
+<li>Sintaxis algo compleja para opciones más complejas.</li>
+
+<li>Nuevas versiones menos intuitivas.</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org0e2e4e1">
+<h2 id="org0e2e4e1">Usando CMake</h2>
+<div class="outline-text-2" id="text-org0e2e4e1">
+</div>
+</section>
+<section id="slide-orgde3f087">
+<h3 id="orgde3f087">Proceso</h3>
+<ol>
+<li class="fragment roll-in">Crear fichero <b>CMakeLists.txt</b></li>
+<li class="fragment roll-in"><i>cmake .</i></li>
+<li class="fragment roll-in"><i>make</i></li>
+
+</ol>
+
+<p class="fragment (roll-in)">
+Tras editar sólo hay que volver a ejecutar make. 
+</p>
+
+</section>
+<section id="slide-orgb789147">
+<h3 id="orgb789147">Ventajas del make creado</h3>
+<ul>
+<li>Porcentaje de compilación.</li>
+
+</ul>
+
+<pre><font color="#8AE234"><b>daniel@ubuntu</b></font>:<font color="#729FCF"><b>~/current/borra/librealea/realea</b></font>$ make
+<font color="#AD7FA8"><b>Scanning dependencies of target realea</b></font>
+[  1%] <font color="#4E9A06">Building CXX object common/CMakeFiles/realea.dir/signal.o</font>
+[  2%] <font color="#4E9A06">Building CXX object common/CMakeFiles/realea.dir/running.o</font>
+[  3%] <font color="#4E9A06">Building CXX object common/CMakeFiles/realea.dir/random.o</font>
+[  3%] <font color="#4E9A06">Building CXX object common/CMakeFiles/realea.dir/srandom.o</font>
+[  4%] <font color="#4E9A06">Building CXX object common/CMakeFiles/realea.dir/orandom.o</font>
+[  5%] <font color="#4E9A06">Building CXX object common/CMakeFiles/realea.dir/domain.o</font>
+[  6%] <font color="#4E9A06">Building CXX object common/CMakeFiles/realea.dir/config.o</font>
+[  7%] <font color="#4E9A06">Building CXX object common/CMakeFiles/realea.dir/debug.o</font>
+[  8%] <font color="#4E9A06">Building CXX object common/CMakeFiles/realea.dir/ConfigFile.o</font>
+[  9%] <font color="#4E9A06">Building CXX object common/CMakeFiles/realea.dir/problem.o</font>
+In file included from <b>/mnt/home/daniel/current/borra/librealea/realea/common/problem.cc:20:0</b>:
+<b>/mnt/home/daniel/current/borra/librealea/realea/common/problem.h:190:9:</b> <font color="#AD7FA8"><b>warning: </b></font>&apos;<b>template&lt;class&gt; class std::auto_ptr</b>&apos; is deprecated [<font color="#AD7FA8"><b>-Wdeprecated-declarations</b></font>]
+ typedef <font color="#AD7FA8"><b>auto_ptr</b></font>&lt;Problem&gt; ProblemPtr;
+         <font color="#AD7FA8"><b>^~~~~~~~</b></font>
+In file included from <b>/mnt/home/daniel/Descargas/tools/anaconda3/x86_64-conda_cos6-linux-gnu/include/c++/7.2.0/memory:80:0</b>,
+                 from <b>/mnt/home/daniel/current/borra/librealea/realea/common/problem.h:31</b>,
+                 from <b>/mnt/home/daniel/current/borra/librealea/realea/common/problem.cc:20</b>:
+<b>/mnt/home/daniel/Descargas/tools/anaconda3/x86_64-conda_cos6-linux-gnu/include/c++/7.2.0/bits/unique_ptr.h:51:28:</b> <font color="#34E2E2"><b>note: </b></font>declared here
+   template&lt;typename&gt; class <font color="#34E2E2"><b>auto_ptr</b></font>;
+                            <font color="#34E2E2"><b>^~~~~~~~</b></font>
+[ 10%] <font color="#4E9A06">Building CXX object common/CMakeFiles/realea.dir/problemtablefactory.o</font>
+</pre>
+
+</section>
+<section >
+
+<ul>
+<li>múltiples opciones: 
+
+<ul>
+<li><i>make help</i> : muestra opciones.</li>
+<li><i>make clean</i>: borra todos los ficheros compilados.</li>
+<li><i>make install</i> (librerías, requiere configuración).</li>
+
+</ul></li>
+
+</ul>
+
+</section>
+<section id="slide-org3837c13">
+<h3 id="org3837c13">Depuración o Release</h3>
+<ul>
+<li><b>Modo Release</b>: Optimizado (por defecto).</li>
+
+</ul>
+
+<div class="org-src-container">
+
+<pre  class="src src-sh">cmake -DCMAKE_BUILD_TYPE=Release .
+</pre>
+</div>
+
+<ul>
+<li><b>Modo debug</b>: Depurar.</li>
+
+</ul>
+
+<div class="org-src-container">
+
+<pre  class="src src-sh">cmake -DCMAKE_BUILD_TYPE=Debug .
+</pre>
+</div>
+
+<p>
+<b>Sin cambiar</b> CMakeLists.txt. 
+</p>
+
+</section>
+<section id="slide-org73007ef">
+<h3 id="org73007ef">Trucos útiles</h3>
+<ul>
+<li>Se puede mostrar las opciones del compilador.</li>
+
+</ul>
+
+<div class="org-src-container">
+
+<pre  class="src src-sh">make <span style="color: #7590db;">VERBOSE</span>=<span style="color: #a45bad;">1</span> 
+</pre>
+</div>
+
+<ul>
+<li>Cambiar el compilador</li>
+
+</ul>
+
+<div class="org-src-container">
+
+<pre  class="src src-sh"><span style="color: #4f97d7;">export</span> <span style="color: #7590db;">CC</span>=clang; <span style="color: #4f97d7;">export</span> <span style="color: #7590db;">CXX</span>=clang++; cmake .
+</pre>
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-orgc9d26f7">
+<h2 id="orgc9d26f7">Creando nuestro proyecto CMake</h2>
+<div class="outline-text-2" id="text-orgc9d26f7">
+</div>
+</section>
+<section id="slide-org488a0ff">
+<h3 id="org488a0ff">Crear fichero CMakeLists.txt</h3>
+<p>
+Se divide en:
+</p>
+
+<ul>
+<li>Definir proyecto (y lenguaje).</li>
+<li>Definir Variables.</li>
+<li>Definir dónde localizar las cosas (.h, libs).</li>
+<li>Definir ejecutable.</li>
+<li>Definir librerías.</li>
+<li>Buscar librerías.</li>
+<li>Para cada ejecutable definir sus dependencias.</li>
+
+</ul>
+
+<p>
+Todas las opciones son opcionales.
+</p>
+
+</section>
+<section id="slide-org55f430f">
+<h3 id="org55f430f">Hello world</h3>
+<div class="org-src-container">
+
+<pre  class="src src-sh"><span style="color: #bc6ec5; font-weight: bold;">PROJECT</span><span style="color: #4f97d7;">(</span>hello<span style="color: #4f97d7;">)</span>
+<span style="color: #bc6ec5; font-weight: bold;">ADD_EXECUTABLE</span><span style="color: #4f97d7;">(</span>hello hello.cc<span style="color: #4f97d7;">)</span>
+<span style="color: #bc6ec5; font-weight: bold;">TARGET_LINK_LIBRARIES</span><span style="color: #4f97d7;">(</span>hello<span style="color: #4f97d7;">)</span>
+</pre>
+</div>
+
+<p>
+No es tán difícil.
+</p>
+
+</section>
+<section id="slide-org8efbbfc">
+<h3 id="org8efbbfc">Compilando ejecutable</h3>
+<p>
+La sintaxis es sencilla:
+</p>
+
+<div class="org-src-container">
+
+<pre  class="src src-sh"><span style="color: #bc6ec5; font-weight: bold;">ADD_EXECUTABLE</span><span style="color: #4f97d7;">(</span>&lt;nombre_ejecutable&gt; &lt;fichero1&gt; &lt;fichero2&gt; ...<span style="color: #4f97d7;">)</span>
+</pre>
+</div>
+
+<p>
+Desde un único fichero:
+</p>
+
+<div class="org-src-container">
+
+<pre  class="src src-sh"><span style="color: #bc6ec5; font-weight: bold;">ADD_EXECUTABLE</span><span style="color: #4f97d7;">(</span>ejemplo examplemain.cc<span style="color: #4f97d7;">)</span>
+</pre>
+</div>
+
+<p>
+o varios 
+</p>
+
+<div class="org-src-container">
+
+<pre  class="src src-sh"><span style="color: #bc6ec5; font-weight: bold;">ADD_EXECUTABLE</span><span style="color: #4f97d7;">(</span>programa main.cc board.cc game.cc<span style="color: #4f97d7;">)</span>
+</pre>
+</div>
+
+<p>
+Los ficheros .h no se incluye, los detecta sólo.
+</p>
+
+</section>
+<section id="slide-org2ea8617">
+<h3 id="org2ea8617">Variables</h3>
+<p>
+Como es pesado definir ficheros, se suelen usar variables.
+</p>
+
+<div class="org-src-container">
+
+<pre  class="src src-sh"><span style="color: #bc6ec5; font-weight: bold;">SET</span><span style="color: #4f97d7;">(</span>SRC file1.cpp file2.cpp ...<span style="color: #4f97d7;">)</span>
+<span style="color: #bc6ec5; font-weight: bold;">ADD_EXECUTABLE</span><span style="color: #4f97d7;">(</span><span style="color: #4f97d7; font-weight: bold;">exec</span> main.cpp $<span style="color: #bc6ec5;">{</span><span style="color: #7590db;">SRC</span><span style="color: #bc6ec5;">}</span><span style="color: #4f97d7;">)</span>
+<span style="color: #bc6ec5; font-weight: bold;">ADD_EXECUTABLE</span><span style="color: #4f97d7;">(</span><span style="color: #4f97d7;">test</span> maintest.cpp $<span style="color: #bc6ec5;">{</span><span style="color: #7590db;">SRC</span><span style="color: #bc6ec5;">}</span><span style="color: #4f97d7;">)</span>
+</pre>
+</div>
+
+</section>
+<section id="slide-orga0f69b7">
+<h3 id="orga0f69b7">Estándar de C++</h3>
+<p>
+Quiero definir la versión del C++ a compilar, ¿cómo lo hago?
+</p>
+
+<div class="org-src-container">
+
+<pre  class="src src-sh"><span style="color: #4f97d7;">set</span><span style="color: #4f97d7;">(</span>CMAKE_CXX_STANDARD <span style="color: #a45bad;">11</span><span style="color: #4f97d7;">)</span>
+</pre>
+</div>
+
+<p>
+Se puede poner 11, 14 ó 17.
+</p>
+
+</section>
+<section id="slide-org49dc59c">
+<h3 id="org49dc59c">Versiones de CMake</h3>
+<ul>
+<li>Hay opciones, como las anteriores, que son más modernas.</li>
+
+<li>Se puede indicar una versión mínima de CMake.</li>
+
+</ul>
+
+<div class="org-src-container">
+
+<pre  class="src src-sh"><span style="color: #bc6ec5; font-weight: bold;">cmake_minimum_required</span><span style="color: #4f97d7;">(</span>VERSION <span style="color: #a45bad;">3.2</span><span style="color: #4f97d7;">)</span>
+</pre>
+</div>
+
+</section>
+<section id="slide-org51cc325">
+<h3 id="org51cc325">Dependencias con librerías</h3>
+<p>
+Si tuviésemos que enlazar con la librería "libpng.so", 
+el único cambio es:
+</p>
+
+<div class="org-src-container">
+
+<pre  class="src src-sh"><span style="color: #bc6ec5; font-weight: bold;">TARGET_LINK_LIBRARIES</span><span style="color: #4f97d7;">(</span>hello png<span style="color: #4f97d7;">)</span>
+</pre>
+</div>
+
+<p>
+<b>TARGET_LINK_LIBRARIES</b> lista las librerías con las que compilar.
+</p>
+
+</section>
+<section id="slide-org46d3c95">
+<h3 id="org46d3c95">Encontrando ficheros .h</h3>
+<ul>
+<li>Busca en directorios por defecto.</li>
+
+<li>Se puede indicar otro directorios añadiendo <b>INCLUDE_DIRECTORIES</b>:</li>
+
+</ul>
+
+<div class="org-src-container">
+
+<pre  class="src src-sh"><span style="color: #bc6ec5; font-weight: bold;">INCLUDE_DIRECTORIES</span><span style="color: #4f97d7;">(</span>..<span style="color: #4f97d7;">)</span>
+</pre>
+</div>
+
+<p>
+(El directorio actual ya está incluído)
+</p>
+
+</section>
+<section id="slide-orgd484a03">
+<h3 id="orgd484a03">Encontrando librerías</h3>
+<ul>
+<li>Busca en directorios por defecto.</li>
+
+<li>Se puede indicar otro directorios añadiendo <b>LINK_DIRECTORIES</b>:</li>
+
+</ul>
+
+<div class="org-src-container">
+
+<pre  class="src src-sh"><span style="color: #bc6ec5; font-weight: bold;">LINK_DIRECTORIES</span><span style="color: #4f97d7;">(</span>realea/lib ea/lib localsearch<span style="color: #4f97d7;">)</span>
+</pre>
+</div>
+
+</section>
+<section id="slide-orgc2952f0">
+<h3 id="orgc2952f0">Creando librería</h3>
+<p>
+Es <b>igual</b> que un ejecutable. 
+</p>
+
+<div class="org-src-container">
+
+<pre  class="src src-sh"><span style="color: #bc6ec5; font-weight: bold;">ADD_LIBRARY</span><span style="color: #4f97d7;">(</span>&lt;libname&gt; SHARED &lt;fichero1&gt; &lt;fichero2&gt;..<span style="color: #4f97d7;">)</span>
+</pre>
+</div>
+
+<ul>
+<li>Se usa <b>SHARED</b> para librería dinámica, <b>STATIC</b> para estáticas.</li>
+
+<li>Añadirá "lib" al nombre de la librería.</li>
+
+<li>Se pueden usar variables.</li>
+
+</ul>
+
+<div class="org-src-container">
+
+<pre  class="src src-sh"><span style="color: #bc6ec5; font-weight: bold;">ADD_LIBRARY</span><span style="color: #4f97d7;">(</span>ea SHARED $<span style="color: #bc6ec5;">{</span><span style="color: #7590db;">SRC</span><span style="color: #bc6ec5;">}</span><span style="color: #4f97d7;">)</span>
+</pre>
+</div>
+
+<p>
+Creará la librería <i>libea.so</i> con esas dependencias. 
+</p>
+
+</section>
+<section id="slide-orga365429">
+<h3 id="orga365429">Creación conjunta de librería y ejecutable</h3>
+<ul>
+<li>Es muy fácil de hacer:</li>
+
+</ul>
+
+<div class="org-src-container">
+
+<pre  class="src src-sh"><span style="color: #bc6ec5; font-weight: bold;">ADD_LIBRARY</span><span style="color: #4f97d7;">(</span>ea SHARED $<span style="color: #bc6ec5;">{</span><span style="color: #7590db;">SRC</span><span style="color: #bc6ec5;">}</span><span style="color: #4f97d7;">)</span>
+<span style="color: #bc6ec5; font-weight: bold;">ADD_EXECUTABLE</span><span style="color: #4f97d7;">(</span><span style="color: #4f97d7;">test</span> main.cc<span style="color: #4f97d7;">)</span>
+<span style="color: #bc6ec5; font-weight: bold;">TARGET_LINK_LIBRARIES</span><span style="color: #4f97d7;">(</span><span style="color: #4f97d7;">test</span> sfml-windows sfml-graphics ea<span style="color: #4f97d7;">)</span>
+</pre>
+</div>
+
+<p>
+Nunca fue más fácil. 
+</p>
+
+<p>
+Esto en Make es muy complejo:
+</p>
+
+</section>
+</section>
+<section>
+<section id="slide-orged499bd">
+<h2 id="orged499bd">Algunos ejemplos</h2>
+<div class="outline-text-2" id="text-orged499bd">
+</div>
+</section>
+<section id="slide-org9d305c0">
+<h3 id="org9d305c0">Ejemplo real pero corto</h3>
+<div class="org-src-container">
+
+<pre  class="src src-sh"><span style="color: #bc6ec5; font-weight: bold;">cmake_minimum_required</span><span style="color: #4f97d7;">(</span>VERSION <span style="color: #a45bad;">3.2</span><span style="color: #4f97d7;">)</span>
+<span style="color: #4f97d7;">set</span><span style="color: #4f97d7;">(</span>CMAKE_CXX_STANDARD <span style="color: #a45bad;">11</span><span style="color: #4f97d7;">)</span>
+<span style="color: #bc6ec5; font-weight: bold;">PROJECT</span><span style="color: #4f97d7;">(</span>snake<span style="color: #4f97d7;">)</span>
+<span style="color: #bc6ec5; font-weight: bold;">SET</span><span style="color: #4f97d7;">(</span>SRC snake board utils<span style="color: #4f97d7;">)</span>
+<span style="color: #bc6ec5; font-weight: bold;">ADD_EXECUTABLE</span><span style="color: #4f97d7;">(</span>snake snake.cpp $<span style="color: #bc6ec5;">{</span><span style="color: #7590db;">SRC</span><span style="color: #bc6ec5;">}</span><span style="color: #4f97d7;">)</span>
+<span style="color: #bc6ec5; font-weight: bold;">TARGET_LINK_LIBRARIES</span><span style="color: #4f97d7;">(</span>snake csfml-window csfml-graphics csfml-system stdc++<span style="color: #4f97d7;">)</span>
+</pre>
+</div>
+
+</section>
+<section id="slide-org4da41a9">
+<h3 id="org4da41a9">Añadiendo make doc (uso doxygen)</h3>
+<div class="org-src-container">
+
+<pre  class="src src-sh"><span style="color: #bc6ec5; font-weight: bold;">INCLUDE</span><span style="color: #4f97d7;">(</span>FindDoxygen<span style="color: #4f97d7;">)</span>
+
+<span style="color: #bc6ec5; font-weight: bold;">IF</span><span style="color: #4f97d7;">(</span>DOXYGEN_EXECUTABLE<span style="color: #4f97d7;">)</span>
+<span style="color: #bc6ec5; font-weight: bold;">MESSAGE</span><span style="color: #4f97d7;">(</span> STATUS <span style="color: #2d9574;">"Setting Doxygen Generator"</span> <span style="color: #4f97d7;">)</span>
+<span style="color: #bc6ec5; font-weight: bold;">ADD_CUSTOM_TARGET</span><span style="color: #4f97d7;">(</span>
+doc
+COMMAND $<span style="color: #bc6ec5;">{</span><span style="color: #7590db;">DOXYGEN_EXECUTABLE</span><span style="color: #bc6ec5;">}</span> 
+VERBATIM<span style="color: #4f97d7;">)</span>
+<span style="color: #bc6ec5; font-weight: bold;">ENDIF</span><span style="color: #4f97d7;">(</span>DOXYGEN_EXECUTABLE<span style="color: #4f97d7;">)</span>
+</pre>
+</div>
+
+
+</section>
+<section id="slide-orgf89ec4e">
+<h3 id="orgf89ec4e">Creando librería y ejecutable</h3>
+<div class="org-src-container">
+
+<pre  class="src src-sh"><span style="color: #bc6ec5; font-weight: bold;">SET</span> <span style="color: #4f97d7;">(</span>SRC
+hybrid2ph
+hybrid
+malschains
+selectlsimp
+get_util
+<span style="color: #4f97d7;">)</span>
+
+<span style="color: #bc6ec5; font-weight: bold;">INCLUDE_DIRECTORIES</span><span style="color: #4f97d7;">(</span>..<span style="color: #4f97d7;">)</span>
+<span style="color: #bc6ec5; font-weight: bold;">LINK_DIRECTORIES</span><span style="color: #4f97d7;">(</span>../lib<span style="color: #4f97d7;">)</span>
+<span style="color: #bc6ec5; font-weight: bold;">SET</span> <span style="color: #4f97d7;">(</span>EA malschains<span style="color: #4f97d7;">)</span>
+<span style="color: #bc6ec5; font-weight: bold;">ADD_LIBRARY</span><span style="color: #4f97d7;">(</span>$<span style="color: #bc6ec5;">{</span><span style="color: #7590db;">EA</span><span style="color: #bc6ec5;">}</span> SHARED $<span style="color: #bc6ec5;">{</span><span style="color: #7590db;">SRC</span><span style="color: #bc6ec5;">}</span><span style="color: #4f97d7;">)</span>
+<span style="color: #bc6ec5; font-weight: bold;">ADD_EXECUTABLE</span><span style="color: #4f97d7;">(</span>$<span style="color: #bc6ec5;">{</span><span style="color: #7590db;">EA</span><span style="color: #bc6ec5;">}</span>_example main_$<span style="color: #bc6ec5;">{</span><span style="color: #7590db;">EA</span><span style="color: #bc6ec5;">}</span>_example<span style="color: #4f97d7;">)</span>
+<span style="color: #bc6ec5; font-weight: bold;">TARGET_LINK_LIBRARIES</span><span style="color: #4f97d7;">(</span>$<span style="color: #bc6ec5;">{</span><span style="color: #7590db;">EA</span><span style="color: #bc6ec5;">}</span>_example realea $<span style="color: #bc6ec5;">{</span><span style="color: #7590db;">EA</span><span style="color: #bc6ec5;">}</span> $<span style="color: #bc6ec5;">{</span><span style="color: #7590db;">GlobalEA</span><span style="color: #bc6ec5;">}</span> realls realpeasy newmat<span style="color: #4f97d7;">)</span>
+</pre>
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-orgd8311a1">
+<h2 id="orgd8311a1">En conclusión</h2>
+<div class="outline-text-2" id="text-orgd8311a1">
+</div>
+</section>
+<section id="slide-orga4c1a2b">
+<h3 id="orga4c1a2b"></h3>
+
+<div class="figure">
+<p><img src="life.png" alt="life.png" />
+</p>
+</div>
+</section>
+</section>
+</div>
+</div>
+<script src="http://cdn.jsdelivr.net/reveal.js/3.0.0/lib/js/head.min.js"></script>
+<script src="http://cdn.jsdelivr.net/reveal.js/3.0.0/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: false,
+center: true,
+slideNumber: 'c',
+rollingLinks: false,
+keyboard: true,
+overview: true,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+transitionSpeed: 'default',
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+});
+</script>
+</body>
+</html>

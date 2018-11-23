@@ -1,0 +1,637 @@
+/**
+ * Copyright (C) 2017, 2018 Jens Lechtenbörger
+ *
+ * Simple presentation theme, based on 'white' theme for reveal.js
+ * by Hakim El Hattab, http://hakim.se
+ *
+ * Released under the MIT License: https://opensource.org/licenses/MIT
+ */
+@import url(../../lib/font/source-sans-pro/source-sans-pro.css);
+section.has-dark-background, section.has-dark-background h1, section.has-dark-background h2, section.has-dark-background h3, section.has-dark-background h4, section.has-dark-background h5, section.has-dark-background h6 {
+  color: #fff; }
+
+/*********************************************
+ * GLOBAL STYLES
+ *********************************************/
+body {
+  background: #fff;
+  background-color: #fff; }
+
+.reveal {
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: normal;
+  color: #222; }
+
+::selection {
+  color: #fff;
+  background: #981E32;
+  text-shadow: none; }
+
+::-moz-selection {
+  color: #fff;
+  background: #981E32;
+  text-shadow: none; }
+
+.reveal .slides > section,
+.reveal .slides > section > section {
+  line-height: 1.3;
+  font-weight: inherit;
+  padding: 0px 0px; }
+
+.reveal .slides li {
+  line-height: 1.1;
+  margin: 0.5ex 0px 0px 0px; }
+
+.reveal .slides li p {
+  line-height: 1.1;
+  margin: 0.5ex 0px 0px 0px; }
+
+.reveal .slides section .fragment.highlight-red.visible {
+  font-weight: bold;
+  color: #981E32; }
+
+.reveal .slides section .fragment.gray-out {
+  opacity: 1;
+  visibility: inherit; }
+
+.reveal .slides section .fragment.gray-out.visible {
+  opacity: 0.5; }
+
+.reveal .slides section .fragment.shrink.visible {
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+   -webkit-transform-origin: left;
+           transform-origin: left; }
+
+.reveal .slides section .fragment.grow.visible {
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+   -webkit-transform-origin: left;
+           transform-origin: left; }
+
+/* Show icon if slide has notes.
+   Icon generated from SVG file /usr/share/openclipart/svg/computer/icons/lemon-theme/filesystems/folder_inbox.svg
+   contained in openclipart-svg under Debian.
+   SVG created by Jose Hevia, Public Domain.  */
+.reveal aside.notes {
+  background: url(folder_inbox.png) no-repeat top right;
+  width: 48px;
+  height: 48px;
+  position: fixed;
+  opacity: 0.7;
+  top: 0;
+  right: 0;
+  display: block; }
+
+.reveal aside.notes:hover, .reveal aside.notes:active {
+  opacity: 1.0;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
+
+.reveal aside.notes p, .reveal aside.notes ul, .reveal aside.notes ol, .reveal aside.notes li {
+  display: none; }
+
+
+/*********************************************
+ * HEADERS
+ *********************************************/
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  margin: 0 0 20px 0;
+  top: 0;
+  left: 0;
+  color: #981E32;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: normal;
+  text-align: left;
+  text-shadow: none;
+  word-wrap: break-word; }
+
+/* h1 is used on the title slide. */
+.reveal h1 {
+  font-size: 2.2em; }
+
+/* h2 is used for sections that appear in the TOC. */
+.reveal h2 {
+  font-size: 2.2em;
+  text-align: center; }
+
+.reveal h3 {
+  font-size: 1.3em; }
+
+.reveal h4 {
+  font-size: 1.3em; }
+
+/* Footer; TOC progress plugin has height 9.5vh. */
+.reveal .slide-footer {
+  height: 9.5vh;
+  pointer-events: none;
+  clear: both; }
+
+/*********************************************
+ * SLIDES
+ *********************************************/
+
+.reveal .slides {
+  text-align: left;
+}
+
+.reveal .leftcol {
+  float: left;
+  width: 48%;
+}
+
+.reveal .rightcol {
+  float: right;
+  width: 48%;
+}
+
+.reveal .leftcol30 {
+  float: left;
+  width: 28%;
+}
+
+.reveal .rightcol30 {
+  float: right;
+  width: 28%;
+}
+
+.reveal .leftcol40 {
+  float: left;
+  width: 38%;
+}
+
+.reveal .rightcol40 {
+  float: right;
+  width: 38%;
+}
+
+.reveal .leftcol60 {
+  float: left;
+  width: 58%;
+}
+
+.reveal .rightcol60 {
+  float: right;
+  width: 58%;
+}
+
+.reveal .leftcol70 {
+  float: left;
+  width: 68%;
+}
+
+.reveal .rightcol70 {
+  float: right;
+  width: 68%;
+}
+
+/*******************************************************************
+ * Figures without captions
+ *
+ * With Org-Reveal, by defaults those are converted into plain imgs.
+ * Float to the right.
+ ******************************************************************/
+
+.reveal img {
+  margin: 5px 5px;
+  float: right;
+}
+
+/*******************************************************************
+ * Figures with captions
+ *
+ * With Org-Reveal, by default those are converted into divs.
+ * If they are contained inside lists, let them float to the right.
+ * Otherwise, center.
+ * Omit figure numbers, center captions.
+ ******************************************************************/
+
+/* Center by default.
+ * Right padding is to make space for the rotated license text
+ * (if present). */
+.reveal .imgcontainer, .reveal figure, .reveal div.figure, .reveal svg {
+  position: relative;
+  padding-right: 2vw;
+  text-align: center; }
+
+.reveal .imgcontainer figure, .reveal .imgcontainer div.figure {
+  margin: 3px 5px;
+  display: inline-block; }
+
+.reveal div.figure img {
+  float: none; }
+
+/* No figure and table numbers. */
+.reveal .figure-number, .reveal .table-number {
+  display: none; }
+
+/* Adjust background color for slide number.
+ * Use color of TOC footer (hard-coded in reveal-config.el). */
+.reveal .slide-number {
+  background-color: rgba(120,138,130,0.2); }
+
+/* Right in lists. */
+.reveal li > figure,
+.reveal li > div.figure {
+  float: right; }
+
+/* Org embeds img elements into p elements without text. */
+.reveal div.figure p {
+  margin: 0;
+  line-height: 1.0; }
+
+/* Org creates caption as sibling, I as second child. */
+.reveal div.figure + p, .reveal div.figure p:nth-child(2), .reveal figcaption {
+  margin: 0;
+  font-size: .5em;
+  line-height: 1.0;
+  color: rgba(34, 34, 34, 0.3); }
+
+/* Display license of image rotated, in smaller font.
+   Move to right, with same amount as padding-right above. */
+.reveal div.figure p:nth-child(3) {
+  font-size: .25em;
+  opacity: 0.5;
+  text-align: right;
+  margin: 5px;
+  position: absolute;
+  right: 2vw;
+  top: 0px;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  -webkit-transform-origin: top right;
+          transform-origin: top right; }
+
+/*********************************************
+ * OTHER
+ *********************************************/
+
+div.legalese {
+  font-size: 2vh;
+  position: fixed;
+  left: 3px;
+  bottom: 0;
+  z-index: 50; }
+
+div.ribbon-legalese {
+  z-index: 50;
+  color: #fff;
+  background: #7ab516;
+  font-size: 2vh;
+  text-align: center;
+  padding: 3px 10px;
+  width: 260px;
+  line-height: 0.3em;
+  position: absolute;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  top: 30px;
+  left: -75px;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.55); }
+
+div.ribbon-legalese a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#forkmeongitlab a, #forkmeongitlab-right a {
+  z-index: 20;
+  color: #fff;
+  background: #7ab516;
+  text-decoration: none;
+  text-align: center;
+  padding: 3px 20px;
+  font-size: 1em;
+  width: 180px;
+  position: absolute;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.55); }
+
+#forkmeongitlab a {
+  line-height: 1.4em;
+  top: 45px;
+  left: -50px; }
+
+#forkmeongitlab-right a {
+  line-height: 1.5em;
+  padding: 5px 30px;
+  width: 180px;
+  top: 50px;
+  right: -50px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.55); }
+
+#forkmeongitlab a:hover, #forkmeongitlab-right a:hover {
+  font-weight: bold; }
+
+#slide-license p {
+  font-size: .8em; }
+
+.reveal .talk-title {
+  margin: 80px 0px 30px 0px; }
+
+.reveal .talk-subtitle p {
+  font-size: .6em;
+  line-height: 1.0;
+  margin: 0; }
+
+.reveal .talk-author { /* Nothing special */ }
+
+.reveal .keyboard-usage p {
+  margin: 1ex 0;
+  font-size: 0.5em;
+  color: rgba(0,0,0,0.6); }
+
+.reveal p {
+  margin: 20px 0;
+  line-height: 1.3; }
+
+/* Ensure certain elements are never larger than the slide itself */
+.reveal img,
+.reveal div.figure,
+.reveal figure,
+.reveal object,
+.reveal svg,
+.reveal video,
+.reveal iframe {
+  max-width: 90%;
+  max-height: 25ex; }
+
+/* center videos */
+.reveal video {
+  display: block;
+  margin: 1ex auto; }
+
+.reveal .smaller, .reveal .smaller-nomargin, .reveal .slide-source {
+  line-height: 1.1;
+  font-size: 0.6em; }
+
+.reveal .smaller-nomargin {
+  margin: 0; }
+
+.reveal .slide-source {
+  text-align: right;
+  clear: both;
+  opacity: 0.6; }
+
+.reveal strong,
+.reveal b {
+  font-weight: bold;
+  color: #981E32; }
+
+.reveal em {
+  font-style: italic; }
+
+.reveal ol,
+.reveal dl,
+.reveal ul {
+  text-align: left;
+  margin: 0 0 0 1em; }
+
+.reveal ol {
+  list-style-type: decimal; }
+
+.reveal ul {
+  list-style-type: disc; }
+
+.reveal ul ul {
+  list-style-type: square; }
+
+.reveal ul ul ul {
+  list-style-type: circle; }
+
+.reveal ul ul,
+.reveal ul ol,
+.reveal ol ol,
+.reveal ol ul {
+  display: block;
+  font-size: 0.8em;
+  margin-left: 40px; }
+
+.reveal .org-ref-bib {
+  font-size: 0.6em;
+  overflow: auto;
+  padding-right: 5px;
+  max-height: 22em; }
+
+.reveal .org-ref-bib li {
+  padding-left: 1em;
+  text-indent: -1em;
+  list-style-type: none;
+  line-height: normal; }
+
+.reveal dt {
+  font-weight: bold; }
+
+.reveal dd {
+  margin-left: 40px; }
+
+.reveal q,
+.reveal blockquote {
+  quotes: none; }
+
+.reveal blockquote {
+  display: block;
+  position: relative;
+  width: 90%;
+  margin: 20px auto;
+  padding: 5px;
+  font-style: italic;
+  font-size: 0.8em;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2); }
+
+.reveal blockquote p:first-child,
+.reveal blockquote p:last-child {
+  display: inline-block; }
+
+.reveal q {
+  font-style: italic; }
+
+.reveal pre {
+  display: inline-block;
+  padding: 0.5em 1em;
+  position: relative;
+  margin: 1ex auto;
+  overflow: auto;
+  line-height: 1.2em;
+  max-height: 22em;
+  max-width: 95%;
+  text-align: left;
+  font-size: 0.55em;
+  font-family: monospace;
+  word-wrap: normal;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3); }
+
+.reveal code {
+  color: dimgrey;
+  background: whitesmoke;
+  font-family: monospace; }
+
+.reveal pre code {
+  display: block;
+  padding: 5px;
+  overflow: auto;
+  max-height: 400px;
+  word-wrap: normal; }
+
+.reveal section table {
+  margin: 20px auto;
+  line-height: 1.1;
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.reveal section table th {
+  background-color: #a0a0a0;
+  font-weight: bold; }
+
+.reveal section table tr:nth-child(even) {
+  background-color: whitesmoke; }
+
+.reveal section table th,
+.reveal section table td {
+  font-size: 0.8em;
+  text-align: left;
+  padding: 0.2em 0.5em 0.2em 0.5em;
+  border-bottom: 2px solid; }
+
+.reveal .emacs-table td {
+  font-size: 0.6em; }
+
+.reveal .emacs-table th {
+  font-size: 0.7em; }
+
+.reveal section table th[align="center"],
+.reveal section table td[align="center"] {
+  text-align: center; }
+
+.reveal section table th[align="right"],
+.reveal section table td[align="right"] {
+  text-align: right; }
+
+.reveal .org-center {
+  text-align: center; }
+
+.reveal .org-right {
+  text-align: right; }
+
+.reveal section table tbody tr:last-child th,
+.reveal section table tbody tr:last-child td {
+  border-bottom: none; }
+
+.reveal sup {
+  vertical-align: super;
+  font-size: 70%;
+  line-height: 0; }
+
+.reveal sub {
+  vertical-align: sub;
+  font-size: 70%;
+  line-height: 0; }
+
+.reveal small {
+  display: inline-block;
+  font-size: 0.6em;
+  line-height: 1.2em;
+  vertical-align: top; }
+
+.reveal small * {
+  vertical-align: top; }
+
+/*********************************************
+ * LINKS
+ *********************************************/
+.reveal a[href] {
+  color: #00568a;
+  text-decoration: none;
+  -webkit-transition: color .15s ease;
+  -moz-transition: color .15s ease;
+  transition: color .15s ease; }
+
+.reveal a[href^="http"], .reveal a[href^="news:"], .reveal a[href^="mailto:"] {
+  color: #7ab516; }
+
+/* Show icon for outgoing/external link.
+   Icon (drawn with mtPaint) released into Public Domain.
+   Icon neither shown for .nooutlink, nor when URL starts with "#",
+   nor inside figures, nor for empty hyperlinks. */
+.reveal a[href]:not(.nooutlink):after {
+  content: url(outgoing-link.png);
+  margin: 0px 3px 0px 3px; }
+
+.reveal a[href^="#"]:not(.nooutlink):after,
+.reveal .figure a[href^="http"]:after,
+.reveal a[href]:empty:after {
+  content: none; }
+
+.reveal a[href]:hover {
+  font-weight: bold;
+  text-shadow: none;
+  border: none; }
+
+.reveal a[id] {
+  color: #222; }
+
+.reveal a[id]:hover {
+  font-weight: normal; }
+
+.reveal .roll span:after {
+  color: #fff;
+  background: #1a53a1; }
+
+/*********************************************
+ * IMAGES
+ *********************************************/
+
+.reveal a img {
+  -webkit-transition: all .15s linear;
+  -moz-transition: all .15s linear;
+  transition: all .15s linear; }
+
+.reveal a:hover img {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: #2a76dd;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
+
+/*********************************************
+ * NAVIGATION CONTROLS
+ *********************************************/
+.reveal .controls {
+  z-index: 30; }
+
+/*********************************************
+ * PROGRESS BAR
+ *********************************************/
+.reveal .progress {
+  background: rgba(0, 0, 0, 0.2); }
+
+.reveal .progress span {
+  background: #788a82;
+  -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
+
+h1.title {
+    font-size: 1.8em;
+}
+
+h2.author {
+    font-size: 1.2em;
+}
+
+h2.date {
+    font-size: 1.2em;
+}
+
+p.date {
+    display: none;
+}
