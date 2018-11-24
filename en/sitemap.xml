@@ -4,7 +4,7 @@
   
   <url>
     <loc>http://dmolina.github.io/en/post/intro_cmake/</loc>
-    <lastmod>2018-11-24T22:43:55+01:00</lastmod>
+    <lastmod>2018-11-24T22:45:05+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -114,7 +114,7 @@
   
   <url>
     <loc>http://dmolina.github.io/en/</loc>
-    <lastmod>2018-11-24T22:43:55+01:00</lastmod>
+    <lastmod>2018-11-24T22:45:05+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
     <xhtml:link
@@ -131,7 +131,7 @@
   
   <url>
     <loc>http://dmolina.github.io/en/post/</loc>
-    <lastmod>2018-11-24T22:43:55+01:00</lastmod>
+    <lastmod>2018-11-24T22:45:05+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
@@ -169,7 +169,7 @@
   
   <url>
     <loc>http://dmolina.github.io/en/tags/cmake/</loc>
-    <lastmod>2018-11-24T22:43:55+01:00</lastmod>
+    <lastmod>2018-11-24T22:45:05+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
@@ -190,7 +190,7 @@
   
   <url>
     <loc>http://dmolina.github.io/en/tags/cpp/</loc>
-    <lastmod>2018-11-24T22:43:55+01:00</lastmod>
+    <lastmod>2018-11-24T22:45:05+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
@@ -274,7 +274,7 @@
   
   <url>
     <loc>http://dmolina.github.io/en/categories/programming/</loc>
-    <lastmod>2018-11-24T22:43:55+01:00</lastmod>
+    <lastmod>2018-11-24T22:45:05+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
@@ -288,14 +288,14 @@
   
   <url>
     <loc>http://dmolina.github.io/en/tags/teaching/</loc>
-    <lastmod>2018-11-24T22:43:55+01:00</lastmod>
+    <lastmod>2018-11-24T22:45:05+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://dmolina.github.io/en/categories/teaching/</loc>
-    <lastmod>2018-11-24T22:43:55+01:00</lastmod>
+    <lastmod>2018-11-24T22:45:05+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
