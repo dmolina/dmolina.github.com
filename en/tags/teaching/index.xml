@@ -7,10 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>All text is licensed under a Creative Commons Attribution 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 09 Oct 2017 18:18:00 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 24 Nov 2018 22:11:00 +0100</lastBuildDate>
     
         <atom:link href="http://dmolina.github.io/en/tags/teaching/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Introduction to CMake</title>
+      <link>http://dmolina.github.io/en/post/intro_cmake/</link>
+      <pubDate>Sat, 24 Nov 2018 22:11:00 +0100</pubDate>
+      
+      <guid>http://dmolina.github.io/en/post/intro_cmake/</guid>
+      <description>&lt;p&gt;In my last course, I decided to give a small introduction about CMake. The
+reason is that, although we teach them Make, the majority of students do not use
+them in their programs. In fact, many times they create a &amp;ldquo;makefile&amp;rdquo; program to
+pretend they are using &amp;ldquo;make&amp;rdquo;, but actually, it is a bash script.
+My intention is to teach them &lt;a href=&#34;http://cmake.org/&#34;&gt;&lt;strong&gt;Cmake&lt;/strong&gt;&lt;/a&gt; to encourage them to use an automatic tool
+for compiling, expecting they use it more, by its simpler syntax.&lt;/p&gt;
+
+&lt;p&gt;The english version is:&lt;/p&gt;
+
+&lt;figure&gt;&lt;a href=&#34;http://htmlpreview.github.io/?https://github.com/dmolina/intro_cmake/blob/master/cmake_en.html&#34;&gt;
+    &lt;img src=&#34;http://dmolina.github.io/img/capture_english.png&#34;/&gt; &lt;/a&gt;
+&lt;/figure&gt;
+
+
+&lt;p&gt;The spanish version is:&lt;/p&gt;
+
+&lt;figure&gt;&lt;a href=&#34;http://htmlpreview.github.io/?https://github.com/dmolina/intro_cmake/blob/master/cmake_es.html&#34;&gt;
+    &lt;img src=&#34;http://dmolina.github.io/img/capture_spanish.png&#34;/&gt; &lt;/a&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
     
     <item>
       <title>Using Python for Business Intelligence</title>

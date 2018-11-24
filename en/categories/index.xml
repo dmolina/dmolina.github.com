@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>computer-science</title>
+      <link>http://dmolina.github.io/en/categories/computer-science/</link>
+      <pubDate>Tue, 13 Nov 2018 14:09:00 +0100</pubDate>
+      
+      <guid>http://dmolina.github.io/en/categories/computer-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>emacs</title>
       <link>http://dmolina.github.io/en/categories/emacs/</link>
       <pubDate>Fri, 15 Dec 2017 11:28:00 +0100</pubDate>
@@ -41,7 +50,7 @@
     <item>
       <title>programming</title>
       <link>http://dmolina.github.io/en/categories/programming/</link>
-      <pubDate>Tue, 19 Dec 2017 17:01:00 +0100</pubDate>
+      <pubDate>Sat, 24 Nov 2018 22:11:00 +0100</pubDate>
       
       <guid>http://dmolina.github.io/en/categories/programming/</guid>
       <description></description>
@@ -50,7 +59,7 @@
     <item>
       <title>teaching</title>
       <link>http://dmolina.github.io/en/categories/teaching/</link>
-      <pubDate>Mon, 09 Oct 2017 18:18:00 +0200</pubDate>
+      <pubDate>Sat, 24 Nov 2018 22:11:00 +0100</pubDate>
       
       <guid>http://dmolina.github.io/en/categories/teaching/</guid>
       <description></description>

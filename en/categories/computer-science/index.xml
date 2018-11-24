@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>computer-science on My little geek webpage</title>
+    <link>http://dmolina.github.io/en/categories/computer-science/</link>
+    <description>Recent content in computer-science on My little geek webpage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>All text is licensed under a Creative Commons Attribution 4.0 International License.</copyright>
+    <lastBuildDate>Tue, 13 Nov 2018 14:09:00 +0100</lastBuildDate>
+    
+        <atom:link href="http://dmolina.github.io/en/categories/computer-science/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Participation in IEEE Congress on Evolutionary Computation CEC&#39;2018</title>
+      <link>http://dmolina.github.io/en/post/cec2018/</link>
+      <pubDate>Tue, 13 Nov 2018 14:09:00 +0100</pubDate>
+      
+      <guid>http://dmolina.github.io/en/post/cec2018/</guid>
+      <description>&lt;p&gt;Several weeks ago, I was at the the &lt;a href=&#34;http://www.ecomp.poli.br/~wcci2018/&#34;&gt;IEEE Conference on Evolutionary Computation
+(CEC&amp;rsquo;2018)&lt;/a&gt;, and also at the National Conference on Artificial Intelligence,
+in Spain, &lt;a href=&#34;https://sci2s.ugr.es/caepia18/inicio.html&#34;&gt;website&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In &lt;a href=&#34;https://speakerdeck.com/dmolina&#34;&gt;https://speakerdeck.com/dmolina&lt;/a&gt; there are the slides of my
+presentations in the International Conference.&lt;/p&gt;
+
+&lt;p&gt;In particular, my works are the following:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A new algorithm, &lt;strong&gt;SHADE-ILS&lt;/strong&gt; which won the Large Scale Global Optimization,
+&lt;a href=&#34;https://speakerdeck.com/dmolina/shade-with-iterative-local-search-for-large-scale-global-optimization&#34;&gt;slides&lt;/a&gt;. You spanish readers, there is also a new &lt;a href=&#34;https://speakerdeck.com/dmolina/shade-con-una-busqueda-local-iterativa-para-optimizacion-continua-de-alta-dimensionalidad&#34;&gt;version in Spanish.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;In English&lt;/strong&gt;
+&lt;script async class=&#34;speakerdeck-embed&#34;
+data-id=&#34;22192a5760234cb8984632450bec1b42&#34; data-ratio=&#34;1.33333333333333&#34;
+src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;In Spanish&lt;/strong&gt;
+&lt;script async class=&#34;speakerdeck-embed&#34;
+data-id=&#34;91646e938fd34096b1613126a1828101&#34; data-ratio=&#34;1.33333333333333&#34;
+src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;http://dmolina.github.io/img/winner_lsgo_2018.png&#34;
+         alt=&#34;Figure 1: Certificate as a winner of the LSGO competition&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Figure 1: Certificate as a winner of the LSGO competition&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;A new website for comparisons algorithms, &lt;a href=&#34;https://tacolab.org&#34;&gt;https://tacolab.org&lt;/a&gt;, which is briefly
+described &lt;a href=&#34;https://speakerdeck.com/dmolina/taco-toolkit-for-automatic-comparison-optimizers-for-lsgo&#34;&gt;here in English&lt;/a&gt;, and &lt;a href=&#34;http://slides.tacolab.org/&#34;&gt;also in Spanish&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;PS&lt;/strong&gt;: I will talk about the Tacolab website in next entries, because it is the
+results of many weeks of works.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
