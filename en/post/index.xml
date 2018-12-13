@@ -7,10 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>All text is licensed under a Creative Commons Attribution 4.0 International License.</copyright>
-    <lastBuildDate>Sat, 24 Nov 2018 22:11:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 13 Dec 2018 11:47:00 +0100</lastBuildDate>
     
         <atom:link href="http://dmolina.github.io/en/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>New LSGO Competition at the CEC&#39;2019</title>
+      <link>http://dmolina.github.io/en/post/lsgo_cec2019/</link>
+      <pubDate>Thu, 13 Dec 2018 11:47:00 +0100</pubDate>
+      
+      <guid>http://dmolina.github.io/en/post/lsgo_cec2019/</guid>
+      <description>&lt;p&gt;I write because I am organizing the &lt;a href=&#34;http://www.tflsgo.org/special%5Fsessions/cec2019.html&#34;&gt;Large-Scale Global Optimization Competition&lt;/a&gt;
+at the &lt;a href=&#34;http://cec2019.org/&#34;&gt;IEEE Congress on Evolutionary Computation CEC&amp;rsquo;2019&lt;/a&gt;, with interesting
+news:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Source code for C++/Matlab/Java/Python.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The source code store during the run all required files with the results, you
+do not need to worry about that, we do it for you!&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;In python it is as simple as &lt;em&gt;pip install cec2013lsgo&lt;/em&gt; to be able to run the
+experiments, in C++, and the source code and documentation is &lt;a href=&#34;https://github.com/dmolina/cec2013lsgo/&#34;&gt;freely available&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The new site &lt;a href=&#34;https://tacolab.org&#34;&gt;tacolab.org&lt;/a&gt; to compare your own proposals with existings ones, it
+do the tables, figures and comparisons for you (including statistical testing).&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There is not excuse for not participating!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Introduction to CMake</title>
