@@ -22,9 +22,9 @@
 
 &lt;p&gt;I usually design my evolutionary algorithms in Python (initially for
 prototyping, but I am too lazy for doing later a version in C/C++ or similar).
-However, unfortunately, the majority of people in my area work in Matlab :-O.
+However, unfortunately, the majority of people in my area work in Matlab 😭.
 Thus, sometimes I have to wrap the source code for the benchmarks in competition
-to python.&lt;/p&gt;
+to python ☺️.&lt;/p&gt;
 
 &lt;p&gt;This is the story of the my new package at PyPi:
 &lt;a href=&#34;https://pypi.org/project/cec2019comp100digit/&#34;&gt;https://pypi.org/project/cec2019comp100digit/&lt;/a&gt;.&lt;/p&gt;
@@ -80,15 +80,16 @@ sol = np.random.rand(10)
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;fit = bench.eval(sol)
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;Finally, for free the resources&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;&lt;p&gt;Finally, for free the resources&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;bench.end()
-&lt;/code&gt;&lt;/pre&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;You can also use it for participate in the competition.&lt;/p&gt;
 
-&lt;p&gt;I would like to take this opportunity to remind you that I too am organising &lt;a href=&#34;https://dmolina.github.io/en/post/lsgo%5Fcec2019/&#34;&gt;another competition&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I would like to take this opportunity to remind you that I too am organising
+&lt;a href=&#34;https://dmolina.github.io/en/post/lsgo%5Fcec2019/&#34;&gt;another competition&lt;/a&gt;, you do not any excuse 😄.&lt;/p&gt;
 </description>
     </item>
     
