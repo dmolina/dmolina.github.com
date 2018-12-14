@@ -18,7 +18,47 @@
       <pubDate>Sun, 15 Jul 2012 00:00:00 +0200</pubDate>
       
       <guid>http://dmolina.github.io/en/about/</guid>
-      <description>&lt;p&gt;About me a lot.&lt;/p&gt;
+      <description>&lt;style&gt;.org-center { margin-left: auto; margin-right: auto; text-align: center; }&lt;/style&gt;
+
+&lt;div class=&#34;org-center&#34;&gt;
+  &lt;div&gt;&lt;/div&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;http://dmolina.github.io/img/me_small.jpg&#34;
+         alt=&#34;Figure 1: Which is this crazy guy?&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Figure 1: &lt;strong&gt;Which is this crazy guy?&lt;/strong&gt;&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+
+&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;I am a teacher assistant at the University of Granada, specialised in Artificial
+Intelligence. As many people, I have several roles:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Since a researcher side, I have a index-h of 15, with more than 24 papers
+(more than 90% in Q1), with more than 3000 citations. In the main menu, you can
+see my publications (in many case with the PDF freely available, ask me if you
+need any other). Also, I am currently the Chair on the &lt;a href=&#34;http://tflsgo.org/&#34;&gt;IEEE CIS Task Force on
+Large-Scale Global Optimization&lt;/a&gt;, because it is a type of optimization I am
+particularly interested (I was winner in two international competitions, at
+2010 and more recently at 2018).&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;As a teacher, now I am teaching at the University of Granada, in &lt;a href=&#34;https://en.wikipedia.org/wiki/Ceuta&#34;&gt;Ceuta&lt;/a&gt;, but for
+more than 10 years I was teaching in the University of Cádiz, where I left a
+part of my hearts (people were more my friends than my colleagues).&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;As a computer science that love programming, I am interesting in programming
+in different languages (like C++, Java, &amp;hellip;.), and I particularly love Python,
+and another interesting growing languages (like Rust or Julia). I define
+myself also as a Linux user, this is the only OS in my computers for more than
+15 years. Also, I am a truly believer in &lt;a href=&#34;https://www.gnu.org/philosophy/free-sw.html&#34;&gt;Free Software&lt;/a&gt; (actually, I was the
+secretary of Free Software Office at the University of Cadiz.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;As a real-world person, I love reading books, watching films, and spend my
+free time with my girlfriend Amalia ❤️.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
