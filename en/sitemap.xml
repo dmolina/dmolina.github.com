@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://dmolina.github.io/en/post/cec2019comp100digit/</loc>
+    <lastmod>2018-12-14T12:11:48+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://dmolina.github.io/en/post/lsgo_cec2019/</loc>
     <lastmod>2018-12-13T11:47:56+01:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -121,7 +128,7 @@
   
   <url>
     <loc>http://dmolina.github.io/en/</loc>
-    <lastmod>2018-12-13T11:47:56+01:00</lastmod>
+    <lastmod>2018-12-14T12:11:48+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
     <xhtml:link
@@ -138,7 +145,7 @@
   
   <url>
     <loc>http://dmolina.github.io/en/post/</loc>
-    <lastmod>2018-12-13T11:47:56+01:00</lastmod>
+    <lastmod>2018-12-14T12:11:48+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
@@ -183,14 +190,14 @@
   
   <url>
     <loc>http://dmolina.github.io/en/categories/computer-science/</loc>
-    <lastmod>2018-12-13T11:47:56+01:00</lastmod>
+    <lastmod>2018-12-14T12:11:48+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://dmolina.github.io/en/tags/computer_science/</loc>
-    <lastmod>2018-12-13T11:47:56+01:00</lastmod>
+    <lastmod>2018-12-14T12:11:48+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
@@ -281,7 +288,7 @@
   
   <url>
     <loc>http://dmolina.github.io/en/tags/python/</loc>
-    <lastmod>2017-12-19T17:52:28+01:00</lastmod>
+    <lastmod>2018-12-14T12:11:48+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>

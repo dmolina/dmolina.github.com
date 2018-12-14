@@ -7,10 +7,90 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>All text is licensed under a Creative Commons Attribution 4.0 International License.</copyright>
-    <lastBuildDate>Thu, 13 Dec 2018 11:47:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 14 Dec 2018 12:11:00 +0100</lastBuildDate>
     
         <atom:link href="http://dmolina.github.io/en/tags/computer_science/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Packages in Python for CEC&#39;2019 100 Digit Competition</title>
+      <link>http://dmolina.github.io/en/post/cec2019comp100digit/</link>
+      <pubDate>Fri, 14 Dec 2018 12:11:00 +0100</pubDate>
+      
+      <guid>http://dmolina.github.io/en/post/cec2019comp100digit/</guid>
+      <description>
+
+&lt;p&gt;I usually design my evolutionary algorithms in Python (initially for
+prototyping, but I am too lazy for doing later a version in C/C++ or similar).
+However, unfortunately, the majority of people in my area work in Matlab :-O.
+Thus, sometimes I have to wrap the source code for the benchmarks in competition
+to python.&lt;/p&gt;
+
+&lt;p&gt;This is the story of the my new package at PyPi:
+&lt;a href=&#34;https://pypi.org/project/cec2019comp100digit/&#34;&gt;https://pypi.org/project/cec2019comp100digit/&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This package is for being able to participate in the &lt;a href=&#34;http://cec2019.org/programs/competitions.html#cec-06&#34;&gt;CEC&amp;rsquo;2019 100-Digit Challenge
+Competition&lt;/a&gt;, website here:
+&lt;a href=&#34;http://www.ntu.edu.sg/home/epnsugan/index%5Ffiles/CEC2019/CEC2019.htm&#34;&gt;http://www.ntu.edu.sg/home/epnsugan/index%5Ffiles/CEC2019/CEC2019.htm&lt;/a&gt;.
+That website was the source code in C/C++ and Matlab (using mex), but it was
+missing Python. This package solves it.&lt;/p&gt;
+
+&lt;p&gt;As usual, the complete source code is &lt;a href=&#34;https://github.com/dmolina/cec2019comp100digit&#34;&gt;available at Github&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In the package Pypi page there is &lt;a href=&#34;https://pypi.org/project/cec2019comp100digit/&#34;&gt;more documentation&lt;/a&gt;, but in the following I
+briefly describe the API:&lt;/p&gt;
+
+&lt;p&gt;The package is very simple to use. There is a package cec2019comp100digit with
+three functions:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;init(fun_id, Dim)&lt;/strong&gt;
+Init the function for the dimension selected.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;eval(sol)&lt;/strong&gt;
+Eval the solution, when sol is a numpy (or array) of dimension &lt;strong&gt;Dim&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;end()&lt;/strong&gt;
+Free resources.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;process&#34;&gt;Process&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;For init the function.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from cec2019comp100digit import cec2019comp100digit
+bench = cec2019comp100digit
+bench.init(3, 10) # Init function 3 with dimension 10
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;To create one or several solutions to eval&lt;/p&gt;
+
+&lt;p&gt;It can be used both numpy and/or array (but only numpy has been actually
+tested).&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import numpy as np
+sol = np.random.rand(10)
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Evaluate the solution&lt;/p&gt;
+
+&lt;p&gt;It is as simple as:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;fit = bench.eval(sol)
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Finally, for free the resources&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;bench.end()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You can also use it for participate in the competition.&lt;/p&gt;
+
+&lt;p&gt;I would like to take this opportunity to remind you that I too am organising &lt;a href=&#34;https://dmolina.github.io/en/post/lsgo%5Fcec2019/&#34;&gt;another competition&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>New LSGO Competition at the CEC&#39;2019</title>
