@@ -54,6 +54,21 @@ Eval the solution, when sol is a numpy (or array) of dimension &lt;strong&gt;Dim
 Free resources.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+
+&lt;p&gt;It as simple as:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;pip install cec2019comp100digit
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Requirements:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Python3.&lt;/li&gt;
+&lt;li&gt;Numpy.&lt;/li&gt;
+&lt;li&gt;Cython.&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h2 id=&#34;process&#34;&gt;Process&lt;/h2&gt;
 
 &lt;ul&gt;
