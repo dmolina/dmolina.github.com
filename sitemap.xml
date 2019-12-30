@@ -4,7 +4,7 @@
   
   <url>
     <loc>/publication_types/1/</loc>
-    <lastmod>2019-12-30T17:50:00+01:00</lastmod>
+    <lastmod>2019-12-30T17:54:46+01:00</lastmod>
   </url>
   
   <url>
@@ -29,12 +29,12 @@
   
   <url>
     <loc>/publication/molina-20197/</loc>
-    <lastmod>2019-12-30T17:50:00+01:00</lastmod>
+    <lastmod>2019-12-30T17:54:46+01:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/</loc>
-    <lastmod>2019-12-30T17:50:00+01:00</lastmod>
+    <lastmod>2019-12-30T17:54:46+01:00</lastmod>
   </url>
   
   <url>
@@ -59,12 +59,12 @@
   
   <url>
     <loc>/authors/d.-molina/</loc>
-    <lastmod>2019-12-30T17:50:00+01:00</lastmod>
+    <lastmod>2019-12-30T17:54:46+01:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-12-30T17:50:00+01:00</lastmod>
+    <lastmod>2019-12-30T18:07:38+01:00</lastmod>
   </url>
   
   <url>
@@ -74,7 +74,7 @@
   
   <url>
     <loc>/authors/f.-herrera/</loc>
-    <lastmod>2019-12-30T17:50:00+01:00</lastmod>
+    <lastmod>2019-12-30T17:54:46+01:00</lastmod>
   </url>
   
   <url>
@@ -99,7 +99,7 @@
   
   <url>
     <loc>/publication_types/</loc>
-    <lastmod>2019-12-30T17:50:00+01:00</lastmod>
+    <lastmod>2019-12-30T17:54:46+01:00</lastmod>
   </url>
   
   <url>
@@ -144,7 +144,7 @@
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2019-12-30T15:42:23+01:00</lastmod>
+    <lastmod>2019-12-30T18:07:38+01:00</lastmod>
   </url>
   
   <url>
@@ -173,12 +173,12 @@
   </url>
   
   <url>
-    <loc>/tags/teaching/</loc>
+    <loc>/categories/teaching/</loc>
     <lastmod>2019-12-30T15:42:23+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/teaching/</loc>
+    <loc>/tags/teaching/</loc>
     <lastmod>2019-12-30T15:42:23+01:00</lastmod>
   </url>
   
@@ -218,12 +218,12 @@
   </url>
   
   <url>
-    <loc>/categories/emacs/</loc>
+    <loc>/tags/emacs/</loc>
     <lastmod>2019-12-30T15:42:23+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/emacs/</loc>
+    <loc>/categories/emacs/</loc>
     <lastmod>2019-12-30T15:42:23+01:00</lastmod>
   </url>
   
@@ -418,8 +418,18 @@
   </url>
   
   <url>
+    <loc>/about/</loc>
+    <lastmod>2019-12-30T18:07:38+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/improving_python1/</loc>
     <lastmod>2019-12-30T15:42:23+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/menu/</loc>
+    <lastmod>2019-12-30T18:07:38+01:00</lastmod>
   </url>
   
   <url>
