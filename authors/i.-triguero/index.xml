@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>I. Triguero | Daniel Molina profile</title>
+    <link>/authors/i.-triguero/</link>
+      <atom:link href="/authors/i.-triguero/index.xml" rel="self" type="application/rss+xml" />
+    <description>I. Triguero</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2012 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>I. Triguero</title>
+      <link>/authors/i.-triguero/</link>
+    </image>
+    
+    <item>
+      <title>Time series modeling and forecasting using memetic algorithms for regime-switching models</title>
+      <link>/publication/bergmeir-20121841/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/bergmeir-20121841/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

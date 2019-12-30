@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>F. Moreno-García | Daniel Molina profile</title>
+    <link>/authors/f.-moreno-garcia/</link>
+      <atom:link href="/authors/f.-moreno-garcia/index.xml" rel="self" type="application/rss+xml" />
+    <description>F. Moreno-García</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>F. Moreno-García</title>
+      <link>/authors/f.-moreno-garcia/</link>
+    </image>
+    
+    <item>
+      <title>Analysis among winners of different IEEE CEC competitions on real-parameters optimization: Is there always improvement?</title>
+      <link>/publication/molina-2017805/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/molina-2017805/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

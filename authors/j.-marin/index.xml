@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>J. Marín | Daniel Molina profile</title>
+    <link>/authors/j.-marin/</link>
+      <atom:link href="/authors/j.-marin/index.xml" rel="self" type="application/rss+xml" />
+    <description>J. Marín</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2012 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>J. Marín</title>
+      <link>/authors/j.-marin/</link>
+    </image>
+    
+    <item>
+      <title>Modeling dynamics of a real-coded CHC algorithm in terms of dynamical probability distributions</title>
+      <link>/publication/marin-2012331/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/marin-2012331/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

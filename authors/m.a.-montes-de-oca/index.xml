@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>M.A. Montes De Oca | Daniel Molina profile</title>
+    <link>/authors/m.a.-montes-de-oca/</link>
+      <atom:link href="/authors/m.a.-montes-de-oca/index.xml" rel="self" type="application/rss+xml" />
+    <description>M.A. Montes De Oca</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2012 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>M.A. Montes De Oca</title>
+      <link>/authors/m.a.-montes-de-oca/</link>
+    </image>
+    
+    <item>
+      <title>An ACO algorithm benchmarked on the BBOB noiseless function testbed</title>
+      <link>/publication/liao-2012159/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/liao-2012159/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>F. Herrer | Daniel Molina profile</title>
+    <link>/authors/f.-herrer/</link>
+      <atom:link href="/authors/f.-herrer/index.xml" rel="self" type="application/rss+xml" />
+    <description>F. Herrer</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2009 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>F. Herrer</title>
+      <link>/authors/f.-herrer/</link>
+    </image>
+    
+    <item>
+      <title>Memetic algorithm with local search chaining for large scale continuous optimization problems</title>
+      <link>/publication/molina-2009830/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>/publication/molina-2009830/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

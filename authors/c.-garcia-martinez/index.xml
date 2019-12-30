@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C. García-Martínez | Daniel Molina profile</title>
+    <link>/authors/c.-garcia-martinez/</link>
+      <atom:link href="/authors/c.-garcia-martinez/index.xml" rel="self" type="application/rss+xml" />
+    <description>C. García-Martínez</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>C. García-Martínez</title>
+      <link>/authors/c.-garcia-martinez/</link>
+    </image>
+    
+    <item>
+      <title>Since CEC 2005 competition on real-parameter optimisation: a decade of research, progress and comparative analysis’s weakness</title>
+      <link>/publication/garcia-martinez-20175573/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/garcia-martinez-20175573/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Iterated greedy for the maximum diversity problem</title>
+      <link>/publication/lozano-201131/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>/publication/lozano-201131/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Memetic algorithms for continuous optimisation based on local search chains</title>
+      <link>/publication/molina-201027/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>/publication/molina-201027/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Global and local real-coded genetic algorithms based on parent-centric crossover operators</title>
+      <link>/publication/garcia-martinez-20081088/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      <guid>/publication/garcia-martinez-20081088/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Memetic algorithm for intense local search methods using local search chains</title>
+      <link>/publication/molina-200858/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      <guid>/publication/molina-200858/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Real-parameter crossover operators with multiple descendents: An experimental study</title>
+      <link>/publication/sanchez-2008246/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      <guid>/publication/sanchez-2008246/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A local genetic algorithm for binary-coded problems</title>
+      <link>/publication/garcia-martinez-2006192/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      <guid>/publication/garcia-martinez-2006192/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

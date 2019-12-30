@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C. Camacho-Gomez | Daniel Molina profile</title>
+    <link>/authors/c.-camacho-gomez/</link>
+      <atom:link href="/authors/c.-camacho-gomez/index.xml" rel="self" type="application/rss+xml" />
+    <description>C. Camacho-Gomez</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>C. Camacho-Gomez</title>
+      <link>/authors/c.-camacho-gomez/</link>
+    </image>
+    
+    <item>
+      <title>A coral reefs optimization algorithm with substrate layers and local search for large scale global optimization</title>
+      <link>/publication/salcedo-sanz-20163574/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/salcedo-sanz-20163574/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

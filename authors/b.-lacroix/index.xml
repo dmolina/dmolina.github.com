@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>B. Lacroix | Daniel Molina profile</title>
+    <link>/authors/b.-lacroix/</link>
+      <atom:link href="/authors/b.-lacroix/index.xml" rel="self" type="application/rss+xml" />
+    <description>B. Lacroix</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>B. Lacroix</title>
+      <link>/authors/b.-lacroix/</link>
+    </image>
+    
+    <item>
+      <title>Region-based memetic algorithm with archive for multimodal optimisation</title>
+      <link>/publication/lacroix-2016719/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/lacroix-2016719/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Influence of regions on the memetic algorithm for the CEC&#39;2014 Special Session on Real-Parameter Single Objective Optimisation</title>
+      <link>/publication/molina-20141633/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/molina-20141633/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Region based memetic algorithm for real-parameter optimisation</title>
+      <link>/publication/lacroix-201415/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/lacroix-201415/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamically updated region based memetic algorithm for the 2013 CEC Special Session and Competition on Real Parameter Single Objective Optimization</title>
+      <link>/publication/lacroix-20131945/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/lacroix-20131945/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Region based memetic algorithm with LS chaining</title>
+      <link>/publication/lacroix-2012/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/lacroix-2012/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

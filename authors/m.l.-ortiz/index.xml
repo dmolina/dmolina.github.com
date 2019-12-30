@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>M.L. Ortiz | Daniel Molina profile</title>
+    <link>/authors/m.l.-ortiz/</link>
+      <atom:link href="/authors/m.l.-ortiz/index.xml" rel="self" type="application/rss+xml" />
+    <description>M.L. Ortiz</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>M.L. Ortiz</title>
+      <link>/authors/m.l.-ortiz/</link>
+    </image>
+    
+    <item>
+      <title>A Walk into Metaheuristics for Engineering Optimization: Principles, Methods and Recent Trends</title>
+      <link>/publication/xiong-2015606/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/xiong-2015606/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

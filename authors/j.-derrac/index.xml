@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>J. Derrac | Daniel Molina profile</title>
+    <link>/authors/j.-derrac/</link>
+      <atom:link href="/authors/j.-derrac/index.xml" rel="self" type="application/rss+xml" />
+    <description>J. Derrac</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2011 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>J. Derrac</title>
+      <link>/authors/j.-derrac/</link>
+    </image>
+    
+    <item>
+      <title>A practical tutorial on the use of nonparametric statistical tests as a methodology for comparing evolutionary and swarm intelligence algorithms</title>
+      <link>/publication/derrac-20113/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>/publication/derrac-20113/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

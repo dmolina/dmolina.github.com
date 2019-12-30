@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C. Bergmeir | Daniel Molina profile</title>
+    <link>/authors/c.-bergmeir/</link>
+      <atom:link href="/authors/c.-bergmeir/index.xml" rel="self" type="application/rss+xml" />
+    <description>C. Bergmeir</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>C. Bergmeir</title>
+      <link>/authors/c.-bergmeir/</link>
+    </image>
+    
+    <item>
+      <title>Memetic algorithms with local search chains in R: The Rmalschains package</title>
+      <link>/publication/bergmeir-2016/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/bergmeir-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Time series modeling and forecasting using memetic algorithms for regime-switching models</title>
+      <link>/publication/bergmeir-20121841/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/bergmeir-20121841/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

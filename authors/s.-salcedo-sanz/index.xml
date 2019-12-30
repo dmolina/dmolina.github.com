@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>S. Salcedo-Sanz | Daniel Molina profile</title>
+    <link>/authors/s.-salcedo-sanz/</link>
+      <atom:link href="/authors/s.-salcedo-sanz/index.xml" rel="self" type="application/rss+xml" />
+    <description>S. Salcedo-Sanz</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>S. Salcedo-Sanz</title>
+      <link>/authors/s.-salcedo-sanz/</link>
+    </image>
+    
+    <item>
+      <title>Bio-inspired computation: Where we stand and what&#39;s next</title>
+      <link>/publication/del-ser-2019220/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/del-ser-2019220/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A coral reefs optimization algorithm with substrate layers and local search for large scale global optimization</title>
+      <link>/publication/salcedo-sanz-20163574/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/salcedo-sanz-20163574/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

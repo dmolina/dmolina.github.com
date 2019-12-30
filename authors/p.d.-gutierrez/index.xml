@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>P.D. Gutiérrez | Daniel Molina profile</title>
+    <link>/authors/p.d.-gutierrez/</link>
+      <atom:link href="/authors/p.d.-gutierrez/index.xml" rel="self" type="application/rss+xml" />
+    <description>P.D. Gutiérrez</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>P.D. Gutiérrez</title>
+      <link>/authors/p.d.-gutierrez/</link>
+    </image>
+    
+    <item>
+      <title>Since CEC 2005 competition on real-parameter optimisation: a decade of research, progress and comparative analysis’s weakness</title>
+      <link>/publication/garcia-martinez-20175573/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/garcia-martinez-20175573/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

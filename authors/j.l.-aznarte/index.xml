@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>J.L. Aznarte | Daniel Molina profile</title>
+    <link>/authors/j.l.-aznarte/</link>
+      <atom:link href="/authors/j.l.-aznarte/index.xml" rel="self" type="application/rss+xml" />
+    <description>J.L. Aznarte</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2012 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>J.L. Aznarte</title>
+      <link>/authors/j.l.-aznarte/</link>
+    </image>
+    
+    <item>
+      <title>Time series modeling and forecasting using memetic algorithms for regime-switching models</title>
+      <link>/publication/bergmeir-20121841/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/bergmeir-20121841/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A test for the homoscedasticity of the residuals in fuzzy rule-based forecasters</title>
+      <link>/publication/aznarte-2011386/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>/publication/aznarte-2011386/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
