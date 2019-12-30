@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>computer_science | Daniel Molina profile</title>
+    <link>/tags/computer_science/</link>
+      <atom:link href="/tags/computer_science/index.xml" rel="self" type="application/rss+xml" />
+    <description>computer_science</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 14 Dec 2018 12:11:00 +0100</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>computer_science</title>
+      <link>/tags/computer_science/</link>
+    </image>
+    
+    <item>
+      <title>Packages in Python for CEC&#39;2019 100 Digit Competition</title>
+      <link>/post/cec2019comp100digit/</link>
+      <pubDate>Fri, 14 Dec 2018 12:11:00 +0100</pubDate>
+      <guid>/post/cec2019comp100digit/</guid>
+      <description>&lt;p&gt;I usually design my evolutionary algorithms in Python (initially for
+prototyping, but I am too lazy for doing later a version in C/C++ or similar).
+However, unfortunately, the majority of people in my area work in Matlab 😭.
+Thus, sometimes I have to wrap the source code for the benchmarks in competition
+to python ☺.&lt;/p&gt;
+&lt;p&gt;This is the story of the my new package at PyPi:
+&lt;a href=&#34;https://pypi.org/project/cec2019comp100digit/&#34;&gt;https://pypi.org/project/cec2019comp100digit/&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This package is for being able to participate in the &lt;a href=&#34;http://cec2019.org/programs/competitions.html#cec-06&#34;&gt;CEC&#39;2019 100-Digit Challenge
+Competition&lt;/a&gt;, website here:
+&lt;a href=&#34;http://www.ntu.edu.sg/home/epnsugan/index%5Ffiles/CEC2019/CEC2019.htm&#34;&gt;http://www.ntu.edu.sg/home/epnsugan/index%5Ffiles/CEC2019/CEC2019.htm&lt;/a&gt;.
+That website was the source code in C/C++ and Matlab (using mex), but it was
+missing Python. This package solves it.&lt;/p&gt;
+&lt;p&gt;As usual, the complete source code is &lt;a href=&#34;https://github.com/dmolina/cec2019comp100digit&#34;&gt;available at Github&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In the package Pypi page there is &lt;a href=&#34;https://pypi.org/project/cec2019comp100digit/&#34;&gt;more documentation&lt;/a&gt;, but in the following I
+briefly describe the API:&lt;/p&gt;
+&lt;p&gt;The package is very simple to use. There is a package cec2019comp100digit with
+three functions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;init(fun_id, Dim)&lt;/strong&gt;
+Init the function for the dimension selected.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;eval(sol)&lt;/strong&gt;
+Eval the solution, when sol is a numpy (or array) of dimension &lt;strong&gt;Dim&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;end()&lt;/strong&gt;
+Free resources.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+&lt;p&gt;It as simple as:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;pip install cec2019comp100digit
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Requirements:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Python3.&lt;/li&gt;
+&lt;li&gt;Numpy.&lt;/li&gt;
+&lt;li&gt;Cython.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;process&#34;&gt;Process&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;For init the function.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from cec2019comp100digit import cec2019comp100digit
+bench = cec2019comp100digit
+bench.init(3, 10) # Init function 3 with dimension 10
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;To create one or several solutions to eval&lt;/p&gt;
+&lt;p&gt;It can be used both numpy and/or array (but only numpy has been actually
+tested).&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import numpy as np
+sol = np.random.rand(10)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Evaluate the solution&lt;/p&gt;
+&lt;p&gt;It is as simple as:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;fit = bench.eval(sol)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Finally, for free the resources&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;bench.end()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can also use it for participate in the competition.&lt;/p&gt;
+&lt;p&gt;I would like to take this opportunity to remind you that I too am organising
+&lt;a href=&#34;https://dmolina.github.io/en/post/lsgo%5Fcec2019/&#34;&gt;another competition&lt;/a&gt;, you do not any excuse 😄.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>New LSGO Competition at the CEC&#39;2019</title>
+      <link>/post/lsgo_cec2019/</link>
+      <pubDate>Thu, 13 Dec 2018 11:47:00 +0100</pubDate>
+      <guid>/post/lsgo_cec2019/</guid>
+      <description>&lt;p&gt;I write because I am organizing the &lt;a href=&#34;http://www.tflsgo.org/special%5Fsessions/cec2019.html&#34;&gt;Large-Scale Global Optimization Competition&lt;/a&gt;
+at the &lt;a href=&#34;http://cec2019.org/&#34;&gt;IEEE Congress on Evolutionary Computation CEC&#39;2019&lt;/a&gt;, with interesting
+news:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Source code for C++/Matlab/Java/Python.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The source code store during the run all required files with the results, you
+do not need to worry about that, we do it for you!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In python it is as simple as &lt;em&gt;pip install cec2013lsgo&lt;/em&gt; to be able to run the
+experiments, in C++, and the source code and documentation is &lt;a href=&#34;https://github.com/dmolina/cec2013lsgo/&#34;&gt;freely available&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The new site &lt;a href=&#34;https://tacolab.org&#34;&gt;tacolab.org&lt;/a&gt; to compare your own proposals with existings ones, it
+do the tables, figures and comparisons for you (including statistical testing).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There is not excuse for not participating!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Participation in IEEE Congress on Evolutionary Computation CEC&#39;2018</title>
+      <link>/post/cec2018/</link>
+      <pubDate>Tue, 13 Nov 2018 14:09:00 +0100</pubDate>
+      <guid>/post/cec2018/</guid>
+      <description>&lt;p&gt;Several weeks ago, I was at the the &lt;a href=&#34;http://www.ecomp.poli.br/~wcci2018/&#34;&gt;IEEE Conference on Evolutionary Computation
+(CEC&#39;2018)&lt;/a&gt;, and also at the National Conference on Artificial Intelligence,
+in Spain, &lt;a href=&#34;https://sci2s.ugr.es/caepia18/inicio.html&#34;&gt;website&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In &lt;a href=&#34;https://speakerdeck.com/dmolina&#34;&gt;https://speakerdeck.com/dmolina&lt;/a&gt; there are the slides of my
+presentations in the International Conference.&lt;/p&gt;
+&lt;p&gt;In particular, my works are the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A new algorithm, &lt;strong&gt;SHADE-ILS&lt;/strong&gt; which won the Large Scale Global Optimization,
+&lt;a href=&#34;https://speakerdeck.com/dmolina/shade-with-iterative-local-search-for-large-scale-global-optimization&#34;&gt;slides&lt;/a&gt;. You spanish readers, there is also a new &lt;a href=&#34;https://speakerdeck.com/dmolina/shade-con-una-busqueda-local-iterativa-para-optimizacion-continua-de-alta-dimensionalidad&#34;&gt;version in Spanish.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;In English&lt;/strong&gt;&lt;/p&gt;
+&lt;script async class=&#34;speakerdeck-embed&#34;
+data-id=&#34;22192a5760234cb8984632450bec1b42&#34; data-ratio=&#34;1.33333333333333&#34;
+src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+&lt;p&gt;&lt;strong&gt;In Spanish&lt;/strong&gt;&lt;/p&gt;
+&lt;script async class=&#34;speakerdeck-embed&#34;
+data-id=&#34;91646e938fd34096b1613126a1828101&#34; data-ratio=&#34;1.33333333333333&#34;
+src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/winner_lsgo_2018.png&#34; data-caption=&#34;Figure 1: Certificate as a winner of the LSGO competition&#34;&gt;
+&lt;img data-src=&#34;/img/winner_lsgo_2018.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Figure 1: Certificate as a winner of the LSGO competition
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A new website for comparisons algorithms, &lt;a href=&#34;https://tacolab.org&#34;&gt;https://tacolab.org&lt;/a&gt;, which is briefly
+described &lt;a href=&#34;https://speakerdeck.com/dmolina/taco-toolkit-for-automatic-comparison-optimizers-for-lsgo&#34;&gt;here in English&lt;/a&gt;, and &lt;a href=&#34;http://slides.tacolab.org/&#34;&gt;also in Spanish&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;PS&lt;/strong&gt;: I will talk about the Tacolab website in next entries, because it is the
+results of many weeks of works.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

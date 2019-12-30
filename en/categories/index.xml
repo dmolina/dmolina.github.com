@@ -1,67 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on My little geek webpage</title>
-    <link>http://dmolina.github.io/en/categories/</link>
-    <description>Recent content in Categories on My little geek webpage</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>All text is licensed under a Creative Commons Attribution 4.0 International License.</copyright>
-    
-        <atom:link href="http://dmolina.github.io/en/categories/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>Categories | Daniel Molina profile</title>
+    <link>/categories/</link>
+      <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <description>Categories</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 14 Dec 2018 12:11:00 +0100</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Categories</title>
+      <link>/categories/</link>
+    </image>
     
     <item>
       <title>computer-science</title>
-      <link>http://dmolina.github.io/en/categories/computer-science/</link>
+      <link>/categories/computer-science/</link>
       <pubDate>Fri, 14 Dec 2018 12:11:00 +0100</pubDate>
-      
-      <guid>http://dmolina.github.io/en/categories/computer-science/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>emacs</title>
-      <link>http://dmolina.github.io/en/categories/emacs/</link>
-      <pubDate>Fri, 15 Dec 2017 11:28:00 +0100</pubDate>
-      
-      <guid>http://dmolina.github.io/en/categories/emacs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>opensource</title>
-      <link>http://dmolina.github.io/en/categories/opensource/</link>
-      <pubDate>Tue, 05 Dec 2017 12:10:00 +0100</pubDate>
-      
-      <guid>http://dmolina.github.io/en/categories/opensource/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>personal</title>
-      <link>http://dmolina.github.io/en/categories/personal/</link>
-      <pubDate>Sun, 15 Jul 2012 00:00:00 +0200</pubDate>
-      
-      <guid>http://dmolina.github.io/en/categories/personal/</guid>
+      <guid>/categories/computer-science/</guid>
       <description></description>
     </item>
     
     <item>
       <title>programming</title>
-      <link>http://dmolina.github.io/en/categories/programming/</link>
+      <link>/categories/programming/</link>
       <pubDate>Sat, 24 Nov 2018 22:11:00 +0100</pubDate>
-      
-      <guid>http://dmolina.github.io/en/categories/programming/</guid>
+      <guid>/categories/programming/</guid>
       <description></description>
     </item>
     
     <item>
       <title>teaching</title>
-      <link>http://dmolina.github.io/en/categories/teaching/</link>
+      <link>/categories/teaching/</link>
       <pubDate>Sat, 24 Nov 2018 22:11:00 +0100</pubDate>
-      
-      <guid>http://dmolina.github.io/en/categories/teaching/</guid>
+      <guid>/categories/teaching/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>emacs</title>
+      <link>/categories/emacs/</link>
+      <pubDate>Fri, 15 Dec 2017 11:28:00 +0100</pubDate>
+      <guid>/categories/emacs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>opensource</title>
+      <link>/categories/opensource/</link>
+      <pubDate>Tue, 05 Dec 2017 12:10:00 +0100</pubDate>
+      <guid>/categories/opensource/</guid>
       <description></description>
     </item>
     

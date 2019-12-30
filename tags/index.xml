@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags | Daniel Molina profile</title>
+    <link>/tags/</link>
+      <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 14 Dec 2018 12:11:00 +0100</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Tags</title>
+      <link>/tags/</link>
+    </image>
+    
+    <item>
+      <title>computer_science</title>
+      <link>/tags/computer_science/</link>
+      <pubDate>Fri, 14 Dec 2018 12:11:00 +0100</pubDate>
+      <guid>/tags/computer_science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>/tags/python/</link>
+      <pubDate>Fri, 14 Dec 2018 12:11:00 +0100</pubDate>
+      <guid>/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cmake</title>
+      <link>/tags/cmake/</link>
+      <pubDate>Sat, 24 Nov 2018 22:11:00 +0100</pubDate>
+      <guid>/tags/cmake/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cpp</title>
+      <link>/tags/cpp/</link>
+      <pubDate>Sat, 24 Nov 2018 22:11:00 +0100</pubDate>
+      <guid>/tags/cpp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>teaching</title>
+      <link>/tags/teaching/</link>
+      <pubDate>Sat, 24 Nov 2018 22:11:00 +0100</pubDate>
+      <guid>/tags/teaching/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bokeh</title>
+      <link>/tags/bokeh/</link>
+      <pubDate>Tue, 19 Dec 2017 17:01:00 +0100</pubDate>
+      <guid>/tags/bokeh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>django</title>
+      <link>/tags/django/</link>
+      <pubDate>Tue, 19 Dec 2017 17:01:00 +0100</pubDate>
+      <guid>/tags/django/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>flask</title>
+      <link>/tags/flask/</link>
+      <pubDate>Tue, 19 Dec 2017 17:01:00 +0100</pubDate>
+      <guid>/tags/flask/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>emacs</title>
+      <link>/tags/emacs/</link>
+      <pubDate>Fri, 15 Dec 2017 11:28:00 +0100</pubDate>
+      <guid>/tags/emacs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>trick</title>
+      <link>/tags/trick/</link>
+      <pubDate>Fri, 15 Dec 2017 11:28:00 +0100</pubDate>
+      <guid>/tags/trick/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>firefox</title>
+      <link>/tags/firefox/</link>
+      <pubDate>Tue, 05 Dec 2017 12:10:00 +0100</pubDate>
+      <guid>/tags/firefox/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mouseless</title>
+      <link>/tags/mouseless/</link>
+      <pubDate>Tue, 05 Dec 2017 12:10:00 +0100</pubDate>
+      <guid>/tags/mouseless/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>opensource</title>
+      <link>/tags/opensource/</link>
+      <pubDate>Tue, 05 Dec 2017 12:10:00 +0100</pubDate>
+      <guid>/tags/opensource/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>performance</title>
+      <link>/tags/performance/</link>
+      <pubDate>Sun, 15 Jul 2012 00:00:00 +0200</pubDate>
+      <guid>/tags/performance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>/tags/r/</link>
+      <pubDate>Tue, 10 Jul 2012 00:00:00 +0200</pubDate>
+      <guid>/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>util</title>
+      <link>/tags/util/</link>
+      <pubDate>Tue, 10 Jul 2012 00:00:00 +0200</pubDate>
+      <guid>/tags/util/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

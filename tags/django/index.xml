@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>django | Daniel Molina profile</title>
+    <link>/tags/django/</link>
+      <atom:link href="/tags/django/index.xml" rel="self" type="application/rss+xml" />
+    <description>django</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 19 Dec 2017 17:01:00 +0100</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>django</title>
+      <link>/tags/django/</link>
+    </image>
+    
+    <item>
+      <title>Bokeh plot in Django and with REST and Flask</title>
+      <link>/post/rest_bokeh/</link>
+      <pubDate>Tue, 19 Dec 2017 17:01:00 +0100</pubDate>
+      <guid>/post/rest_bokeh/</guid>
+      <description>&lt;p&gt;Last weeks I have working with a django app for research. I will update it when
+it will be ready ;-).&lt;/p&gt;
+&lt;p&gt;However, the introduction of Javascript and specifically &lt;a href=&#34;https://vuejs.org/&#34;&gt;Vue.js&lt;/a&gt; have produce
+that the website is mainly dynamic using JS and not Python. Also, we have done
+a static website &lt;a href=&#34;http://www.tflsgo.org/&#34;&gt;http://www.tflsgo.org/&lt;/a&gt; (using &lt;a href=&#34;https://docs.gitlab.com/ee/user/project/pages/index.html&#34;&gt;Gitlab Page&lt;/a&gt; and &lt;a href=&#34;https://jekyllrb.com/&#34;&gt;Jekyll&lt;/a&gt;), so I
+started considering to transform the website to a static website using Rest
+service with Python.&lt;/p&gt;
+&lt;p&gt;First, I was considering &lt;a href=&#34;http://www.django-rest-framework.org/&#34;&gt;Django Rest Framework&lt;/a&gt; but finally I decided to use
+&lt;a href=&#34;https://flask-restful.readthedocs.io/en/latest/&#34;&gt;Flask-Restful&lt;/a&gt; by its simplicity (and &lt;a href=&#34;http://flask-sqlalchemy.pocoo.org/2.3/&#34;&gt;Flask-SQLAlchemy&lt;/a&gt; for the communication with
+the database).&lt;/p&gt;
+&lt;p&gt;The problem with that was how to serve the &lt;a href=&#34;https://bokeh.pydata.org/en/latest/&#34;&gt;Bokeh&lt;/a&gt; figures as Rest services. I
+starting reading websites and manual and searching but I didn&#39;t get any
+satisfactory answer.&lt;/p&gt;
+&lt;p&gt;Hours later, I obtained the answer, so I am going to explain it to avoid the reader
+to waste his/her time.&lt;/p&gt;
+&lt;h2 id=&#34;using-django&#34;&gt;Using django&lt;/h2&gt;
+&lt;p&gt;First,  the solution is the embed subpackage at
+&lt;a href=&#34;https://bokeh.pydata.org/en/latest/docs/reference/embed.html&#34;&gt;https://bokeh.pydata.org/en/latest/docs/reference/embed.html&lt;/a&gt;.  There are several
+options:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;file_html:&lt;/strong&gt; generate the html output, it is not useful for  rest.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;server_document:&lt;/strong&gt; It requires a Bokeh server.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;components:&lt;/strong&gt; It returns a js script and a div to include.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;autoload_static:&lt;/strong&gt; It returns a js function and a div to include.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In the django layout, I used:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;html&amp;gt;
+&amp;lt;head&amp;gt;
+...
+{% block bokeh_js %}{% endblock %}
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+...
+{% block bokeh_fig %}{% endblock %}
+&amp;lt;/body&amp;gt;
+&amp;lt;/body&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In the template I done:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;{% block bokeh_fig %}
+{% for fig in bokeh_divs %}
+&amp;lt;h2&amp;gt;{{fig.0}}&amp;lt;/h2&amp;gt;
+{{ fig.1 | safe}}
+{% endfor %}
+{% endblock %}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;safe&lt;/strong&gt; is required to allow the bokeh visualization,  and &lt;strong&gt;fig&lt;/strong&gt; is a dictionary.
+Using the default django template system,  &lt;strong&gt;fig.0&lt;/strong&gt; refers to the key and &lt;strong&gt;fig.1&lt;/strong&gt;
+refers to the value.&lt;/p&gt;
+&lt;p&gt;When the views generate these variable by:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;scripts, divs = components(figs)
+
+return render(request, &#39;compare.html&#39;, {
+   # ...
+   &#39;bokeh_script&#39;:  scripts,
+   &#39;bokeh_divs&#39;:  divs_sorted,
+})
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;when figs is a dictionary with the different plot by figures. The idea was to
+visualize the plots with a title with the caption of each one of them.&lt;/p&gt;
+&lt;h2 id=&#34;flask-rest-version&#34;&gt;Flask-Rest version&lt;/h2&gt;
+&lt;p&gt;Although we could visualize using function &lt;strong&gt;components&lt;/strong&gt;, for the Rest service it
+was not adequate.&lt;/p&gt;
+&lt;p&gt;In the html page, the bokeh and jquery are required:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;script src=&amp;quot;https://code.jquery.com/jquery-3.2.1.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script src=&amp;quot;http://cdn.pydata.org/bokeh/release/bokeh-0.12.13.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script src=&amp;quot;http://cdn.pydata.org/bokeh/release/bokeh-widgets-0.12.13.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script src=&amp;quot;http://cdn.pydata.org/bokeh/release/bokeh-tables-0.12.13.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;and a div in which the figure will be shown:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;body&amp;gt;
+...
+&amp;lt;div id=&amp;quot;#fig&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;/body&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The complete file is:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;!doctype html&amp;gt;
+&amp;lt;html&amp;gt;
+    &amp;lt;head&amp;gt;
+        &amp;lt;title&amp;gt;Test&amp;lt;/title&amp;gt;
+&amp;lt;script src=&amp;quot;https://code.jquery.com/jquery-3.2.1.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script src=&amp;quot;http://cdn.pydata.org/bokeh/release/bokeh-0.12.13.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script src=&amp;quot;http://cdn.pydata.org/bokeh/release/bokeh-widgets-0.12.13.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script src=&amp;quot;http://cdn.pydata.org/bokeh/release/bokeh-tables-0.12.13.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+        &amp;lt;meta charset=&amp;quot;utf-8&amp;quot; /&amp;gt;
+    &amp;lt;/head&amp;gt;
+    &amp;lt;body&amp;gt;
+        &amp;lt;h1&amp;gt;Test&amp;lt;/h1&amp;gt;
+        &amp;lt;div id=&amp;quot;fig&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+        &amp;lt;script src=&amp;quot;./run.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+    &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Then, the web apps include:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from flask import Flask
+from flask_restful import Resource, Api
+from flask_cors import CORS
+
+from holoviews as hv
+from bokeh.resources import CDN
+from bokeh.embed import autoload_static
+
+# Create the app
+app = Flask(__name__)
+# Initially I was the error Cross Origin Resource Sharing
+# that allow all origin domains, not complete sure, only by demo
+CORS(app)
+# Restful
+api = Api(app)
+
+# Configurate  holoviews to create bokeh figures
+hv.extension(&#39;bokeh&#39;)
+renderer = hv.renderer(&#39;bokeh&#39;)
+
+# An example of generation of bokeh
+def get_plot():
+    xs = range(-10,11)
+    ys = [100+x**2 for x in xs]
+    plot_hv = hv.Curve((xs, ys))
+    plot = renderer.get_plot(plot_hv).state
+    return plot
+
+# Example
+class Figure(Resource):
+    def get(self):
+        plot = get_plot()
+        div, js = components(plot)
+        js, tags = autoload_static(plot, CDN, &amp;quot;fig/&amp;quot;)
+       return {&#39;js&#39;: js, &#39;tags&#39;: tags}
+
+api.add_resource(Figure, &#39;/fig&#39;)
+
+if __name__ == &#39;__main__&#39;:
+    app.run()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The js variable is the javascript function to run the visualization of the Bokeh
+figure, and tags is the div in which the figure will be shown.&lt;/p&gt;
+&lt;p&gt;The final JS code is:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;$.ajax({
+    url: &#39;http://localhost:5000/fig&#39;,
+    method: &#39;GET&#39;,
+    success: function(data) {
+        console.log(data);
+        // First,  the div code is inserted
+        $(&#39;#fig&#39;).replaceWith(data[&#39;tags&#39;]);
+        // Later, the JS code must be evaluated
+        eval(data[&#39;js&#39;]);
+    },
+});
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;And the result is:&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/rest_test.png&#34; &gt;
+&lt;img data-src=&#34;/img/rest_test.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

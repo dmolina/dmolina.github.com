@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cpp | Daniel Molina profile</title>
+    <link>/tags/cpp/</link>
+      <atom:link href="/tags/cpp/index.xml" rel="self" type="application/rss+xml" />
+    <description>cpp</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 24 Nov 2018 22:11:00 +0100</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>cpp</title>
+      <link>/tags/cpp/</link>
+    </image>
+    
+    <item>
+      <title>Introduction to CMake</title>
+      <link>/post/intro_cmake/</link>
+      <pubDate>Sat, 24 Nov 2018 22:11:00 +0100</pubDate>
+      <guid>/post/intro_cmake/</guid>
+      <description>&lt;p&gt;In my last course, I decided to give a small introduction about CMake. The
+reason is that, although we teach them Make, the majority of students do not use
+them in their programs. In fact, many times they create a &amp;ldquo;makefile&amp;rdquo; program to
+pretend they are using &amp;ldquo;make&amp;rdquo;, but actually, it is a bash script.
+My intention is to teach them &lt;a href=&#34;http://cmake.org/&#34;&gt;&lt;strong&gt;Cmake&lt;/strong&gt;&lt;/a&gt; to encourage them to use an automatic tool
+for compiling, expecting they use it more, by its simpler syntax.&lt;/p&gt;
+&lt;p&gt;The english version is:&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/capture_english.png&#34; &gt;
+&lt;img data-src=&#34;/img/capture_english.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;The spanish version is:&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/capture_spanish.png&#34; &gt;
+&lt;img data-src=&#34;/img/capture_spanish.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;All the source code (in &lt;a href=&#34;https://github.com/hakimel/reveal.js/&#34;&gt;reveal.js&lt;/a&gt;, through &lt;a href=&#34;https://github.com/yjwen/org-reveal/&#34;&gt;org-reveal&lt;/a&gt;) are available at:
+&lt;a href=&#34;https://github.com/dmolina/intro_cmake&#34;&gt;https://github.com/dmolina/intro_cmake&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

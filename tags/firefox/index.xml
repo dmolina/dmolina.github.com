@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>firefox | Daniel Molina profile</title>
+    <link>/tags/firefox/</link>
+      <atom:link href="/tags/firefox/index.xml" rel="self" type="application/rss+xml" />
+    <description>firefox</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 05 Dec 2017 12:10:00 +0100</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>firefox</title>
+      <link>/tags/firefox/</link>
+    </image>
+    
+    <item>
+      <title>Firefox 3.5 and Mouseless</title>
+      <link>/post/firefox35/</link>
+      <pubDate>Tue, 05 Dec 2017 12:10:00 +0100</pubDate>
+      <guid>/post/firefox35/</guid>
+      <description>&lt;p&gt;I have recently changed to &lt;a href=&#34;https://www.mozilla.org/en-US/firefox/new/&#34;&gt;Firefox 3.5&lt;/a&gt;, and it is awesome!!&lt;/p&gt;
+&lt;p&gt;The main improvements I have checked:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Better performance.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Reader mode, it is very useful to read without distractions, specially in
+mobile. Also, it is mouseless friendly, with the shortkey &lt;strong&gt;Ctrl+Alt+r&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Screenshots of a website, that you can share with anybody (not more excuses
+for my students for not showing me their web app in develop).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The bad thing is that many extensions are not valid anymore:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.zotero.org/&#34;&gt;Zotero&lt;/a&gt; has changed to be a java application, and the great &lt;a href=&#34;https://github.com/vspinu/zotelo&#34;&gt;Zotelo (extension
+for Emacs)&lt;/a&gt; is not working anymore :-(.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Also, several extensions to improve the mouseless navigation stop working.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Fortunately, &lt;em&gt;uBlock Origin&lt;/em&gt; is still working, and I have found &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/tridactyl-vim/&#34;&gt;Tridactyl&lt;/a&gt;, an
+extension with several nice features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;f&lt;/strong&gt; and &lt;strong&gt;F&lt;/strong&gt; allows you to open links (in same tab or new) identifying them with
+letters (in a very sensible way, my favourive way until now).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;b&lt;/strong&gt; is bookmarks, it allows you to go to another open tab.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;s&lt;/strong&gt; is search mode using the history, with tab you can go your favourite website
+more easily.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;And &lt;strong&gt;ZZ&lt;/strong&gt; close all firefox tabs, very useful for a person with Vim-background
+like me :-).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To summarize, if you do not like use the mouse for almost everything, and you
+want to browse more easily, try &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/tridactyl-vim/&#34;&gt;Tridactyl&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

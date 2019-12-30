@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>emacs | Daniel Molina profile</title>
+    <link>/tags/emacs/</link>
+      <atom:link href="/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
+    <description>emacs</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 15 Dec 2017 11:28:00 +0100</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>emacs</title>
+      <link>/tags/emacs/</link>
+    </image>
+    
+    <item>
+      <title>Fill-more or the important of reading documentation</title>
+      <link>/post/emacs_justify/</link>
+      <pubDate>Fri, 15 Dec 2017 11:28:00 +0100</pubDate>
+      <guid>/post/emacs_justify/</guid>
+      <description>&lt;p&gt;I &lt;strong&gt;love&lt;/strong&gt; Emacs and the auto-fill more. When I work I use it always to make
+easier to read the text (with a small value, like 80 or 100). Then, if I have
+to copy to a Word Document (in collaboration with other people) or a text (like
+in the submission of a review) I simple set the fill-column to a large value
+(2000 or similar), with C-x f. Later, I copy all the text.&lt;/p&gt;
+&lt;p&gt;Until now I have suffered in silence a small problem in text-mode (not in
+org-mode). If you put&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;Text.
+
+- Item 1.
+- Item 2.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;After the fill-mode, you have:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;Text.
+
+- Item 1 Item 2.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;And to have in right you have to put a line between them:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;Text.
+
+- Item 1.
+
+- Item 2.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;(The line between Text and first item is also required).&lt;/p&gt;
+&lt;p&gt;I though it was something inevitable, but checking the documentation,&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.emacswiki.org/emacs/FillParagraph&#34;&gt;https://www.emacswiki.org/emacs/FillParagraph&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I have known that with a simple line in elisp that behavior is fixed:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-elisp&#34;&gt;;; The original value is &amp;quot;\f\\|[      ]*$&amp;quot;, so we add the bullets (-), (+), and (*).
+;; There is no need for &amp;quot;^&amp;quot; as the regexp is matched at the beginning of line.
+(setq paragraph-start &amp;quot;\f\\|[ \t]*$\\|[ \t]*[-+*] &amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I must check the available documentation more often :-).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Elfeed: Using emacs for reading RSS</title>
+      <link>/post/emacs_rss/</link>
+      <pubDate>Thu, 12 Oct 2017 17:53:00 +0200</pubDate>
+      <guid>/post/emacs_rss/</guid>
+      <description>&lt;p&gt;In last years I have been using Emacs for almost all my daily tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Reading my emails (using &lt;a href=&#34;http://www.djcbsoftware.nl/code/mu/mu4e.html&#34;&gt;mu4e&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Creating the slides for my courses using org-beamer.&lt;/li&gt;
+&lt;li&gt;Using dired to navigate for the file system).&lt;/li&gt;
+&lt;li&gt;Publishing this blog (using &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; and &lt;a href=&#34;https://ox-hugo.scripter.co&#34;&gt;ox-hugo&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The last thing to integrate into emacs is reading blogs and news from RSS files.
+Adding &lt;a href=&#34;https://github.com/skeeto/elfeed&#34;&gt;elfeed&lt;/a&gt; and &lt;a href=&#34;https://github.com/remyhonig/elfeed-org&#34;&gt;elfeed-org&lt;/a&gt; I was able to create RSS. elfeed-org
+is very simple, it allows to add the feeds as items in org-mode:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-text&#34;&gt;- Blogs                                                              :elfeed:
+
+  - https://www.meneame.net/rss                                  :news:portada:
+  - https://www.meneame.net/rss?status=queued                            :news:
+  - http://planet.emacsen.org/atom.xml                                :emacs:
+  - https://www.reddit.com/r/programming/.rss                     :programming:
+  ...
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The tags for each feed will be shared for all articles.&lt;/p&gt;
+&lt;p&gt;Then, loading &lt;strong&gt;elfeed&lt;/strong&gt;, it can be obtained a screen showing the different articles:&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/screen/elfeed.png&#34; &gt;
+&lt;img data-src=&#34;/screen/elfeed.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;And selecting an article, it can be open, read and open each link by the default browser.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/screen/elfeed2.png&#34; &gt;
+&lt;img data-src=&#34;/screen/elfeed2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Several opinions about elfeed:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;It is very simple to use.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The use of tags is very powerful, not only they received the tags from the
+category, and you can add a tag to an article.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The search filter is simple and very powerful, you can filter both for date and for tags.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The search filter can be kept as bookmark, so using C-x r b it can be seen the
+article using a particular filter.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To summary, &lt;strong&gt;elfeed&lt;/strong&gt; has been a great discovery. If you use emacs, give it a try.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

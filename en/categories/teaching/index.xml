@@ -1,43 +1,75 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>teaching on My little geek webpage</title>
-    <link>http://dmolina.github.io/en/categories/teaching/</link>
-    <description>Recent content in teaching on My little geek webpage</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>All text is licensed under a Creative Commons Attribution 4.0 International License.</copyright>
-    <lastBuildDate>Sat, 24 Nov 2018 22:11:00 +0100</lastBuildDate>
-    
-        <atom:link href="http://dmolina.github.io/en/categories/teaching/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>teaching | Daniel Molina profile</title>
+    <link>/categories/teaching/</link>
+      <atom:link href="/categories/teaching/index.xml" rel="self" type="application/rss+xml" />
+    <description>teaching</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 24 Nov 2018 22:11:00 +0100</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>teaching</title>
+      <link>/categories/teaching/</link>
+    </image>
     
     <item>
       <title>Introduction to CMake</title>
-      <link>http://dmolina.github.io/en/post/intro_cmake/</link>
+      <link>/post/intro_cmake/</link>
       <pubDate>Sat, 24 Nov 2018 22:11:00 +0100</pubDate>
-      
-      <guid>http://dmolina.github.io/en/post/intro_cmake/</guid>
+      <guid>/post/intro_cmake/</guid>
       <description>&lt;p&gt;In my last course, I decided to give a small introduction about CMake. The
 reason is that, although we teach them Make, the majority of students do not use
 them in their programs. In fact, many times they create a &amp;ldquo;makefile&amp;rdquo; program to
 pretend they are using &amp;ldquo;make&amp;rdquo;, but actually, it is a bash script.
 My intention is to teach them &lt;a href=&#34;http://cmake.org/&#34;&gt;&lt;strong&gt;Cmake&lt;/strong&gt;&lt;/a&gt; to encourage them to use an automatic tool
 for compiling, expecting they use it more, by its simpler syntax.&lt;/p&gt;
-
 &lt;p&gt;The english version is:&lt;/p&gt;
 
-&lt;figure&gt;&lt;a href=&#34;http://htmlpreview.github.io/?https://github.com/dmolina/intro_cmake/blob/master/cmake_en.html&#34;&gt;
-    &lt;img src=&#34;http://dmolina.github.io/img/capture_english.png&#34;/&gt; &lt;/a&gt;
-&lt;/figure&gt;
 
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/capture_english.png&#34; &gt;
+&lt;img data-src=&#34;/img/capture_english.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
 
 &lt;p&gt;The spanish version is:&lt;/p&gt;
 
-&lt;figure&gt;&lt;a href=&#34;http://htmlpreview.github.io/?https://github.com/dmolina/intro_cmake/blob/master/cmake_es.html&#34;&gt;
-    &lt;img src=&#34;http://dmolina.github.io/img/capture_spanish.png&#34;/&gt; &lt;/a&gt;
-&lt;/figure&gt;
 
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/capture_spanish.png&#34; &gt;
+&lt;img data-src=&#34;/img/capture_spanish.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
 
 &lt;p&gt;All the source code (in &lt;a href=&#34;https://github.com/hakimel/reveal.js/&#34;&gt;reveal.js&lt;/a&gt;, through &lt;a href=&#34;https://github.com/yjwen/org-reveal/&#34;&gt;org-reveal&lt;/a&gt;) are available at:
 &lt;a href=&#34;https://github.com/dmolina/intro_cmake&#34;&gt;https://github.com/dmolina/intro_cmake&lt;/a&gt;&lt;/p&gt;
@@ -46,50 +78,48 @@ for compiling, expecting they use it more, by its simpler syntax.&lt;/p&gt;
     
     <item>
       <title>Using Python for Business Intelligence</title>
-      <link>http://dmolina.github.io/en/post/python_bi/</link>
+      <link>/post/python_bi/</link>
       <pubDate>Mon, 09 Oct 2017 18:18:00 +0200</pubDate>
-      
-      <guid>http://dmolina.github.io/en/post/python_bi/</guid>
+      <guid>/post/python_bi/</guid>
       <description>&lt;p&gt;Two weeks ago I started my first teaching day, replacing a teacher that has
 still not gone to Ceuta (because the temporal contract was offered to many
 people, and all of them refuse it). Do not worry, they will have the material, I
 said to myself, naïvely.&lt;/p&gt;
-
 &lt;p&gt;However, my Phd. advisor, the coordinator of the course, has decided to replace
 the practice classes from &lt;a href=&#34;https://www.knime.com/&#34;&gt;Knime&lt;/a&gt; to Python using the different tools availables.
 The reason? Because the Python, with R, are very popular in &lt;a href=&#34;https://en.wikipedia.org/wiki/Data_science&#34;&gt;Data Science&lt;/a&gt;. Also,
 in Python there are very good tools for data analysis (like &lt;a href=&#34;http://www.numpy.org/&#34;&gt;numpy&lt;/a&gt;, &lt;a href=&#34;http://pandas.pydata.org/&#34;&gt;pandas&lt;/a&gt;) or
 machine learning (&lt;a href=&#34;http://scikit-learn.org/stable/&#34;&gt;scikit-learn&lt;/a&gt;, &amp;hellip;). It seems a good idea, but I have not
 material, and I have only two days :-O.&lt;/p&gt;
-
 &lt;p&gt;Even more, I had still no access to the Moodle for the material of the course.
 So, after a very busy Saturday, I finished including a material,  in
 &lt;a href=&#34;http://github.com/dmolina/es_intro_python&#34;&gt;http://github.com/dmolina/es_intro_python&lt;/a&gt;, with interesting references and an
 install introduction.&lt;/p&gt;
-
 &lt;p&gt;Also, I use a very curious tool, &lt;a href=&#34;https://gitpitch.com&#34;&gt;https://gitpitch.com&lt;/a&gt;, that allow to create
 slides from a markdown file from the repository github, &lt;a href=&#34;https://gitpitch.com/dmolina/es_intro_python/master?grs=github&amp;amp;t=moon&#34;&gt;Slides using Pitch&lt;/a&gt;.&lt;/p&gt;
-
 &lt;p&gt;My final experience was:&lt;/p&gt;
-
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Very few students, so it was very relaxed because you can solve the problems
+&lt;li&gt;
+&lt;p&gt;Very few students, so it was very relaxed because you can solve the problems
 for each student. However, using the &lt;a href=&#34;https://www.anaconda.com/&#34;&gt;anaconda&lt;/a&gt; there is few problems (and the .
 In prevision of the big size of the anaconda distribution, my downloaded
-version was copied by USB Disk to students.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;The &lt;a href=&#34;http://jupyter.org/&#34;&gt;jupyter notebook&lt;/a&gt; allow to test the python code without installing or
+version was copied by USB Disk to students.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The &lt;a href=&#34;http://jupyter.org/&#34;&gt;jupyter notebook&lt;/a&gt; allow to test the python code without installing or
 learning an IDE (later they can install which they prefer, but for teaching
-you do not need any of them).&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;You have to prepare exercises, because if not, you talk and show and you can
-finished in few minutes a material that takes you many hours.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;When you have only a weekend for preparing material, I must have already strong
+you do not need any of them).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;You have to prepare exercises, because if not, you talk and show and you can
+finished in few minutes a material that takes you many hours.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;When you have only a weekend for preparing material, I must have already strong
 knowledge about the topic (fortunately,  it was my case). If not, you will not
-be confident teaching it.&lt;/p&gt;&lt;/li&gt;
+be confident teaching it.&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;For the second day, I was preparing another slide for teaching pandas (with the
 most useful operations, by my experience), available as pdf format here:
 &lt;a href=&#34;./slides/slides_pandas.pdf&#34;&gt;slides_pandas.pdf&lt;/a&gt; (In a future post, I will say as I
