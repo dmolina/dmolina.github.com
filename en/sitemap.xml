@@ -67,6 +67,23 @@
   
   <url>
     <loc>http://dmolina.github.io/en/about/</loc>
+    <lastmod>2017-10-09T17:11:44+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://dmolina.github.io/es/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://dmolina.github.io/en/about/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://dmolina.github.io/en/about/</loc>
     <lastmod>2018-12-14T13:10:20+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
