@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>julia | Daniel Molina profile</title>
+    <link>/tags/julia/</link>
+      <atom:link href="/tags/julia/index.xml" rel="self" type="application/rss+xml" />
+    <description>julia</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 20 Jan 2020 19:19:00 +0100</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>julia</title>
+      <link>/tags/julia/</link>
+    </image>
+    
+    <item>
+      <title>Introduction to Julia</title>
+      <link>/post/julia_intro/</link>
+      <pubDate>Mon, 20 Jan 2020 19:19:00 +0100</pubDate>
+      <guid>/post/julia_intro/</guid>
+      <description>&lt;p&gt;The last year I have been working in a promising programming language,
+&lt;a href=&#34;http://julialang.org/&#34;&gt;Julia&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Even I have done a presentation focused on people with Computer Science
+background (so the talk compares Julia against Python),&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/dmolina/julia%5Fpresentacion/raw/master/Julia%5FPresentation%5Fslides.pdf&#34;&gt;Talk in English&lt;/a&gt;
+&lt;img src=&#34;/img/julia_intro_en.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Also it was given in Spanish&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/dmolina/julia%5Fpresentacion/blob/master/Julia%5FPresentacion%5Fslides.pdf&#34;&gt;Julia Talk in Spanish&lt;/a&gt;
+&lt;img src=&#34;/img/julia_intro_es.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The resources of that talk are available at &lt;a href=&#34;https://github.com/dmolina/julia%5Fpresentacion/&#34;&gt;Github
+Repository&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

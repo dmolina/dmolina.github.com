@@ -5,12 +5,31 @@
     <link>/categories/computer-science/</link>
       <atom:link href="/categories/computer-science/index.xml" rel="self" type="application/rss+xml" />
     <description>computer-science</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 14 Dec 2018 12:11:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 20 Jan 2020 19:19:00 +0100</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>computer-science</title>
       <link>/categories/computer-science/</link>
     </image>
+    
+    <item>
+      <title>Introduction to Julia</title>
+      <link>/post/julia_intro/</link>
+      <pubDate>Mon, 20 Jan 2020 19:19:00 +0100</pubDate>
+      <guid>/post/julia_intro/</guid>
+      <description>&lt;p&gt;The last year I have been working in a promising programming language,
+&lt;a href=&#34;http://julialang.org/&#34;&gt;Julia&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Even I have done a presentation focused on people with Computer Science
+background (so the talk compares Julia against Python),&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/dmolina/julia%5Fpresentacion/raw/master/Julia%5FPresentation%5Fslides.pdf&#34;&gt;Talk in English&lt;/a&gt;
+&lt;img src=&#34;/img/julia_intro_en.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Also it was given in Spanish&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/dmolina/julia%5Fpresentacion/blob/master/Julia%5FPresentacion%5Fslides.pdf&#34;&gt;Julia Talk in Spanish&lt;/a&gt;
+&lt;img src=&#34;/img/julia_intro_es.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The resources of that talk are available at &lt;a href=&#34;https://github.com/dmolina/julia%5Fpresentacion/&#34;&gt;Github
+Repository&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Packages in Python for CEC&#39;2019 100 Digit Competition</title>

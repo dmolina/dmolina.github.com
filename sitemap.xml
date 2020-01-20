@@ -3,6 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/categories/</loc>
+    <lastmod>2020-01-20T19:19:30+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/computer-science/</loc>
+    <lastmod>2020-01-20T19:19:30+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-01-20T19:19:30+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/julia_intro/</loc>
+    <lastmod>2020-01-20T19:19:30+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/julia/</loc>
+    <lastmod>2020-01-20T19:19:30+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/programming/</loc>
+    <lastmod>2020-01-20T19:19:30+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-01-20T19:19:30+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication_types/1/</loc>
     <lastmod>2019-12-30T17:54:46+01:00</lastmod>
   </url>
@@ -63,11 +98,6 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2019-12-31T01:42:55+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/authors/e.-osaba/</loc>
     <lastmod>2019-12-30T18:18:30+01:00</lastmod>
   </url>
@@ -118,16 +148,6 @@
   </url>
   
   <url>
-    <loc>/categories/</loc>
-    <lastmod>2019-12-30T15:42:23+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/computer-science/</loc>
-    <lastmod>2019-12-30T15:42:23+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/computer_science/</loc>
     <lastmod>2019-12-30T15:42:23+01:00</lastmod>
   </url>
@@ -140,11 +160,6 @@
   <url>
     <loc>/tags/python/</loc>
     <lastmod>2019-12-30T15:42:23+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2019-12-30T18:07:38+01:00</lastmod>
   </url>
   
   <url>
@@ -164,11 +179,6 @@
   
   <url>
     <loc>/post/intro_cmake/</loc>
-    <lastmod>2019-12-30T15:42:23+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/programming/</loc>
     <lastmod>2019-12-30T15:42:23+01:00</lastmod>
   </url>
   
@@ -415,6 +425,11 @@
   <url>
     <loc>/publication/molina-201387/</loc>
     <lastmod>2019-12-30T17:50:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/posts/</loc>
+    <lastmod>2020-01-20T15:11:13+01:00</lastmod>
   </url>
   
   <url>
