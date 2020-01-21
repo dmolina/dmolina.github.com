@@ -14,7 +14,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-01-20T19:20:11+01:00</lastmod>
+    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
   </url>
   
   <url>
@@ -34,17 +34,147 @@
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2020-01-20T19:20:11+01:00</lastmod>
+    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/2/</loc>
+    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/accountability/</loc>
+    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/adrien-bennetot/</loc>
+    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/alberto-barbado/</loc>
+    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/alejandro-barredo-arrieta/</loc>
+    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/comprehensibility/</loc>
+    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/daniel-molina/</loc>
+    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/data-fusion/</loc>
+    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/deep-learning/</loc>
+    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/explainable-artificial-intelligence/</loc>
+    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/barredoarrieta-202082/</loc>
+    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/fairness/</loc>
+    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/francisco-herrera/</loc>
+    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/interpretability/</loc>
+    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/javier-del-ser/</loc>
+    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/machine-learning/</loc>
+    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/natalia-diaz-rodriguez/</loc>
+    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/privacy/</loc>
+    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/raja-chatila/</loc>
+    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/responsible-artificial-intelligence/</loc>
+    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/richard-benjamins/</loc>
+    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/salvador-garcia/</loc>
+    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/sergio-gil-lopez/</loc>
+    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/siham-tabik/</loc>
+    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/transparency/</loc>
+    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
   </url>
   
   <url>
     <loc>/publication_types/1/</loc>
     <lastmod>2019-12-30T17:54:46+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/2/</loc>
-    <lastmod>2019-12-31T01:42:55+01:00</lastmod>
   </url>
   
   <url>
@@ -65,11 +195,6 @@
   <url>
     <loc>/publication/molina-20197/</loc>
     <lastmod>2019-12-30T17:54:46+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/</loc>
-    <lastmod>2019-12-31T01:42:55+01:00</lastmod>
   </url>
   
   <url>
@@ -128,11 +253,6 @@
   </url>
   
   <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2019-12-31T01:42:55+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/authors/s.-das/</loc>
     <lastmod>2019-12-30T18:18:30+01:00</lastmod>
   </url>
@@ -183,12 +303,12 @@
   </url>
   
   <url>
-    <loc>/categories/teaching/</loc>
+    <loc>/tags/teaching/</loc>
     <lastmod>2019-12-30T15:42:23+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/teaching/</loc>
+    <loc>/categories/teaching/</loc>
     <lastmod>2019-12-30T15:42:23+01:00</lastmod>
   </url>
   
@@ -228,12 +348,12 @@
   </url>
   
   <url>
-    <loc>/tags/emacs/</loc>
+    <loc>/categories/emacs/</loc>
     <lastmod>2019-12-30T15:42:23+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/emacs/</loc>
+    <loc>/tags/emacs/</loc>
     <lastmod>2019-12-30T15:42:23+01:00</lastmod>
   </url>
   
@@ -263,12 +383,12 @@
   </url>
   
   <url>
-    <loc>/categories/opensource/</loc>
+    <loc>/tags/opensource/</loc>
     <lastmod>2019-12-30T15:42:23+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/opensource/</loc>
+    <loc>/categories/opensource/</loc>
     <lastmod>2019-12-30T15:42:23+01:00</lastmod>
   </url>
   

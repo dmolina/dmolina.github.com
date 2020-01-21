@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Privacy | Daniel Molina profile</title>
+    <link>/tags/privacy/</link>
+      <atom:link href="/tags/privacy/index.xml" rel="self" type="application/rss+xml" />
+    <description>Privacy</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Privacy</title>
+      <link>/tags/privacy/</link>
+    </image>
+    
+    <item>
+      <title>Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI</title>
+      <link>/publication/barredoarrieta-202082/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/barredoarrieta-202082/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

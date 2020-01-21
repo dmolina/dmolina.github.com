@@ -5,12 +5,108 @@
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Authors</title>
       <link>/authors/</link>
     </image>
+    
+    <item>
+      <title>Adrien Bennetot</title>
+      <link>/authors/adrien-bennetot/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/adrien-bennetot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Alberto Barbado</title>
+      <link>/authors/alberto-barbado/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/alberto-barbado/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Alejandro Barredo Arrieta</title>
+      <link>/authors/alejandro-barredo-arrieta/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/alejandro-barredo-arrieta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Daniel Molina</title>
+      <link>/authors/daniel-molina/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/daniel-molina/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Francisco Herrera</title>
+      <link>/authors/francisco-herrera/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/francisco-herrera/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javier Del Ser</title>
+      <link>/authors/javier-del-ser/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/javier-del-ser/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Natalia Díaz-Rodríguez</title>
+      <link>/authors/natalia-diaz-rodriguez/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/natalia-diaz-rodriguez/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Raja Chatila</title>
+      <link>/authors/raja-chatila/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/raja-chatila/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Richard Benjamins</title>
+      <link>/authors/richard-benjamins/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/richard-benjamins/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Salvador Garcia</title>
+      <link>/authors/salvador-garcia/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/salvador-garcia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sergio Gil-Lopez</title>
+      <link>/authors/sergio-gil-lopez/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/sergio-gil-lopez/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Siham Tabik</title>
+      <link>/authors/siham-tabik/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/siham-tabik/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A. Latorre</title>

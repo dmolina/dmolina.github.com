@@ -5,12 +5,20 @@
     <link>/publication_types/2/</link>
       <atom:link href="/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>2</title>
       <link>/publication_types/2/</link>
     </image>
+    
+    <item>
+      <title>Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI</title>
+      <link>/publication/barredoarrieta-202082/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/barredoarrieta-202082/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A novel memetic framework for enhancing differential evolution algorithms via combination with alopex local search</title>
