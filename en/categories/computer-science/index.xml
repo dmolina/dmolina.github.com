@@ -5,12 +5,61 @@
     <link>/categories/computer-science/</link>
       <atom:link href="/categories/computer-science/index.xml" rel="self" type="application/rss+xml" />
     <description>computer-science</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 20 Jan 2020 19:19:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 21 Jan 2020 22:49:00 +0100</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>computer-science</title>
       <link>/categories/computer-science/</link>
     </image>
+    
+    <item>
+      <title>New LSGO Competition at the WCCI&#39;2020</title>
+      <link>/post/wcci2020/</link>
+      <pubDate>Tue, 21 Jan 2020 22:49:00 +0100</pubDate>
+      <guid>/post/wcci2020/</guid>
+      <description>
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/wcci2020.png&#34; &gt;
+&lt;img data-src=&#34;/img/wcci2020.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;I write because I am organizing the &lt;a href=&#34;https://www.tflsgo.org/special%5Fsessions/wcci2020.html&#34;&gt;Large-Scale Global Optimization Competition&lt;/a&gt;
+at the &lt;a href=&#34;https://wcci2020.org/&#34;&gt;IEEE Congress on Evolutionary Computation WCCI&#39;2020&lt;/a&gt;, with interesting
+news:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;I am not more the Chair of the IEEE CIS Task Force on Large Scale Global
+Optimization, but I organize in collaboration with them.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The new site &lt;a href=&#34;https://tacolab.org&#34;&gt;tacolab.org&lt;/a&gt; to compare your own proposals with existings ones, it
+do the tables, figures and comparisons for you (including statistical
+testing). Also, it includes data of all previous winners!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The deadline is 30 January, there is still time.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So, there is not excuse for not participating, I wait you in Glasglow!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Introduction to Julia</title>
