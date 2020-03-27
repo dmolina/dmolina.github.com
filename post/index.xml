@@ -13,6 +13,38 @@
     </image>
     
     <item>
+      <title>About online teaching</title>
+      <link>/post/online_teaching/</link>
+      <pubDate>Fri, 27 Mar 2020 22:45:00 +0100</pubDate>
+      <guid>/post/online_teaching/</guid>
+      <description>&lt;p&gt;These days we have to be enclosed in our houses by the coronavirus (COVID-19),
+so in my University (in Granada) as the others in Spain, we had to became
+in &lt;em&gt;online teaching expert&lt;/em&gt; in a weekend.&lt;/p&gt;
+&lt;p&gt;For the courses we have following different approaches: Additional written
+material, several short videos about the materials, or conferences for
+giving the courses by video-conferences. All options have its advantages and
+drawbacks. However, because I like the feedback with the students (for instance,
+to make several examples in code about the concepts in my programming course),
+I have finally decided to give the course by video-conference. For
+recommendation of my university I use &lt;a href=&#34;https://meet.google.com/&#34;&gt;google meet&lt;/a&gt;, used also for the other
+teachers in the course. Personally, I prefer &lt;a href=&#34;https://meet.jit.si/&#34;&gt;Jitsi&lt;/a&gt;, not only it is open source,
+but it also it is comparable in features to the google option, it is a great
+option.&lt;/p&gt;
+&lt;p&gt;A part of the teaching by video-conference, I have put all the slides in the
+Moodle of the courses (actually, it was previously there), and I will try to put
+some Quiz to allow students to have a better feedback about their knowledge.&lt;/p&gt;
+&lt;p&gt;The main problem has been to have a deaf student. The video-conference is not
+good, and I have spent several days trying several tools to automatic caption
+the voice, but in Spanish too many tools do not give a good performance (they
+have a lot of errors), finally the best option was &lt;a href=&#34;https://abilityconnect.ua.es/?lang=en&#34;&gt;Ability Connect&lt;/a&gt;, a tool from
+University of Alicante (Spain) for that. Unfortunately, sometimes it freezes.&lt;/p&gt;
+&lt;p&gt;Some people should think that I will have less work, but actually the situation
+have put me more work in teaching. It is good to learn new skills, but it takes
+a lot of time.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>New LSGO Competition at the WCCI&#39;2020</title>
       <link>/post/wcci2020/</link>
       <pubDate>Tue, 21 Jan 2020 22:49:00 +0100</pubDate>

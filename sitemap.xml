@@ -3,8 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/post/online_teaching/</loc>
+    <lastmod>2020-03-27T22:45:58+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
-    <lastmod>2020-01-21T22:51:21+01:00</lastmod>
+    <lastmod>2020-03-27T22:45:58+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-03-27T22:45:58+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/online/</loc>
+    <lastmod>2020-03-27T22:45:58+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/programming/</loc>
+    <lastmod>2020-03-27T22:45:58+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-03-27T22:45:58+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/teaching/</loc>
+    <lastmod>2020-03-27T22:45:58+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/teaching/</loc>
+    <lastmod>2020-03-27T22:45:58+01:00</lastmod>
   </url>
   
   <url>
@@ -18,11 +53,6 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2020-01-21T22:56:12+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/post/wcci2020/</loc>
     <lastmod>2020-01-21T22:51:21+01:00</lastmod>
   </url>
@@ -33,22 +63,12 @@
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-01-21T22:51:21+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/post/julia_intro/</loc>
     <lastmod>2020-01-20T19:20:11+01:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/julia/</loc>
-    <lastmod>2020-01-20T19:20:11+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/programming/</loc>
     <lastmod>2020-01-20T19:20:11+01:00</lastmod>
   </url>
   
@@ -308,16 +328,6 @@
   </url>
   
   <url>
-    <loc>/categories/teaching/</loc>
-    <lastmod>2019-12-30T15:42:23+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/teaching/</loc>
-    <lastmod>2019-12-30T15:42:23+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/post/cec2018/</loc>
     <lastmod>2019-12-30T15:42:23+01:00</lastmod>
   </url>
@@ -388,12 +398,12 @@
   </url>
   
   <url>
-    <loc>/categories/opensource/</loc>
+    <loc>/tags/opensource/</loc>
     <lastmod>2019-12-30T15:42:23+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/opensource/</loc>
+    <loc>/categories/opensource/</loc>
     <lastmod>2019-12-30T15:42:23+01:00</lastmod>
   </url>
   
