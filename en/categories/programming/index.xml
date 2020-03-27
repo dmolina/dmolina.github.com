@@ -5,12 +5,103 @@
     <link>/categories/programming/</link>
       <atom:link href="/categories/programming/index.xml" rel="self" type="application/rss+xml" />
     <description>programming</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 27 Mar 2020 22:45:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 27 Mar 2020 23:54:00 +0100</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>programming</title>
       <link>/categories/programming/</link>
     </image>
+    
+    <item>
+      <title>My first Julia Package</title>
+      <link>/post/moodlequestions/</link>
+      <pubDate>Fri, 27 Mar 2020 23:54:00 +0100</pubDate>
+      <guid>/post/moodlequestions/</guid>
+      <description>&lt;p&gt;For online teaching I use Moodle. I have a lot of experience using it (for more
+than 10 years). Unfortunately, the software could be improved a lot. My main
+complains are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;You can import the grades using an Excel file. However, you cannot import the
+comments.  I like to give comment to explain the reason of the qualifications.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The Quiz is potent, but the creation of questions is very slow. Also, in my
+University several teachers have historically used another software. However,
+Moodle is unable to import these questions (in a different XML format).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In order to solve the second one, and in conjunction with my interest in Julia,
+I have created a package: &lt;a href=&#34;https://github.com/dmolina/MoodleQuestions.jl&#34;&gt;MoodleQuestions&lt;/a&gt;. Not only it is able to export from
+the previous software, but it is also able to create the questions in a
+MoodleXML from a more intuitive file, in text file:&lt;/p&gt;
+&lt;h2 id=&#34;input-text-file-format&#34;&gt;Input text file format&lt;/h2&gt;
+&lt;p&gt;This package is able to read a text file. The format has been designed to be as simple and readable as possible.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-text&#34;&gt; * Category 1
+
+Question 1
+
+- Option 1.1.
+- Option 1.2.
++ Option 1.3.
+
+ * Category 2
+
+Question 2
+
++ Option 2.1.
+- Option 2.2.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The sentences starting with * is a new category, with the name.&lt;/p&gt;
+&lt;p&gt;The sentences without *, +, or - are the text of the question. It is expected to
+be from only one line.&lt;/p&gt;
+&lt;p&gt;The sentences starting with - or + and the different answers for the previous
+question. The - means that the answer is false, and the + means that the
+sentence is the right answer.&lt;/p&gt;
+&lt;p&gt;The answers in the question are shuffle, except when one of the word of A, B,
+&amp;hellip; is used. In these cases, the order of the options is maintained.&lt;/p&gt;
+&lt;p&gt;In my opinion, to create a text file with the questions in that format is a lot
+easier than using the web interface of Moodle.&lt;/p&gt;
+&lt;h2 id=&#34;my-experience-creating-a-package&#34;&gt;My experience creating a package&lt;/h2&gt;
+&lt;p&gt;I have experience creating a PyPI package in Python, and I only can say that
+creating a Julia package is a lot easier.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;First, there are packages like &lt;a href=&#34;https://github.com/invenia/PkgTemplates.jl&#34;&gt;PkgTemplates&lt;/a&gt; that create all the structure of
+the code.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Because in Julia you can add a non-official package adding the github url,
+you can use the package working (and share it) without have to register it.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The tests can be tested very easily with &lt;a href=&#34;https://travis-ci.com/dmolina/MoodleQuestions.jl&#34;&gt;Tracis CI&lt;/a&gt;, for different Julia
+version and Operative System (it detected an error only in Windows). However,
+because Julia is not officially supported and the Sandbox implies to install
+all required packages for each time, the time in the test implies a lot of
+time, more than 1m30 in several versions. At least, it gives the tranquility
+of working in different julia versions.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The documentation can be done very easily with &lt;a href=&#34;https://github.com/JuliaDocs/Documenter.jl&#34;&gt;Documenter.jl&lt;/a&gt;, and it publish
+in Github Pages (the only problem was to define the DOCUMENTER_KEY
+environment variable, but the error was clear).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The Registration is was very simple. Originally, you had to do a Pull Request
+to the &lt;a href=&#34;https://github.com/JuliaRegistries/General&#34;&gt;https://github.com/JuliaRegistries/General&lt;/a&gt; repository. However,
+nowadays you should use &lt;a href=&#34;https://github.com/JuliaRegistries/Registrator.jl&#34;&gt;https://github.com/JuliaRegistries/Registrator.jl&lt;/a&gt;,
+that with a simple web interface it will do the PR for you (only the URL is
+required).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;To summarise, the experience has been very positive. In my opinion, you are a
+lot more lost than in Python when you have to create your first setup.py, and it
+is easier to follow the good practices of Continous Integration with tests and
+Documentation. Also, there is a great presentation at
+&lt;a href=&#34;https://www.youtube.com/watch?v=QVmU29rCjaA&#34;&gt;https://www.youtube.com/watch?v=QVmU29rCjaA&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>About online teaching</title>
