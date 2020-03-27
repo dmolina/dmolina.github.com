@@ -52,5 +52,13 @@
       <description></description>
     </item>
     
+    <item>
+      <title>personal</title>
+      <link>/categories/personal/</link>
+      <pubDate>Sun, 15 Jul 2012 00:00:00 +0200</pubDate>
+      <guid>/categories/personal/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
