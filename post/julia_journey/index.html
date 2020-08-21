@@ -28,7 +28,8 @@
   
     
   
-  <meta name="description" content="Well, I have read about Julia but not actually use it before version 0.7 just before 1.0. I work on Machine Learning and stochastic optimization (with evolutionary computation). In Machine Learning (and Deep Learning) I work nicely with Python (Scikit-learn and Keras/PyTorch). However, in optimization I usually did prototype in Python, and later have to translate to C&#43;&#43; for performance (well, not while the function evaluation takes too much). Now I starting using Julia for these algorithms (I prefer it a lot against Numpy).">
+  <meta name="description" content="In this post I am going to tell my Julia journey.
+I have read about Julia but not actually use it before version 0.7 just before 1.0. I work on Machine Learning and stochastic optimization (with evolutionary computation). In Machine Learning (and Deep Learning) I work nicely with Python (Scikit-learn and Keras/PyTorch). However, in optimization I usually did prototype in Python, and later have to translate to C&#43;&#43; for performance (well, not while the function evaluation takes too much).">
 
   
   <link rel="alternate" hreflang="en-us" href="/post/julia_journey/">
@@ -222,13 +223,14 @@
   <meta property="og:site_name" content="Daniel Molina profile">
   <meta property="og:url" content="/post/julia_journey/">
   <meta property="og:title" content="My Julia journey | Daniel Molina profile">
-  <meta property="og:description" content="Well, I have read about Julia but not actually use it before version 0.7 just before 1.0. I work on Machine Learning and stochastic optimization (with evolutionary computation). In Machine Learning (and Deep Learning) I work nicely with Python (Scikit-learn and Keras/PyTorch). However, in optimization I usually did prototype in Python, and later have to translate to C&#43;&#43; for performance (well, not while the function evaluation takes too much). Now I starting using Julia for these algorithms (I prefer it a lot against Numpy)."><meta property="og:image" content="/img/icon-192.png">
+  <meta property="og:description" content="In this post I am going to tell my Julia journey.
+I have read about Julia but not actually use it before version 0.7 just before 1.0. I work on Machine Learning and stochastic optimization (with evolutionary computation). In Machine Learning (and Deep Learning) I work nicely with Python (Scikit-learn and Keras/PyTorch). However, in optimization I usually did prototype in Python, and later have to translate to C&#43;&#43; for performance (well, not while the function evaluation takes too much)."><meta property="og:image" content="/img/icon-192.png">
   <meta property="twitter:image" content="/img/icon-192.png"><meta property="og:locale" content="en-us">
   
     
       <meta property="article:published_time" content="2020-08-21T22:08:00&#43;02:00">
     
-    <meta property="article:modified_time" content="2020-08-21T22:09:21&#43;02:00">
+    <meta property="article:modified_time" content="2020-08-21T22:13:22&#43;02:00">
   
 
   
@@ -259,7 +261,7 @@
   "headline": "My Julia journey",
   
   "datePublished": "2020-08-21T22:08:00+02:00",
-  "dateModified": "2020-08-21T22:09:21+02:00",
+  "dateModified": "2020-08-21T22:13:22+02:00",
   
   "author": {
     "@type": "Person",
@@ -274,7 +276,7 @@
       "url": "/img/icon-512.png"
     }
   },
-  "description": "Well, I have read about Julia but not actually use it before version 0.7 just before 1.0. I work on Machine Learning and stochastic optimization (with evolutionary computation). In Machine Learning (and Deep Learning) I work nicely with Python (Scikit-learn and Keras/PyTorch). However, in optimization I usually did prototype in Python, and later have to translate to C++ for performance (well, not while the function evaluation takes too much). Now I starting using Julia for these algorithms (I prefer it a lot against Numpy)."
+  "description": "In this post I am going to tell my Julia journey.\nI have read about Julia but not actually use it before version 0.7 just before 1.0. I work on Machine Learning and stochastic optimization (with evolutionary computation). In Machine Learning (and Deep Learning) I work nicely with Python (Scikit-learn and Keras/PyTorch). However, in optimization I usually did prototype in Python, and later have to translate to C++ for performance (well, not while the function evaluation takes too much)."
 }
 </script>
 
@@ -618,14 +620,15 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p>Well, I have read about Julia but not actually use it before version 0.7 just
-before 1.0. I work on Machine Learning and stochastic optimization (with
-evolutionary computation). In Machine Learning (and Deep Learning) I work nicely
-with Python (Scikit-learn and Keras/PyTorch). However, in optimization I usually
-did prototype in Python, and later have to translate to C++ for performance
-(well, not while the function evaluation takes too much). Now I starting using
-Julia for these algorithms (I prefer it a lot against Numpy). For ML I am
-actually testing options with Julia
+      <p>In this post I am going to tell my Julia journey.</p>
+<p>I have read about Julia but not actually use it before version 0.7 just before
+1.0. I work on Machine Learning and stochastic optimization (with evolutionary
+computation). In Machine Learning (and Deep Learning) I work nicely with Python
+(Scikit-learn and Keras/PyTorch). However, in optimization I usually did
+prototype in Python, and later have to translate to C++ for performance (well,
+not while the function evaluation takes too much). Now I starting using Julia
+for these algorithms (I prefer it a lot against Numpy). For ML I am actually
+testing options with Julia
 (<a href="https://github.com/alan-turing-institute/MLJ.jl">MLJ.jl</a> and
 <a href="https://github.com/FluxML/Flux.jl">Flux</a> mainly).</p>
 <p>My main problem is the lack of examples/tutorials in the documentation for
@@ -650,7 +653,7 @@ translate easy messages in a simple way.</p>
 <p>Usually I create scripts, but in Julia the time required to load the packages
 make them slower than similar to Python. In order to reduce that problem I
 recently created <a href="https://github.com/dmolina/DaemonMode.jl">DaemonMode.jl</a>
-package.</p>
+package, that got a great interest (even it was mentioned in JuliaCon 2020!).</p>
 <p>The good and bad:</p>
 <ul>
 <li>

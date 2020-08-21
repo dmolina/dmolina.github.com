@@ -17,14 +17,15 @@
       <link>/post/julia_journey/</link>
       <pubDate>Fri, 21 Aug 2020 22:08:00 +0200</pubDate>
       <guid>/post/julia_journey/</guid>
-      <description>&lt;p&gt;Well, I have read about Julia but not actually use it before version 0.7 just
-before 1.0. I work on Machine Learning and stochastic optimization (with
-evolutionary computation). In Machine Learning (and Deep Learning) I work nicely
-with Python (Scikit-learn and Keras/PyTorch). However, in optimization I usually
-did prototype in Python, and later have to translate to C++ for performance
-(well, not while the function evaluation takes too much). Now I starting using
-Julia for these algorithms (I prefer it a lot against Numpy). For ML I am
-actually testing options with Julia
+      <description>&lt;p&gt;In this post I am going to tell my Julia journey.&lt;/p&gt;
+&lt;p&gt;I have read about Julia but not actually use it before version 0.7 just before
+1.0. I work on Machine Learning and stochastic optimization (with evolutionary
+computation). In Machine Learning (and Deep Learning) I work nicely with Python
+(Scikit-learn and Keras/PyTorch). However, in optimization I usually did
+prototype in Python, and later have to translate to C++ for performance (well,
+not while the function evaluation takes too much). Now I starting using Julia
+for these algorithms (I prefer it a lot against Numpy). For ML I am actually
+testing options with Julia
 (&lt;a href=&#34;https://github.com/alan-turing-institute/MLJ.jl&#34;&gt;MLJ.jl&lt;/a&gt; and
 &lt;a href=&#34;https://github.com/FluxML/Flux.jl&#34;&gt;Flux&lt;/a&gt; mainly).&lt;/p&gt;
 &lt;p&gt;My main problem is the lack of examples/tutorials in the documentation for
@@ -49,7 +50,7 @@ translate easy messages in a simple way.&lt;/p&gt;
 &lt;p&gt;Usually I create scripts, but in Julia the time required to load the packages
 make them slower than similar to Python. In order to reduce that problem I
 recently created &lt;a href=&#34;https://github.com/dmolina/DaemonMode.jl&#34;&gt;DaemonMode.jl&lt;/a&gt;
-package.&lt;/p&gt;
+package, that got a great interest (even it was mentioned in JuliaCon 2020!).&lt;/p&gt;
 &lt;p&gt;The good and bad:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
