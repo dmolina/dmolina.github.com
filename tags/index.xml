@@ -5,7 +5,7 @@
     <link>/tags/</link>
       <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 27 Mar 2020 23:54:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 21 Aug 2020 22:08:00 +0200</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Tags</title>
@@ -15,7 +15,7 @@
     <item>
       <title>julia</title>
       <link>/tags/julia/</link>
-      <pubDate>Fri, 27 Mar 2020 23:54:00 +0100</pubDate>
+      <pubDate>Fri, 21 Aug 2020 22:08:00 +0200</pubDate>
       <guid>/tags/julia/</guid>
       <description></description>
     </item>
@@ -23,7 +23,7 @@
     <item>
       <title>teaching</title>
       <link>/tags/teaching/</link>
-      <pubDate>Fri, 27 Mar 2020 23:54:00 +0100</pubDate>
+      <pubDate>Fri, 21 Aug 2020 22:08:00 +0200</pubDate>
       <guid>/tags/teaching/</guid>
       <description></description>
     </item>
