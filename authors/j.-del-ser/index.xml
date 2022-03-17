@@ -5,12 +5,20 @@
     <link>/authors/j.-del-ser/</link>
       <atom:link href="/authors/j.-del-ser/index.xml" rel="self" type="application/rss+xml" />
     <description>J. Del Ser</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>J. Del Ser</title>
       <link>/authors/j.-del-ser/</link>
     </image>
+    
+    <item>
+      <title>Lights and shadows in Evolutionary Deep Learning: Taxonomy, critical methodological analysis, cases of study, learned lessons, recommendations and challenges</title>
+      <link>/publication/molina-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/molina-2021/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Bio-inspired computation: Where we stand and what&#39;s next</title>

@@ -5,7 +5,7 @@
     <link>/authors/daniel-molina/</link>
       <atom:link href="/authors/daniel-molina/index.xml" rel="self" type="application/rss+xml" />
     <description>Daniel Molina</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Daniel Molina</title>
@@ -13,10 +13,34 @@
     </image>
     
     <item>
+      <title>Ordering Artificial Intelligence Based Recommendations to Tackle the SDGs with a Decision-Making Model Based on Surveys</title>
+      <link>/publication/alonso-2021/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/alonso-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Performance analysis of real-coded evolutionary algorithms under a computationally expensive optimization scenario: 3D–2D Comparative Radiography</title>
+      <link>/publication/g-mez-2020/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/g-mez-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI</title>
       <link>/publication/barredoarrieta-202082/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>/publication/barredoarrieta-202082/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bio-inspired computation: Where we stand and what′s next</title>
+      <link>/publication/del-ser-2019/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/del-ser-2019/</guid>
       <description></description>
     </item>
     

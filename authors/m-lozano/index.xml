@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>M Lozano | Daniel Molina profile</title>
+    <link>/authors/m-lozano/</link>
+      <atom:link href="/authors/m-lozano/index.xml" rel="self" type="application/rss+xml" />
+    <description>M Lozano</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2010 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>M Lozano</title>
+      <link>/authors/m-lozano/</link>
+    </image>
+    
+    <item>
+      <title>Memetic Algorithms for Continuous Optimisation Based on Local Search Chains</title>
+      <link>/publication/rid-0417161430923-1/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>/publication/rid-0417161430923-1/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

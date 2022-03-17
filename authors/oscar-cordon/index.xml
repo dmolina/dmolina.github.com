@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Oscar Cordón | Daniel Molina profile</title>
+    <link>/authors/oscar-cordon/</link>
+      <atom:link href="/authors/oscar-cordon/index.xml" rel="self" type="application/rss+xml" />
+    <description>Oscar Cordón</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Oscar Cordón</title>
+      <link>/authors/oscar-cordon/</link>
+    </image>
+    
+    <item>
+      <title>Performance analysis of real-coded evolutionary algorithms under a computationally expensive optimization scenario: 3D–2D Comparative Radiography</title>
+      <link>/publication/g-mez-2020/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/g-mez-2020/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

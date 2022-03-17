@@ -24,14 +24,14 @@ many areas. For my research work, I usually creates/designs algorithms for conti
 good performance (to publish, it is usual to have to make many comparisons between algorithms, so the performance
 could be critical. However, for testing new ideas, many authors uses other tools like Mathlab that reduces the
 developer time at the cost of a higher computing time.&lt;/p&gt;
-&lt;p&gt;I agree that Mathlab is great for numerical algorithms, but I still prefer Python over Mathlab, because I&#39;m more confortable
-with it, and have many libraries, and it&#39;s more simpler to call code in other languages, written in C or Java. That allow us
+&lt;p&gt;I agree that Mathlab is great for numerical algorithms, but I still prefer Python over Mathlab, because I&amp;rsquo;m more confortable
+with it, and have many libraries, and it&amp;rsquo;s more simpler to call code in other languages, written in C or Java. That allow us
 to increase the performance, and I like to test how much it could be improved.&lt;/p&gt;
 &lt;p&gt;Several months ago, I start writing my most succesful algorithm, &lt;a href=&#34;http://sci2s.ugr.es/EAMHCO/#macmals&#34;&gt;Memetic Algorithms based on LS Chaining&lt;/a&gt;, in Python. I had several
 doubts about the performance, so I start writing one element, an Steady-State Genetic Algorithm, in Python.&lt;/p&gt;
 &lt;h2 id=&#34;calling-c-c-code-from-python&#34;&gt;Calling C/C++ code from python&lt;/h2&gt;
 &lt;p&gt;The first challenge I had to tackle was to allow my python program to use the same benchmark functions than other implementations,
-&lt;a href=&#34;http://sci2s.ugr.es/EAMHCO/#TestF&#34;&gt;CEC&#39;2005 benchmark&lt;/a&gt;.
+&lt;a href=&#34;http://sci2s.ugr.es/EAMHCO/#TestF&#34;&gt;CEC&amp;rsquo;2005 benchmark&lt;/a&gt;.
 This benchmark define the functions to optimize, thus its main funtionality is
 evaluate my solutions, when each solution is a vector of real numbers, with a real fitness value.
 The benchmark code was implemented (by its authors) in C/C++. So, my python code have to call C++ code.&lt;/p&gt;
@@ -159,7 +159,7 @@ of the computing time.&lt;/p&gt;
 &lt;p&gt;That proves the majority of computing time is due to a minority of the code,
 only three methods. If we can optimize these methods, our code could be
 improved a lot.&lt;/p&gt;
-&lt;p&gt;We can uses again the &lt;a href=&#34;http://www.boost.org/doc/libs/1_50_0/libs/python/doc/index.html&#34;&gt;boost::python&lt;/a&gt; package, but it&#39;s a bit tedious to use it. So, we have
+&lt;p&gt;We can uses again the &lt;a href=&#34;http://www.boost.org/doc/libs/1_50_0/libs/python/doc/index.html&#34;&gt;boost::python&lt;/a&gt; package, but it&amp;rsquo;s a bit tedious to use it. So, we have
 used the &lt;a href=&#34;http://www.cython.org/&#34;&gt;cython&lt;/a&gt; package. With cython we can optimize the source code adding
 information about the types.&lt;/p&gt;
 &lt;p&gt;For instead, Instead of the following code:&lt;/p&gt;
@@ -213,7 +213,7 @@ def distance(np.ndarray[DTYPE_t, ndim=1]ind1, np.ndarray[DTYPE_t, ndim=1] ind2):
 &lt;p&gt;We can see that is still very readable. we only have put information about the type
 and dimension in the vector parameters and about the variables, using the keyword
 cdef.&lt;/p&gt;
-&lt;p&gt;Let&#39;s see as an example the first method, the crossover operator, implemented
+&lt;p&gt;Let&amp;rsquo;s see as an example the first method, the crossover operator, implemented
 in the crossBLX method:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import numpy as np
 import math
@@ -285,7 +285,7 @@ defined directly implement the many operations, the following code:&lt;/p&gt;
     return C
 
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;It&#39;s true that the source code is more complicated, but it is still very readable.
+&lt;p&gt;It&amp;rsquo;s true that the source code is more complicated, but it is still very readable.
 I have compared the two implementation to make sure both return the same values.&lt;/p&gt;
 &lt;h2 id=&#34;measuring-the-improvement&#34;&gt;Measuring the improvement&lt;/h2&gt;
 &lt;p&gt;How much these small changes in the code?
@@ -411,8 +411,8 @@ in a cluster of computers. Unfortunately, an implementation in Mathlab not only 
 also, for licensing reasons, it could not run in parallel without limit.&lt;/p&gt;
 &lt;p&gt;In resume, we can uses python code, not only to create experimental prototypes, but also to create
 functional prototypes.&lt;/p&gt;
-&lt;p&gt;And about the possible testing problem, I&#39;ve been working on it, but I think it is enough for a post,
-didn&#39;t it? :-)&lt;/p&gt;
+&lt;p&gt;And about the possible testing problem, I&amp;rsquo;ve been working on it, but I think it is enough for a post,
+didn&amp;rsquo;t it? :-)&lt;/p&gt;
 &lt;p&gt;All the code refered in the post, both in python and cython, is available at &lt;a href=&#34;https://github.com/dmolina/pyreal&#34;&gt;github&lt;/a&gt;, if you want to see it.&lt;/p&gt;
 </description>
     </item>

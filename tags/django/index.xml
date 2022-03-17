@@ -28,7 +28,7 @@ service with Python.&lt;/p&gt;
 &lt;a href=&#34;https://flask-restful.readthedocs.io/en/latest/&#34;&gt;Flask-Restful&lt;/a&gt; by its simplicity (and &lt;a href=&#34;http://flask-sqlalchemy.pocoo.org/2.3/&#34;&gt;Flask-SQLAlchemy&lt;/a&gt; for the communication with
 the database).&lt;/p&gt;
 &lt;p&gt;The problem with that was how to serve the &lt;a href=&#34;https://bokeh.pydata.org/en/latest/&#34;&gt;Bokeh&lt;/a&gt; figures as Rest services. I
-starting reading websites and manual and searching but I didn&#39;t get any
+starting reading websites and manual and searching but I didn&amp;rsquo;t get any
 satisfactory answer.&lt;/p&gt;
 &lt;p&gt;Hours later, I obtained the answer, so I am going to explain it to avoid the reader
 to waste his/her time.&lt;/p&gt;

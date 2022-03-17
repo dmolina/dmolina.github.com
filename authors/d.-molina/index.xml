@@ -5,12 +5,36 @@
     <link>/authors/d.-molina/</link>
       <atom:link href="/authors/d.-molina/index.xml" rel="self" type="application/rss+xml" />
     <description>D. Molina</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>D. Molina</title>
       <link>/authors/d.-molina/</link>
     </image>
+    
+    <item>
+      <title>NATURE- AND BIO-INSPIRED OPTIMIZATION: THE GOOD, THE BAD, THE UGLY AND THE HOPEFUL</title>
+      <link>/publication/d-molina-108955831/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/d-molina-108955831/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lights and shadows in Evolutionary Deep Learning: Taxonomy, critical methodological analysis, cases of study, learned lessons, recommendations and challenges</title>
+      <link>/publication/molina-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/molina-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the Role of Execution Order in Hybrid Evolutionary Algorithms</title>
+      <link>/publication/molina-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/molina-2020/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A novel memetic framework for enhancing differential evolution algorithms via combination with alopex local search</title>
@@ -38,6 +62,14 @@
     
     <item>
       <title>Comparing Large-Scale Global Optimization Competition winners in a real-world problem</title>
+      <link>/publication/molina-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/molina-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comparing Large-Scale Global Optimization Competition winners in a real-world problem</title>
       <link>/publication/molina-2019359/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>/publication/molina-2019359/</guid>
@@ -53,7 +85,7 @@
     </item>
     
     <item>
-      <title>SHADE with Iterative Local Search for Large-Scale Global Optimization</title>
+      <title>Toolkit for the Automatic Comparison of Optimizers: Comparing Large-Scale Global Optimizers Made Easy</title>
       <link>/publication/molina-2018/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>/publication/molina-2018/</guid>
@@ -62,9 +94,25 @@
     
     <item>
       <title>Analysis among winners of different IEEE CEC competitions on real-parameters optimization: Is there always improvement?</title>
+      <link>/publication/molina-2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/molina-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analysis among winners of different IEEE CEC competitions on real-parameters optimization: Is there always improvement?</title>
       <link>/publication/molina-2017805/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       <guid>/publication/molina-2017805/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Since CEC 2005 competition on real-parameter optimisation: a decade of research, progress and comparative analysis’s weakness</title>
+      <link>/publication/d-molina-63696793/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/d-molina-63696793/</guid>
       <description></description>
     </item>
     
@@ -85,6 +133,14 @@
     </item>
     
     <item>
+      <title>Memetic Algorithms with Local Search Chains in R: The Rmalschains Package</title>
+      <link>/publication/d-molina-63696760/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/d-molina-63696760/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Memetic algorithms with local search chains in R: The Rmalschains package</title>
       <link>/publication/bergmeir-2016/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
@@ -97,6 +153,14 @@
       <link>/publication/lacroix-2016719/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       <guid>/publication/lacroix-2016719/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Region-based memetic algorithm with archive for multimodal optimisation</title>
+      <link>/publication/molina-2016/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/molina-2016/</guid>
       <description></description>
     </item>
     
@@ -133,6 +197,14 @@
     </item>
     
     <item>
+      <title>Performance evaluation of automatically tuned continuous optimizers on different benchmark sets</title>
+      <link>/publication/molina-2015/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/molina-2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>A Note on Bound Constraints Handling for the IEEE CEC&#39;05 Benchmark Function Suite</title>
       <link>/publication/liao-2014351/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
@@ -157,10 +229,26 @@
     </item>
     
     <item>
+      <title>Region based memetic algorithm for real-parameter optimisation</title>
+      <link>/publication/molina-2014/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/molina-2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Dynamically updated region based memetic algorithm for the 2013 CEC Special Session and Competition on Real Parameter Single Objective Optimization</title>
       <link>/publication/lacroix-20131945/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
       <guid>/publication/lacroix-20131945/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Variable mesh optimization for the 2013 CEC Special Session Niching Methods for Multimodal Optimization</title>
+      <link>/publication/molina-2013/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/molina-2013/</guid>
       <description></description>
     </item>
     
@@ -214,6 +302,14 @@
     
     <item>
       <title>Variable mesh optimization for continuous optimization problems</title>
+      <link>/publication/molina-2012/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/molina-2012/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Variable mesh optimization for continuous optimization problems</title>
       <link>/publication/puris-2012511/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
       <guid>/publication/puris-2012511/</guid>
@@ -254,6 +350,14 @@
     
     <item>
       <title>Memetic algorithms based on local search chains for large scale continuous optimisation problems: MA-SSW-Chains</title>
+      <link>/publication/molina-2011/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>/publication/molina-2011/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Memetic algorithms based on local search chains for large scale continuous optimisation problems: MA-SSW-Chains</title>
       <link>/publication/molina-20112201/</link>
       <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
       <guid>/publication/molina-20112201/</guid>
@@ -261,7 +365,7 @@
     </item>
     
     <item>
-      <title>MA-SW-Chains: Memetic algorithm based on local search chains for large scale continuous global optimization</title>
+      <title>Memetic algorithms for continuous optimisation based on local search chains</title>
       <link>/publication/molina-2010/</link>
       <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
       <guid>/publication/molina-2010/</guid>
@@ -302,6 +406,14 @@
     
     <item>
       <title>Study of the influence of the local search method in memetic algorithms for large scale continuous optimization problems</title>
+      <link>/publication/molina-2009/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>/publication/molina-2009/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Study of the influence of the local search method in memetic algorithms for large scale continuous optimization problems</title>
       <link>/publication/molina-2009221/</link>
       <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
       <guid>/publication/molina-2009221/</guid>
@@ -321,6 +433,14 @@
       <link>/publication/molina-200858/</link>
       <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
       <guid>/publication/molina-200858/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Real-parameter crossover operators with multiple descendents: An experimental study</title>
+      <link>/publication/molina-2008/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      <guid>/publication/molina-2008/</guid>
       <description></description>
     </item>
     

@@ -5,12 +5,44 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Daniel Molina profile</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 21 Aug 2020 22:08:00 +0200</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 15 Jul 2012 00:00:00 +0200</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Daniel Molina profile</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>NATURE- AND BIO-INSPIRED OPTIMIZATION: THE GOOD, THE BAD, THE UGLY AND THE HOPEFUL</title>
+      <link>/publication/d-molina-108955831/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/d-molina-108955831/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ordering Artificial Intelligence Based Recommendations to Tackle the SDGs with a Decision-Making Model Based on Surveys</title>
+      <link>/publication/alonso-2021/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/alonso-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lights and shadows in Evolutionary Deep Learning: Taxonomy, critical methodological analysis, cases of study, learned lessons, recommendations and challenges</title>
+      <link>/publication/molina-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/molina-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Performance analysis of real-coded evolutionary algorithms under a computationally expensive optimization scenario: 3D–2D Comparative Radiography</title>
+      <link>/publication/g-mez-2020/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/g-mez-2020/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>My Julia journey</title>
@@ -220,7 +252,7 @@ a lot of time.&lt;/p&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;I write because I am organizing the &lt;a href=&#34;https://www.tflsgo.org/special%5Fsessions/wcci2020.html&#34;&gt;Large-Scale Global Optimization Competition&lt;/a&gt;
-at the &lt;a href=&#34;https://wcci2020.org/&#34;&gt;IEEE Congress on Evolutionary Computation WCCI&#39;2020&lt;/a&gt;, with interesting
+at the &lt;a href=&#34;https://wcci2020.org/&#34;&gt;IEEE Congress on Evolutionary Computation WCCI&amp;rsquo;2020&lt;/a&gt;, with interesting
 news:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -268,6 +300,22 @@ Repository&lt;/a&gt;.&lt;/p&gt;
     </item>
     
     <item>
+      <title>On the Role of Execution Order in Hybrid Evolutionary Algorithms</title>
+      <link>/publication/molina-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/molina-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bio-inspired computation: Where we stand and what′s next</title>
+      <link>/publication/del-ser-2019/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/del-ser-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>A novel memetic framework for enhancing differential evolution algorithms via combination with alopex local search</title>
       <link>/publication/leon-2019795/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
@@ -293,6 +341,14 @@ Repository&lt;/a&gt;.&lt;/p&gt;
     
     <item>
       <title>Comparing Large-Scale Global Optimization Competition winners in a real-world problem</title>
+      <link>/publication/molina-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/molina-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comparing Large-Scale Global Optimization Competition winners in a real-world problem</title>
       <link>/publication/molina-2019359/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>/publication/molina-2019359/</guid>
@@ -311,7 +367,7 @@ Thus, sometimes I have to wrap the source code for the benchmarks in competition
 to python ☺.&lt;/p&gt;
 &lt;p&gt;This is the story of the my new package at PyPi:
 &lt;a href=&#34;https://pypi.org/project/cec2019comp100digit/&#34;&gt;https://pypi.org/project/cec2019comp100digit/&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;This package is for being able to participate in the &lt;a href=&#34;http://cec2019.org/programs/competitions.html#cec-06&#34;&gt;CEC&#39;2019 100-Digit Challenge
+&lt;p&gt;This package is for being able to participate in the &lt;a href=&#34;http://cec2019.org/programs/competitions.html#cec-06&#34;&gt;CEC&amp;rsquo;2019 100-Digit Challenge
 Competition&lt;/a&gt;, website here:
 &lt;a href=&#34;http://www.ntu.edu.sg/home/epnsugan/index%5Ffiles/CEC2019/CEC2019.htm&#34;&gt;http://www.ntu.edu.sg/home/epnsugan/index%5Ffiles/CEC2019/CEC2019.htm&lt;/a&gt;.
 That website was the source code in C/C++ and Matlab (using mex), but it was
@@ -386,7 +442,7 @@ sol = np.random.rand(10)
       <pubDate>Thu, 13 Dec 2018 11:47:00 +0100</pubDate>
       <guid>/post/lsgo_cec2019/</guid>
       <description>&lt;p&gt;I write because I am organizing the &lt;a href=&#34;http://www.tflsgo.org/special%5Fsessions/cec2019.html&#34;&gt;Large-Scale Global Optimization Competition&lt;/a&gt;
-at the &lt;a href=&#34;http://cec2019.org/&#34;&gt;IEEE Congress on Evolutionary Computation CEC&#39;2019&lt;/a&gt;, with interesting
+at the &lt;a href=&#34;http://cec2019.org/&#34;&gt;IEEE Congress on Evolutionary Computation CEC&amp;rsquo;2019&lt;/a&gt;, with interesting
 news:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -479,7 +535,7 @@ for compiling, expecting they use it more, by its simpler syntax.&lt;/p&gt;
       <pubDate>Tue, 13 Nov 2018 14:09:00 +0100</pubDate>
       <guid>/post/cec2018/</guid>
       <description>&lt;p&gt;Several weeks ago, I was at the the &lt;a href=&#34;http://www.ecomp.poli.br/~wcci2018/&#34;&gt;IEEE Conference on Evolutionary Computation
-(CEC&#39;2018)&lt;/a&gt;, and also at the National Conference on Artificial Intelligence,
+(CEC&amp;rsquo;2018)&lt;/a&gt;, and also at the National Conference on Artificial Intelligence,
 in Spain, &lt;a href=&#34;https://sci2s.ugr.es/caepia18/inicio.html&#34;&gt;website&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;In &lt;a href=&#34;https://speakerdeck.com/dmolina&#34;&gt;https://speakerdeck.com/dmolina&lt;/a&gt; there are the slides of my
 presentations in the International Conference.&lt;/p&gt;
@@ -543,7 +599,7 @@ results of many weeks of works.&lt;/p&gt;
     </item>
     
     <item>
-      <title>SHADE with Iterative Local Search for Large-Scale Global Optimization</title>
+      <title>Toolkit for the Automatic Comparison of Optimizers: Comparing Large-Scale Global Optimizers Made Easy</title>
       <link>/publication/molina-2018/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>/publication/molina-2018/</guid>
@@ -566,7 +622,7 @@ service with Python.&lt;/p&gt;
 &lt;a href=&#34;https://flask-restful.readthedocs.io/en/latest/&#34;&gt;Flask-Restful&lt;/a&gt; by its simplicity (and &lt;a href=&#34;http://flask-sqlalchemy.pocoo.org/2.3/&#34;&gt;Flask-SQLAlchemy&lt;/a&gt; for the communication with
 the database).&lt;/p&gt;
 &lt;p&gt;The problem with that was how to serve the &lt;a href=&#34;https://bokeh.pydata.org/en/latest/&#34;&gt;Bokeh&lt;/a&gt; figures as Rest services. I
-starting reading websites and manual and searching but I didn&#39;t get any
+starting reading websites and manual and searching but I didn&amp;rsquo;t get any
 satisfactory answer.&lt;/p&gt;
 &lt;p&gt;Hours later, I obtained the answer, so I am going to explain it to avoid the reader
 to waste his/her time.&lt;/p&gt;
@@ -981,9 +1037,25 @@ ready,  and I have to finish my courses using python for BI.&lt;/p&gt;
     
     <item>
       <title>Analysis among winners of different IEEE CEC competitions on real-parameters optimization: Is there always improvement?</title>
+      <link>/publication/molina-2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/molina-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analysis among winners of different IEEE CEC competitions on real-parameters optimization: Is there always improvement?</title>
       <link>/publication/molina-2017805/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       <guid>/publication/molina-2017805/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Since CEC 2005 competition on real-parameter optimisation: a decade of research, progress and comparative analysis’s weakness</title>
+      <link>/publication/d-molina-63696793/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/d-molina-63696793/</guid>
       <description></description>
     </item>
     
@@ -1004,6 +1076,14 @@ ready,  and I have to finish my courses using python for BI.&lt;/p&gt;
     </item>
     
     <item>
+      <title>Memetic Algorithms with Local Search Chains in R: The Rmalschains Package</title>
+      <link>/publication/d-molina-63696760/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/d-molina-63696760/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Memetic algorithms with local search chains in R: The Rmalschains package</title>
       <link>/publication/bergmeir-2016/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
@@ -1016,6 +1096,14 @@ ready,  and I have to finish my courses using python for BI.&lt;/p&gt;
       <link>/publication/lacroix-2016719/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       <guid>/publication/lacroix-2016719/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Region-based memetic algorithm with archive for multimodal optimisation</title>
+      <link>/publication/molina-2016/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/molina-2016/</guid>
       <description></description>
     </item>
     
@@ -1052,6 +1140,14 @@ ready,  and I have to finish my courses using python for BI.&lt;/p&gt;
     </item>
     
     <item>
+      <title>Performance evaluation of automatically tuned continuous optimizers on different benchmark sets</title>
+      <link>/publication/molina-2015/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/molina-2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>A Note on Bound Constraints Handling for the IEEE CEC&#39;05 Benchmark Function Suite</title>
       <link>/publication/liao-2014351/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
@@ -1076,10 +1172,26 @@ ready,  and I have to finish my courses using python for BI.&lt;/p&gt;
     </item>
     
     <item>
+      <title>Region based memetic algorithm for real-parameter optimisation</title>
+      <link>/publication/molina-2014/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/molina-2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Dynamically updated region based memetic algorithm for the 2013 CEC Special Session and Competition on Real Parameter Single Objective Optimization</title>
       <link>/publication/lacroix-20131945/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
       <guid>/publication/lacroix-20131945/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Variable mesh optimization for the 2013 CEC Special Session Niching Methods for Multimodal Optimization</title>
+      <link>/publication/molina-2013/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/molina-2013/</guid>
       <description></description>
     </item>
     
@@ -1109,7 +1221,7 @@ service with Python.&lt;/p&gt;
 &lt;a href=&#34;https://flask-restful.readthedocs.io/en/latest/&#34;&gt;Flask-Restful&lt;/a&gt; by its simplicity (and &lt;a href=&#34;http://flask-sqlalchemy.pocoo.org/2.3/&#34;&gt;Flask-SQLAlchemy&lt;/a&gt; for the communication with
 the database).&lt;/p&gt;
 &lt;p&gt;The problem with that was how to serve the &lt;a href=&#34;https://bokeh.pydata.org/en/latest/&#34;&gt;Bokeh&lt;/a&gt; figures as Rest services. I
-starting reading websites and manual and searching but I didn&#39;t get any
+starting reading websites and manual and searching but I didn&amp;rsquo;t get any
 satisfactory answer.&lt;/p&gt;
 &lt;p&gt;Hours later, I obtained the answer, so I am going to explain it to avoid the reader
 to waste his/her time.&lt;/p&gt;
@@ -1283,14 +1395,14 @@ many areas. For my research work, I usually creates/designs algorithms for conti
 good performance (to publish, it is usual to have to make many comparisons between algorithms, so the performance
 could be critical. However, for testing new ideas, many authors uses other tools like Mathlab that reduces the
 developer time at the cost of a higher computing time.&lt;/p&gt;
-&lt;p&gt;I agree that Mathlab is great for numerical algorithms, but I still prefer Python over Mathlab, because I&#39;m more confortable
-with it, and have many libraries, and it&#39;s more simpler to call code in other languages, written in C or Java. That allow us
+&lt;p&gt;I agree that Mathlab is great for numerical algorithms, but I still prefer Python over Mathlab, because I&amp;rsquo;m more confortable
+with it, and have many libraries, and it&amp;rsquo;s more simpler to call code in other languages, written in C or Java. That allow us
 to increase the performance, and I like to test how much it could be improved.&lt;/p&gt;
 &lt;p&gt;Several months ago, I start writing my most succesful algorithm, &lt;a href=&#34;http://sci2s.ugr.es/EAMHCO/#macmals&#34;&gt;Memetic Algorithms based on LS Chaining&lt;/a&gt;, in Python. I had several
 doubts about the performance, so I start writing one element, an Steady-State Genetic Algorithm, in Python.&lt;/p&gt;
 &lt;h4 id=&#34;calling-c-c-plus-plus-code-from-python&#34;&gt;Calling C/C++ code from python&lt;/h4&gt;
 &lt;p&gt;The first challenge I had to tackle was to allow my python program to use the same benchmark functions than other implementations,
-&lt;a href=&#34;http://sci2s.ugr.es/EAMHCO/#TestF&#34;&gt;CEC&#39;2005 benchmark&lt;/a&gt;.
+&lt;a href=&#34;http://sci2s.ugr.es/EAMHCO/#TestF&#34;&gt;CEC&amp;rsquo;2005 benchmark&lt;/a&gt;.
 This benchmark define the functions to optimize, thus its main funtionality is
 evaluate my solutions, when each solution is a vector of real numbers, with a real fitness value.
 The benchmark code was implemented (by its authors) in C/C++. So, my python code have to call C++ code.&lt;/p&gt;
@@ -1418,7 +1530,7 @@ of the computing time.&lt;/p&gt;
 &lt;p&gt;That proves the majority of computing time is due to a minority of the code,
 only three methods. If we can optimize these methods, our code could be
 improved a lot.&lt;/p&gt;
-&lt;p&gt;We can uses again the &lt;a href=&#34;http://www.boost.org/doc/libs/1%5F50%5F0/libs/python/doc/index.html&#34;&gt;boost::python&lt;/a&gt; package, but it&#39;s a bit tedious to use it. So, we have
+&lt;p&gt;We can uses again the &lt;a href=&#34;http://www.boost.org/doc/libs/1%5F50%5F0/libs/python/doc/index.html&#34;&gt;boost::python&lt;/a&gt; package, but it&amp;rsquo;s a bit tedious to use it. So, we have
 used the &lt;a href=&#34;http://www.cython.org/&#34;&gt;cython&lt;/a&gt; package. With cython we can optimize the source code adding
 information about the types.&lt;/p&gt;
 &lt;p&gt;For instead, Instead of the following code:&lt;/p&gt;
@@ -1472,7 +1584,7 @@ def distance(np.ndarray[DTYPE_t, ndim=1]ind1, np.ndarray[DTYPE_t, ndim=1] ind2):
 &lt;p&gt;We can see that is still very readable. we only have put information about the type
 and dimension in the vector parameters and about the variables, using the keyword
 cdef.&lt;/p&gt;
-&lt;p&gt;Let&#39;s see as an example the first method, the crossover operator, implemented
+&lt;p&gt;Let&amp;rsquo;s see as an example the first method, the crossover operator, implemented
 in the crossBLX method:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import numpy as np
 import math
@@ -1544,7 +1656,7 @@ defined directly implement the many operations, the following code:&lt;/p&gt;
     return C
 
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;It&#39;s true that the source code is more complicated, but it is still very readable.
+&lt;p&gt;It&amp;rsquo;s true that the source code is more complicated, but it is still very readable.
 I have compared the two implementation to make sure both return the same values.&lt;/p&gt;
 &lt;h4 id=&#34;measuring-the-improvement&#34;&gt;Measuring the improvement&lt;/h4&gt;
 &lt;p&gt;How much these small changes in the code?
@@ -1670,14 +1782,14 @@ in a cluster of computers. Unfortunately, an implementation in Mathlab not only 
 also, for licensing reasons, it could not run in parallel without limit.&lt;/p&gt;
 &lt;p&gt;In resume, we can uses python code, not only to create experimental prototypes, but also to create
 functional prototypes.&lt;/p&gt;
-&lt;p&gt;And about the possible testing problem, I&#39;ve been working on it, but I think it is enough for a post,
-didn&#39;t it? :-)&lt;/p&gt;
+&lt;p&gt;And about the possible testing problem, I&amp;rsquo;ve been working on it, but I think it is enough for a post,
+didn&amp;rsquo;t it? :-)&lt;/p&gt;
 &lt;p&gt;All the code refered in the post, both in python and cython, is available at &lt;a href=&#34;https://github.com/dmolina/pyreal&#34;&gt;github&lt;/a&gt;, if you want to see it.&lt;/p&gt;
 &lt;h3 id=&#34;callback-that-stop-algorithm-in-r&#34;&gt;&lt;span class=&#34;org-todo done DONE&#34;&gt;DONE&lt;/span&gt; Callback that stop algorithm in R&lt;/h3&gt;
 &lt;p&gt;Today I was making a little programming using the mathematical software R (very useful
 for statistics, by the way), for a little test.&lt;/p&gt;
-&lt;p&gt;I&#39;m one of the authors of a Cran package (&lt;a href=&#34;http://cran.r-project.org/web/packages/Rmalschains/index.html&#34;&gt;Rmalschains&lt;/a&gt;) for continuous optimization, and I was testing another packages to compare results.&lt;/p&gt;
-&lt;p&gt;Comparing a particular package I realise that the API doesn&#39;t give me enough control for
+&lt;p&gt;I&amp;rsquo;m one of the authors of a Cran package (&lt;a href=&#34;http://cran.r-project.org/web/packages/Rmalschains/index.html&#34;&gt;Rmalschains&lt;/a&gt;) for continuous optimization, and I was testing another packages to compare results.&lt;/p&gt;
+&lt;p&gt;Comparing a particular package I realise that the API doesn&amp;rsquo;t give me enough control for
 the comparisons. Briefly, to compare different algorithms all of them should stop when the same
 number of solutions is achieved. Unfortunately, for the DE package, the stopping criterion is the
 maximum iterations number, and for one strategy (the default strategy) this number differs,
@@ -1732,7 +1844,7 @@ Because the function only does a run of the  algorithm (&lt;strong&gt;DEOptim&lt
 Also, to make it more elegant, I use a closure &lt;strong&gt;fitnessCheck&lt;/strong&gt;  that receives a function and a
 maximum number of call, and it stops when the maximum calls number is achieved
 (&lt;em&gt;total&lt;/em&gt; and &lt;em&gt;bestFitness&lt;/em&gt; are global variable, so the way to modify their values is using
-&amp;laquo;- instead of the classical &amp;lt;- or =).&lt;/p&gt;
+&amp;lt;&amp;lt;- instead of the classical &amp;lt;- or =).&lt;/p&gt;
 &lt;p&gt;By the way, &lt;strong&gt;capture.output&lt;/strong&gt; is a function that disables all the output of DEoptim algorithm.&lt;/p&gt;
 &lt;h3 id=&#34;property-based-testing&#34;&gt;&lt;span class=&#34;org-todo done DONE&#34;&gt;DONE&lt;/span&gt; Property-Based Testing&lt;/h3&gt;
 &lt;p&gt;Today I was reviewing a paper that I am doing in collaboration with other colleagues,
@@ -1887,15 +1999,16 @@ while nevals &amp;lt;= maxevals:
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;I have to organize it a little, but in only 35 lines (including comments) a complete
 &lt;a href=&#34;https://en.wikipedia.org/wiki/Differential%5Fevolution&#34;&gt;Differential Evolution&lt;/a&gt; can be implemented. Numpy is awesome!&lt;/p&gt;
-&lt;h3 id=&#34;introduction-to-julia&#34;&gt;&lt;span class=&#34;org-todo todo TODO&#34;&gt;TODO&lt;/span&gt; Introduction to Julia&lt;/h3&gt;
+&lt;h3 id=&#34;introduction-to-julia&#34;&gt;&lt;span class=&#34;org-todo done DONE&#34;&gt;DONE&lt;/span&gt; Introduction to Julia&lt;/h3&gt;
 &lt;p&gt;The last year I have been working in a promising programming language,
 &lt;a href=&#34;http://julialang.org/&#34;&gt;Julia&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;hola
-Even I have done a presentation focused on people with Computer Science
-background (so the talk compares Julia against Python),
-&lt;a href=&#34;https://github.com/dmolina/julia%5Fpresentacion/blob/master/Julia%5FPresentation%5Fslides.pdf&#34;&gt;Julia Talk in English&lt;/a&gt;
-and &lt;a href=&#34;https://github.com/dmolina/julia%5Fpresentacion/blob/master/Julia%5FPresentacion%5Fslides.pdf&#34;&gt;Julia Talk in
-Spanish&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Even I have done a presentation focused on people with Computer Science
+background (so the talk compares Julia against Python),&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/dmolina/julia%5Fpresentacion/raw/master/Julia%5FPresentation%5Fslides.pdf&#34;&gt;Talk in English&lt;/a&gt;
+&lt;img src=&#34;/img/julia_intro_en.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Also it was given in Spanish&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/dmolina/julia%5Fpresentacion/blob/master/Julia%5FPresentacion%5Fslides.pdf&#34;&gt;Julia Talk in Spanish&lt;/a&gt;
+&lt;img src=&#34;/img/julia_intro_es.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;The resources of that talk are available at &lt;a href=&#34;https://github.com/dmolina/julia%5Fpresentacion/&#34;&gt;Github
 Repository&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;emacs&#34;&gt;Emacs&lt;/h2&gt;
@@ -2122,31 +2235,164 @@ for compiling, expecting they use it more, by its simpler syntax.&lt;/p&gt;
 
 &lt;p&gt;All the source code (in &lt;a href=&#34;https://github.com/hakimel/reveal.js/&#34;&gt;reveal.js&lt;/a&gt;, through &lt;a href=&#34;https://github.com/yjwen/org-reveal/&#34;&gt;org-reveal&lt;/a&gt;) are available at:
 &lt;a href=&#34;https://github.com/dmolina/intro%5Fcmake&#34;&gt;https://github.com/dmolina/intro%5Fcmake&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;introducción-a-cmake&#34;&gt;&lt;span class=&#34;org-todo todo TODO&#34;&gt;TODO&lt;/span&gt; Introducción a CMake&lt;/h3&gt;
-&lt;p&gt;En mi último curso, decidí dar una pequeña introducción sobre CMake:&lt;/p&gt;
+&lt;h3 id=&#34;about-online-teaching&#34;&gt;&lt;span class=&#34;org-todo done DONE&#34;&gt;DONE&lt;/span&gt; About &lt;em&gt;online teaching&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;These days we have to be enclosed in our houses by the coronavirus (COVID-19),
+so in my University (in Granada) as the others in Spain, we had to became
+in &lt;em&gt;online teaching expert&lt;/em&gt; in a weekend.&lt;/p&gt;
+&lt;p&gt;For the courses we have following different approaches: Additional written
+material, several short videos about the materials, or conferences for
+giving the courses by video-conferences. All options have its advantages and
+drawbacks. However, because I like the feedback with the students (for instance,
+to make several examples in code about the concepts in my programming course),
+I have finally decided to give the course by video-conference. For
+recommendation of my university I use &lt;a href=&#34;https://meet.google.com/&#34;&gt;google meet&lt;/a&gt;, used also for the other
+teachers in the course. Personally, I prefer &lt;a href=&#34;https://meet.jit.si/&#34;&gt;Jitsi&lt;/a&gt;, not only it is open source,
+but it also it is comparable in features to the google option, it is a great
+option.&lt;/p&gt;
+&lt;p&gt;A part of the teaching by video-conference, I have put all the slides in the
+Moodle of the courses (actually, it was previously there), and I will try to put
+some Quiz to allow students to have a better feedback about their knowledge.&lt;/p&gt;
+&lt;p&gt;The main problem has been to have a deaf student. The video-conference is not
+good, and I have spent several days trying several tools to automatic caption
+the voice, but in Spanish too many tools do not give a good performance (they
+have a lot of errors), finally the best option was &lt;a href=&#34;https://abilityconnect.ua.es/?lang=en&#34;&gt;Ability Connect&lt;/a&gt;, a tool from
+University of Alicante (Spain) for that. Unfortunately, sometimes it freezes.&lt;/p&gt;
+&lt;p&gt;Some people should think that I will have less work, but actually the situation
+have put me more work in teaching. It is good to learn new skills, but it takes
+a lot of time.&lt;/p&gt;
+&lt;h3 id=&#34;my-first-julia-package&#34;&gt;&lt;span class=&#34;org-todo done DONE&#34;&gt;DONE&lt;/span&gt; My first Julia Package&lt;/h3&gt;
+&lt;p&gt;For online teaching I use Moodle. I have a lot of experience using it (for more
+than 10 years). Unfortunately, the software could be improved a lot. My main
+complains are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;You can import the grades using an Excel file. However, you cannot import the
+comments.  I like to give comment to explain the reason of the qualifications.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The Quiz is potent, but the creation of questions is very slow. Also, in my
+University several teachers have historically used another software. However,
+Moodle is unable to import these questions (in a different XML format).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In order to solve the second one, and in conjunction with my interest in Julia,
+I have created a package: &lt;a href=&#34;https://github.com/dmolina/MoodleQuestions.jl&#34;&gt;MoodleQuestions&lt;/a&gt;. Not only it is able to export from
+the previous software, but it is also able to create the questions in a
+MoodleXML from a more intuitive file, in text file:&lt;/p&gt;
+&lt;h4 id=&#34;input-text-file-format&#34;&gt;Input text file format&lt;/h4&gt;
+&lt;p&gt;This package is able to read a text file. The format has been designed to be as simple and readable as possible.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-text&#34;&gt; * Category 1
 
+Question 1
 
+- Option 1.1.
+- Option 1.2.
++ Option 1.3.
 
+ * Category 2
 
+Question 2
 
-
-
-
-
-
-
-
-
-&lt;figure&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/capture_spanish.png&#34; &gt;
-&lt;img data-src=&#34;/img/capture_spanish.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
++ Option 2.1.
+- Option 2.2.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The sentences starting with * is a new category, with the name.&lt;/p&gt;
+&lt;p&gt;The sentences without *, +, or - are the text of the question. It is expected to
+be from only one line.&lt;/p&gt;
+&lt;p&gt;The sentences starting with - or + and the different answers for the previous
+question. The - means that the answer is false, and the + means that the
+sentence is the right answer.&lt;/p&gt;
+&lt;p&gt;The answers in the question are shuffle, except when one of the word of A, B,
+&amp;hellip; is used. In these cases, the order of the options is maintained.&lt;/p&gt;
+&lt;p&gt;In my opinion, to create a text file with the questions in that format is a lot
+easier than using the web interface of Moodle.&lt;/p&gt;
+&lt;h4 id=&#34;my-experience-creating-a-package&#34;&gt;My experience creating a package&lt;/h4&gt;
+&lt;p&gt;I have experience creating a PyPI package in Python, and I only can say that
+creating a Julia package is a lot easier.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;First, there are packages like &lt;a href=&#34;https://github.com/invenia/PkgTemplates.jl&#34;&gt;PkgTemplates&lt;/a&gt; that create all the structure of
+the code.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Because in Julia you can add a non-official package adding the github url,
+you can use the package working (and share it) without have to register it.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The tests can be tested very easily with &lt;a href=&#34;https://travis-ci.com/dmolina/MoodleQuestions.jl&#34;&gt;Tracis CI&lt;/a&gt;, for different Julia
+version and Operative System (it detected an error only in Windows). However,
+because Julia is not officially supported and the Sandbox implies to install
+all required packages for each time, the time in the test implies a lot of
+time, more than 1m30 in several versions. At least, it gives the tranquility
+of working in different julia versions.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The documentation can be done very easily with &lt;a href=&#34;https://github.com/JuliaDocs/Documenter.jl&#34;&gt;Documenter.jl&lt;/a&gt;, and it publish
+in Github Pages (the only problem was to define the DOCUMENTER_KEY
+environment variable, but the error was clear).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The Registration is was very simple. Originally, you had to do a Pull Request
+to the &lt;a href=&#34;https://github.com/JuliaRegistries/General&#34;&gt;https://github.com/JuliaRegistries/General&lt;/a&gt; repository. However,
+nowadays you should use &lt;a href=&#34;https://github.com/JuliaRegistries/Registrator.jl&#34;&gt;https://github.com/JuliaRegistries/Registrator.jl&lt;/a&gt;,
+that with a simple web interface it will do the PR for you (only the URL is
+required).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;To summarise, the experience has been very positive. In my opinion, you are a
+lot more lost than in Python when you have to create your first setup.py, and it
+is easier to follow the good practices of Continous Integration with tests and
+Documentation. Also, there is a great presentation at
+&lt;a href=&#34;https://www.youtube.com/watch?v=QVmU29rCjaA&#34;&gt;https://www.youtube.com/watch?v=QVmU29rCjaA&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;my-julia-journey&#34;&gt;&lt;span class=&#34;org-todo done DONE&#34;&gt;DONE&lt;/span&gt; My Julia journey&lt;/h3&gt;
+&lt;p&gt;In this post I am going to tell my Julia journey.&lt;/p&gt;
+&lt;p&gt;I have read about Julia but not actually use it before version 0.7 just before
+1.0. I work on Machine Learning and stochastic optimization (with evolutionary
+computation). In Machine Learning (and Deep Learning) I work nicely with Python
+(Scikit-learn and Keras/PyTorch). However, in optimization I usually did
+prototype in Python, and later have to translate to C++ for performance (well,
+not while the function evaluation takes too much). Now I starting using Julia
+for these algorithms (I prefer it a lot against Numpy). For ML I am actually
+testing options with Julia
+(&lt;a href=&#34;https://github.com/alan-turing-institute/MLJ.jl&#34;&gt;MLJ.jl&lt;/a&gt; and
+&lt;a href=&#34;https://github.com/FluxML/Flux.jl&#34;&gt;Flux&lt;/a&gt; mainly).&lt;/p&gt;
+&lt;p&gt;My main problem is the lack of examples/tutorials in the documentation for
+several packages. Also, some missing functionality. I am going to explain it
+with an example. I did a small website in Julia to receive a file and transform
+it (for learning, I have experience in other technologies like Python/JS, ..)
+&lt;a href=&#34;http://pradofacil.danimolina.net/&#34;&gt;http://pradofacil.danimolina.net/&lt;/a&gt;. I did it using Frankling have to create my
+own website, it was nice. The server side I have two problems:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;HTTP.jl is simple but not very complete, I have to create my own function to
+extract the POST parameters.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;I wanted to have error messages in two different languages (English and
+Spanish), but the Gettext package did required Python, and I do not want to
+install it in the server only for that. So, I create my own package
+&lt;a href=&#34;https://github.com/dmolina/SimpleTranslations.jl&#34;&gt;SimpleTranslation.jl&lt;/a&gt; to
+translate easy messages in a simple way.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Usually I create scripts, but in Julia the time required to load the packages
+make them slower than similar to Python. In order to reduce that problem I
+recently created &lt;a href=&#34;https://github.com/dmolina/DaemonMode.jl&#34;&gt;DaemonMode.jl&lt;/a&gt;
+package, that got a great interest (even it was mentioned in JuliaCon 2020!).&lt;/p&gt;
+&lt;p&gt;The good and bad:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;good: How easily is to create packages, and register it. The syntax, and many
+great packages: DataFrames, Plots, &amp;hellip;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;bad: documentation of several packages. There is the API, but learning to use
+them usually implies several tests.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To summarise, it is a great language. When you use it, sometimes to affort small
+problems due to a not too mature ecosystem, but the evolution is clearly to
+best. For sure I will use it!&lt;/p&gt;
 &lt;h2 id=&#34;opensource&#34;&gt;OpenSource&lt;/h2&gt;
 &lt;h3 id=&#34;firefox-3-dot-5-and-mouseless&#34;&gt;&lt;span class=&#34;org-todo done DONE&#34;&gt;DONE&lt;/span&gt; Firefox 3.5 and Mouseless&lt;/h3&gt;
 &lt;p&gt;I have recently changed to &lt;a href=&#34;https://www.mozilla.org/en-US/firefox/new/&#34;&gt;Firefox 3.5&lt;/a&gt;, and it is awesome!!&lt;/p&gt;
@@ -2195,10 +2441,16 @@ like me :-).&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;To summarize, if you do not like use the mouse for almost everything, and you
 want to browse more easily, try &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/tridactyl-vim/&#34;&gt;Tridactyl&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;año-nuevo&#34;&gt;Año nuevo&lt;/h3&gt;
+&lt;p&gt;! Bienvenidos !&lt;/p&gt;
+&lt;p&gt;En este año 2022 me he planteado usar mucho más el blog. Tras mucho pensar he
+llegado a la conclusión que para agilizarlo voy a empezar a escribir en Español.&lt;/p&gt;
+&lt;p&gt;Mi idea inicial era escribir en inglés pero eso hace que tenga &lt;strong&gt;mucha pereza&lt;/strong&gt; en
+escribirlo.&lt;/p&gt;
 &lt;h2 id=&#34;computer-science&#34;&gt;Computer_Science&lt;/h2&gt;
-&lt;h3 id=&#34;participation-in-ieee-congress-on-evolutionary-computation-cec-2018&#34;&gt;&lt;span class=&#34;org-todo done DONE&#34;&gt;DONE&lt;/span&gt; Participation in IEEE Congress on Evolutionary Computation CEC&#39;2018&lt;/h3&gt;
+&lt;h3 id=&#34;participation-in-ieee-congress-on-evolutionary-computation-cec-2018&#34;&gt;&lt;span class=&#34;org-todo done DONE&#34;&gt;DONE&lt;/span&gt; Participation in IEEE Congress on Evolutionary Computation CEC&amp;rsquo;2018&lt;/h3&gt;
 &lt;p&gt;Several weeks ago, I was at the the &lt;a href=&#34;http://www.ecomp.poli.br/~wcci2018/&#34;&gt;IEEE Conference on Evolutionary Computation
-(CEC&#39;2018)&lt;/a&gt;, and also at the National Conference on Artificial Intelligence,
+(CEC&amp;rsquo;2018)&lt;/a&gt;, and also at the National Conference on Artificial Intelligence,
 in Spain, &lt;a href=&#34;https://sci2s.ugr.es/caepia18/inicio.html&#34;&gt;website&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;In &lt;a href=&#34;https://speakerdeck.com/dmolina&#34;&gt;https://speakerdeck.com/dmolina&lt;/a&gt; there are the slides of my
 presentations in the International Conference.&lt;/p&gt;
@@ -2207,14 +2459,14 @@ presentations in the International Conference.&lt;/p&gt;
 &lt;li&gt;A new algorithm, &lt;strong&gt;SHADE-ILS&lt;/strong&gt; which won the Large Scale Global Optimization,
 &lt;a href=&#34;https://speakerdeck.com/dmolina/shade-with-iterative-local-search-for-large-scale-global-optimization&#34;&gt;slides&lt;/a&gt;. You spanish readers, there is also a new &lt;a href=&#34;https://speakerdeck.com/dmolina/shade-con-una-busqueda-local-iterativa-para-optimizacion-continua-de-alta-dimensionalidad&#34;&gt;version in Spanish.&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;In English&lt;/strong&gt;&lt;/p&gt;
-&lt;script async class=&#34;speakerdeck-embed&#34;
-data-id=&#34;22192a5760234cb8984632450bec1b42&#34; data-ratio=&#34;1.33333333333333&#34;
-src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
-&lt;p&gt;&lt;strong&gt;In Spanish&lt;/strong&gt;&lt;/p&gt;
-&lt;script async class=&#34;speakerdeck-embed&#34;
-data-id=&#34;91646e938fd34096b1613126a1828101&#34; data-ratio=&#34;1.33333333333333&#34;
-src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+&lt;p&gt;&lt;strong&gt;In English&lt;/strong&gt;
+&amp;lt;script async class=&amp;quot;speakerdeck-embed&amp;rdquo;
+data-id=&amp;quot;22192a5760234cb8984632450bec1b42&amp;rdquo; data-ratio=&amp;quot;1.33333333333333&amp;rdquo;
+src=&amp;rdquo;//speakerdeck.com/assets/embed.js&amp;rdquo;&amp;gt;&amp;lt;/script&amp;gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;In Spanish&lt;/strong&gt;
+&amp;lt;script async class=&amp;quot;speakerdeck-embed&amp;rdquo;
+data-id=&amp;quot;91646e938fd34096b1613126a1828101&amp;rdquo; data-ratio=&amp;quot;1.33333333333333&amp;rdquo;
+src=&amp;rdquo;//speakerdeck.com/assets/embed.js&amp;rdquo;&amp;gt;&amp;lt;/script&amp;gt;&lt;/p&gt;
 
 
 
@@ -2250,9 +2502,9 @@ described &lt;a href=&#34;https://speakerdeck.com/dmolina/taco-toolkit-for-autom
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;PS&lt;/strong&gt;: I will talk about the Tacolab website in next entries, because it is the
 results of many weeks of works.&lt;/p&gt;
-&lt;h3 id=&#34;new-lsgo-competition-at-the-cec-2019&#34;&gt;&lt;span class=&#34;org-todo done DONE&#34;&gt;DONE&lt;/span&gt; New LSGO Competition at the CEC&#39;2019&lt;/h3&gt;
+&lt;h3 id=&#34;new-lsgo-competition-at-the-cec-2019&#34;&gt;&lt;span class=&#34;org-todo done DONE&#34;&gt;DONE&lt;/span&gt; New LSGO Competition at the CEC&amp;rsquo;2019&lt;/h3&gt;
 &lt;p&gt;I write because I am organizing the &lt;a href=&#34;http://www.tflsgo.org/special%5Fsessions/cec2019.html&#34;&gt;Large-Scale Global Optimization Competition&lt;/a&gt;
-at the &lt;a href=&#34;http://cec2019.org/&#34;&gt;IEEE Congress on Evolutionary Computation CEC&#39;2019&lt;/a&gt;, with interesting
+at the &lt;a href=&#34;http://cec2019.org/&#34;&gt;IEEE Congress on Evolutionary Computation CEC&amp;rsquo;2019&lt;/a&gt;, with interesting
 news:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -2272,7 +2524,7 @@ do the tables, figures and comparisons for you (including statistical testing).&
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;There is not excuse for not participating!&lt;/p&gt;
-&lt;h3 id=&#34;packages-in-python-for-cec-2019-100-digit-competition&#34;&gt;&lt;span class=&#34;org-todo done DONE&#34;&gt;DONE&lt;/span&gt; Packages in Python for CEC&#39;2019 100 Digit Competition&lt;/h3&gt;
+&lt;h3 id=&#34;packages-in-python-for-cec-2019-100-digit-competition&#34;&gt;&lt;span class=&#34;org-todo done DONE&#34;&gt;DONE&lt;/span&gt; Packages in Python for CEC&amp;rsquo;2019 100 Digit Competition&lt;/h3&gt;
 &lt;p&gt;I usually design my evolutionary algorithms in Python (initially for
 prototyping, but I am too lazy for doing later a version in C/C++ or similar).
 However, unfortunately, the majority of people in my area work in Matlab 😭.
@@ -2280,7 +2532,7 @@ Thus, sometimes I have to wrap the source code for the benchmarks in competition
 to python ☺.&lt;/p&gt;
 &lt;p&gt;This is the story of the my new package at PyPi:
 &lt;a href=&#34;https://pypi.org/project/cec2019comp100digit/&#34;&gt;https://pypi.org/project/cec2019comp100digit/&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;This package is for being able to participate in the &lt;a href=&#34;http://cec2019.org/programs/competitions.html#cec-06&#34;&gt;CEC&#39;2019 100-Digit Challenge
+&lt;p&gt;This package is for being able to participate in the &lt;a href=&#34;http://cec2019.org/programs/competitions.html#cec-06&#34;&gt;CEC&amp;rsquo;2019 100-Digit Challenge
 Competition&lt;/a&gt;, website here:
 &lt;a href=&#34;http://www.ntu.edu.sg/home/epnsugan/index%5Ffiles/CEC2019/CEC2019.htm&#34;&gt;http://www.ntu.edu.sg/home/epnsugan/index%5Ffiles/CEC2019/CEC2019.htm&lt;/a&gt;.
 That website was the source code in C/C++ and Matlab (using mex), but it was
@@ -2346,6 +2598,48 @@ sol = np.random.rand(10)
 &lt;p&gt;You can also use it for participate in the competition.&lt;/p&gt;
 &lt;p&gt;I would like to take this opportunity to remind you that I too am organising
 &lt;a href=&#34;https://dmolina.github.io/en/post/lsgo%5Fcec2019/&#34;&gt;another competition&lt;/a&gt;, you do not any excuse 😄.&lt;/p&gt;
+&lt;h3 id=&#34;new-lsgo-competition-at-the-wcci-2020&#34;&gt;&lt;span class=&#34;org-todo done DONE&#34;&gt;DONE&lt;/span&gt; New LSGO Competition at the WCCI&amp;rsquo;2020&lt;/h3&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/wcci2020.png&#34; &gt;
+&lt;img data-src=&#34;/img/wcci2020.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;I write because I am organizing the &lt;a href=&#34;https://www.tflsgo.org/special%5Fsessions/wcci2020.html&#34;&gt;Large-Scale Global Optimization Competition&lt;/a&gt;
+at the &lt;a href=&#34;https://wcci2020.org/&#34;&gt;IEEE Congress on Evolutionary Computation WCCI&amp;rsquo;2020&lt;/a&gt;, with interesting
+news:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;I am not more the Chair of the IEEE CIS Task Force on Large Scale Global
+Optimization, but I organize in collaboration with them.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The new site &lt;a href=&#34;https://tacolab.org&#34;&gt;tacolab.org&lt;/a&gt; to compare your own proposals with existings ones, it
+do the tables, figures and comparisons for you (including statistical
+testing). Also, it includes data of all previous winners!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The deadline is 30 January, there is still time.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So, there is not excuse for not participating, I wait you in Glasglow!&lt;/p&gt;
 </description>
     </item>
     
@@ -2432,14 +2726,14 @@ many areas. For my research work, I usually creates/designs algorithms for conti
 good performance (to publish, it is usual to have to make many comparisons between algorithms, so the performance
 could be critical. However, for testing new ideas, many authors uses other tools like Mathlab that reduces the
 developer time at the cost of a higher computing time.&lt;/p&gt;
-&lt;p&gt;I agree that Mathlab is great for numerical algorithms, but I still prefer Python over Mathlab, because I&#39;m more confortable
-with it, and have many libraries, and it&#39;s more simpler to call code in other languages, written in C or Java. That allow us
+&lt;p&gt;I agree that Mathlab is great for numerical algorithms, but I still prefer Python over Mathlab, because I&amp;rsquo;m more confortable
+with it, and have many libraries, and it&amp;rsquo;s more simpler to call code in other languages, written in C or Java. That allow us
 to increase the performance, and I like to test how much it could be improved.&lt;/p&gt;
 &lt;p&gt;Several months ago, I start writing my most succesful algorithm, &lt;a href=&#34;http://sci2s.ugr.es/EAMHCO/#macmals&#34;&gt;Memetic Algorithms based on LS Chaining&lt;/a&gt;, in Python. I had several
 doubts about the performance, so I start writing one element, an Steady-State Genetic Algorithm, in Python.&lt;/p&gt;
 &lt;h2 id=&#34;calling-c-c-code-from-python&#34;&gt;Calling C/C++ code from python&lt;/h2&gt;
 &lt;p&gt;The first challenge I had to tackle was to allow my python program to use the same benchmark functions than other implementations,
-&lt;a href=&#34;http://sci2s.ugr.es/EAMHCO/#TestF&#34;&gt;CEC&#39;2005 benchmark&lt;/a&gt;.
+&lt;a href=&#34;http://sci2s.ugr.es/EAMHCO/#TestF&#34;&gt;CEC&amp;rsquo;2005 benchmark&lt;/a&gt;.
 This benchmark define the functions to optimize, thus its main funtionality is
 evaluate my solutions, when each solution is a vector of real numbers, with a real fitness value.
 The benchmark code was implemented (by its authors) in C/C++. So, my python code have to call C++ code.&lt;/p&gt;
@@ -2567,7 +2861,7 @@ of the computing time.&lt;/p&gt;
 &lt;p&gt;That proves the majority of computing time is due to a minority of the code,
 only three methods. If we can optimize these methods, our code could be
 improved a lot.&lt;/p&gt;
-&lt;p&gt;We can uses again the &lt;a href=&#34;http://www.boost.org/doc/libs/1_50_0/libs/python/doc/index.html&#34;&gt;boost::python&lt;/a&gt; package, but it&#39;s a bit tedious to use it. So, we have
+&lt;p&gt;We can uses again the &lt;a href=&#34;http://www.boost.org/doc/libs/1_50_0/libs/python/doc/index.html&#34;&gt;boost::python&lt;/a&gt; package, but it&amp;rsquo;s a bit tedious to use it. So, we have
 used the &lt;a href=&#34;http://www.cython.org/&#34;&gt;cython&lt;/a&gt; package. With cython we can optimize the source code adding
 information about the types.&lt;/p&gt;
 &lt;p&gt;For instead, Instead of the following code:&lt;/p&gt;
@@ -2621,7 +2915,7 @@ def distance(np.ndarray[DTYPE_t, ndim=1]ind1, np.ndarray[DTYPE_t, ndim=1] ind2):
 &lt;p&gt;We can see that is still very readable. we only have put information about the type
 and dimension in the vector parameters and about the variables, using the keyword
 cdef.&lt;/p&gt;
-&lt;p&gt;Let&#39;s see as an example the first method, the crossover operator, implemented
+&lt;p&gt;Let&amp;rsquo;s see as an example the first method, the crossover operator, implemented
 in the crossBLX method:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import numpy as np
 import math
@@ -2693,7 +2987,7 @@ defined directly implement the many operations, the following code:&lt;/p&gt;
     return C
 
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;It&#39;s true that the source code is more complicated, but it is still very readable.
+&lt;p&gt;It&amp;rsquo;s true that the source code is more complicated, but it is still very readable.
 I have compared the two implementation to make sure both return the same values.&lt;/p&gt;
 &lt;h2 id=&#34;measuring-the-improvement&#34;&gt;Measuring the improvement&lt;/h2&gt;
 &lt;p&gt;How much these small changes in the code?
@@ -2819,8 +3113,8 @@ in a cluster of computers. Unfortunately, an implementation in Mathlab not only 
 also, for licensing reasons, it could not run in parallel without limit.&lt;/p&gt;
 &lt;p&gt;In resume, we can uses python code, not only to create experimental prototypes, but also to create
 functional prototypes.&lt;/p&gt;
-&lt;p&gt;And about the possible testing problem, I&#39;ve been working on it, but I think it is enough for a post,
-didn&#39;t it? :-)&lt;/p&gt;
+&lt;p&gt;And about the possible testing problem, I&amp;rsquo;ve been working on it, but I think it is enough for a post,
+didn&amp;rsquo;t it? :-)&lt;/p&gt;
 &lt;p&gt;All the code refered in the post, both in python and cython, is available at &lt;a href=&#34;https://github.com/dmolina/pyreal&#34;&gt;github&lt;/a&gt;, if you want to see it.&lt;/p&gt;
 </description>
     </item>
@@ -2832,8 +3126,8 @@ didn&#39;t it? :-)&lt;/p&gt;
       <guid>/post/rmain/</guid>
       <description>&lt;p&gt;Today I was making a little programming using the mathematical software R (very useful
 for statistics, by the way), for a little test.&lt;/p&gt;
-&lt;p&gt;I&#39;m one of the authors of a Cran package (&lt;a href=&#34;http://cran.r-project.org/web/packages/Rmalschains/index.html&#34;&gt;Rmalschains&lt;/a&gt;) for continuous optimization, and I was testing another packages to compare results.&lt;/p&gt;
-&lt;p&gt;Comparing a particular package I realise that the API doesn&#39;t give me enough control for
+&lt;p&gt;I&amp;rsquo;m one of the authors of a Cran package (&lt;a href=&#34;http://cran.r-project.org/web/packages/Rmalschains/index.html&#34;&gt;Rmalschains&lt;/a&gt;) for continuous optimization, and I was testing another packages to compare results.&lt;/p&gt;
+&lt;p&gt;Comparing a particular package I realise that the API doesn&amp;rsquo;t give me enough control for
 the comparisons. Briefly, to compare different algorithms all of them should stop when the same
 number of solutions is achieved. Unfortunately, for the DE package, the stopping criterion is the
 maximum iterations number, and for one strategy (the default strategy) this number differs,
@@ -2900,11 +3194,11 @@ maximum number of call, and it stops when the maximum calls number is achieved
       <guid>/post/languages/</guid>
       <description>&lt;p&gt;I love to learn new programming languages, specially whose that has new features that could be used to change your personal
 programming way. Also, it is very useful to get used to accept new ideas and avoid get in in the famous &lt;em&gt;language wars&lt;/em&gt;.
-In this post, I&#39;m going to give my personal idea of these languages, starting from a C/C++ and Java
+In this post, I&amp;rsquo;m going to give my personal idea of these languages, starting from a C/C++ and Java
 programmer. Over all, this is my personal opinion, after hours of working in these languages, not only using a
 joy program.&lt;/p&gt;
 &lt;h2 id=&#34;perl&#34;&gt;Perl&lt;/h2&gt;
-&lt;p&gt;It was my first &lt;em&gt;scripting language&lt;/em&gt;, and I&#39;ve been working in Perl in a proyect for a private company for two years
+&lt;p&gt;It was my first &lt;em&gt;scripting language&lt;/em&gt;, and I&amp;rsquo;ve been working in Perl in a proyect for a private company for two years
 eight hours per day (my first job without extra hours without been paid). In that case, it was a good language decision,
 and I learnt many tricks to write readable programs in &lt;strong&gt;Perl&lt;/strong&gt;.&lt;/p&gt;
 &lt;ul&gt;
@@ -2922,17 +3216,17 @@ you want them.&lt;/p&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;span class=&#34;underline&#34;&gt;The bad:&lt;/span&gt;
 The original Object-Oriented, the complexity in creating your own modules (in comparisons to the simpler
-packages model like python). Also, if you don&#39;t want to use object-oriented, sometimes you need to create complex
+packages model like python). Also, if you don&amp;rsquo;t want to use object-oriented, sometimes you need to create complex
 combinations of &lt;em&gt;hashes&lt;/em&gt; and &lt;em&gt;arrays&lt;/em&gt; with references, and it is not very readable.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;span class=&#34;underline&#34;&gt;Developer tools&lt;/span&gt;: I usually edit with &lt;a href=&#34;http://www.vim.org&#34;&gt;Vim&lt;/a&gt;, I don&#39;t need any particular framework, but I strongly recommend strict
+&lt;p&gt;&lt;span class=&#34;underline&#34;&gt;Developer tools&lt;/span&gt;: I usually edit with &lt;a href=&#34;http://www.vim.org&#34;&gt;Vim&lt;/a&gt;, I don&amp;rsquo;t need any particular framework, but I strongly recommend strict
 mode, and essential packages like &lt;a href=&#34;http://search.cpan.org/search?q%3Dautodie&#34;&gt;autodie&lt;/a&gt;, &lt;a href=&#34;http://search.cpan.org/search?q%3DMoose&#34;&gt;Moose&lt;/a&gt;, &lt;a href=&#34;http://search.cpan.org/search?q%3DFile::IO&#34;&gt;&amp;lt;:IO&amp;gt;&lt;/a&gt;, test packages like &lt;a href=&#34;http://search.cpan.org/search?q%3DTest::More&#34;&gt;Test::More&lt;/a&gt;. Always check &lt;a href=&#34;http://www.cpan.org&#34;&gt;CPAN&lt;/a&gt; before a new
 proyect.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;I resume, although many people say that Perl is dead, it is still alive, and if you learn it, you don&#39;t regret it, it is
-a very useful tool. I still makes many small programs almost everyday using Perl because it&#39;s a very useful language,
+&lt;p&gt;I resume, although many people say that Perl is dead, it is still alive, and if you learn it, you don&amp;rsquo;t regret it, it is
+a very useful tool. I still makes many small programs almost everyday using Perl because it&amp;rsquo;s a very useful language,
 mainly for text processing (probably the best one).&lt;/p&gt;
 &lt;p&gt;To learn more I recommend the free book &lt;a href=&#34;http://hop.perl.plover.com/&#34;&gt;Higher-Order Perl&lt;/a&gt;, it is a opening book. Also, the freely book &lt;a href=&#34;http://www.modernperlbooks.com&#34;&gt;Modern Perl&lt;/a&gt; is a
 useful book to see new modern programming ways and wonderful packages.&lt;/p&gt;
@@ -2986,7 +3280,7 @@ be stronger and widely used.&lt;/p&gt;
 &lt;h2 id=&#34;in-resume&#34;&gt;In resume&lt;/h2&gt;
 &lt;p&gt;I always recommend to learn new languages. You can learn many possibilites: clojure, immutability, libraries, &amp;hellip; that are not
 so visible in your current main language.&lt;/p&gt;
-&lt;p&gt;PS: I have let out other languages that I&#39;ve been playing in: R, Ruby, Haskell, groovy, F# because I want to write only about languages
+&lt;p&gt;PS: I have let out other languages that I&amp;rsquo;ve been playing in: R, Ruby, Haskell, groovy, F# because I want to write only about languages
 in which I have a strong knowledge, and used it in real-word projects (and not only joy projects).&lt;/p&gt;
 </description>
     </item>
@@ -3033,6 +3327,14 @@ in which I have a strong knowledge, and used it in real-word projects (and not o
     
     <item>
       <title>Variable mesh optimization for continuous optimization problems</title>
+      <link>/publication/molina-2012/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/molina-2012/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Variable mesh optimization for continuous optimization problems</title>
       <link>/publication/puris-2012511/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
       <guid>/publication/puris-2012511/</guid>
@@ -3073,6 +3375,14 @@ in which I have a strong knowledge, and used it in real-word projects (and not o
     
     <item>
       <title>Memetic algorithms based on local search chains for large scale continuous optimisation problems: MA-SSW-Chains</title>
+      <link>/publication/molina-2011/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>/publication/molina-2011/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Memetic algorithms based on local search chains for large scale continuous optimisation problems: MA-SSW-Chains</title>
       <link>/publication/molina-20112201/</link>
       <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
       <guid>/publication/molina-20112201/</guid>
@@ -3080,7 +3390,15 @@ in which I have a strong knowledge, and used it in real-word projects (and not o
     </item>
     
     <item>
-      <title>MA-SW-Chains: Memetic algorithm based on local search chains for large scale continuous global optimization</title>
+      <title>Memetic Algorithms for Continuous Optimisation Based on Local Search Chains</title>
+      <link>/publication/rid-0417161430923-1/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>/publication/rid-0417161430923-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Memetic algorithms for continuous optimisation based on local search chains</title>
       <link>/publication/molina-2010/</link>
       <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
       <guid>/publication/molina-2010/</guid>
@@ -3121,6 +3439,14 @@ in which I have a strong knowledge, and used it in real-word projects (and not o
     
     <item>
       <title>Study of the influence of the local search method in memetic algorithms for large scale continuous optimization problems</title>
+      <link>/publication/molina-2009/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>/publication/molina-2009/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Study of the influence of the local search method in memetic algorithms for large scale continuous optimization problems</title>
       <link>/publication/molina-2009221/</link>
       <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
       <guid>/publication/molina-2009221/</guid>
@@ -3140,6 +3466,14 @@ in which I have a strong knowledge, and used it in real-word projects (and not o
       <link>/publication/molina-200858/</link>
       <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
       <guid>/publication/molina-200858/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Real-parameter crossover operators with multiple descendents: An experimental study</title>
+      <link>/publication/molina-2008/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      <guid>/publication/molina-2008/</guid>
       <description></description>
     </item>
     

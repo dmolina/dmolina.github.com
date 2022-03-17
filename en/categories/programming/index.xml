@@ -290,7 +290,7 @@ service with Python.&lt;/p&gt;
 &lt;a href=&#34;https://flask-restful.readthedocs.io/en/latest/&#34;&gt;Flask-Restful&lt;/a&gt; by its simplicity (and &lt;a href=&#34;http://flask-sqlalchemy.pocoo.org/2.3/&#34;&gt;Flask-SQLAlchemy&lt;/a&gt; for the communication with
 the database).&lt;/p&gt;
 &lt;p&gt;The problem with that was how to serve the &lt;a href=&#34;https://bokeh.pydata.org/en/latest/&#34;&gt;Bokeh&lt;/a&gt; figures as Rest services. I
-starting reading websites and manual and searching but I didn&#39;t get any
+starting reading websites and manual and searching but I didn&amp;rsquo;t get any
 satisfactory answer.&lt;/p&gt;
 &lt;p&gt;Hours later, I obtained the answer, so I am going to explain it to avoid the reader
 to waste his/her time.&lt;/p&gt;
@@ -527,14 +527,14 @@ many areas. For my research work, I usually creates/designs algorithms for conti
 good performance (to publish, it is usual to have to make many comparisons between algorithms, so the performance
 could be critical. However, for testing new ideas, many authors uses other tools like Mathlab that reduces the
 developer time at the cost of a higher computing time.&lt;/p&gt;
-&lt;p&gt;I agree that Mathlab is great for numerical algorithms, but I still prefer Python over Mathlab, because I&#39;m more confortable
-with it, and have many libraries, and it&#39;s more simpler to call code in other languages, written in C or Java. That allow us
+&lt;p&gt;I agree that Mathlab is great for numerical algorithms, but I still prefer Python over Mathlab, because I&amp;rsquo;m more confortable
+with it, and have many libraries, and it&amp;rsquo;s more simpler to call code in other languages, written in C or Java. That allow us
 to increase the performance, and I like to test how much it could be improved.&lt;/p&gt;
 &lt;p&gt;Several months ago, I start writing my most succesful algorithm, &lt;a href=&#34;http://sci2s.ugr.es/EAMHCO/#macmals&#34;&gt;Memetic Algorithms based on LS Chaining&lt;/a&gt;, in Python. I had several
 doubts about the performance, so I start writing one element, an Steady-State Genetic Algorithm, in Python.&lt;/p&gt;
 &lt;h2 id=&#34;calling-c-c-code-from-python&#34;&gt;Calling C/C++ code from python&lt;/h2&gt;
 &lt;p&gt;The first challenge I had to tackle was to allow my python program to use the same benchmark functions than other implementations,
-&lt;a href=&#34;http://sci2s.ugr.es/EAMHCO/#TestF&#34;&gt;CEC&#39;2005 benchmark&lt;/a&gt;.
+&lt;a href=&#34;http://sci2s.ugr.es/EAMHCO/#TestF&#34;&gt;CEC&amp;rsquo;2005 benchmark&lt;/a&gt;.
 This benchmark define the functions to optimize, thus its main funtionality is
 evaluate my solutions, when each solution is a vector of real numbers, with a real fitness value.
 The benchmark code was implemented (by its authors) in C/C++. So, my python code have to call C++ code.&lt;/p&gt;
@@ -662,7 +662,7 @@ of the computing time.&lt;/p&gt;
 &lt;p&gt;That proves the majority of computing time is due to a minority of the code,
 only three methods. If we can optimize these methods, our code could be
 improved a lot.&lt;/p&gt;
-&lt;p&gt;We can uses again the &lt;a href=&#34;http://www.boost.org/doc/libs/1_50_0/libs/python/doc/index.html&#34;&gt;boost::python&lt;/a&gt; package, but it&#39;s a bit tedious to use it. So, we have
+&lt;p&gt;We can uses again the &lt;a href=&#34;http://www.boost.org/doc/libs/1_50_0/libs/python/doc/index.html&#34;&gt;boost::python&lt;/a&gt; package, but it&amp;rsquo;s a bit tedious to use it. So, we have
 used the &lt;a href=&#34;http://www.cython.org/&#34;&gt;cython&lt;/a&gt; package. With cython we can optimize the source code adding
 information about the types.&lt;/p&gt;
 &lt;p&gt;For instead, Instead of the following code:&lt;/p&gt;
@@ -716,7 +716,7 @@ def distance(np.ndarray[DTYPE_t, ndim=1]ind1, np.ndarray[DTYPE_t, ndim=1] ind2):
 &lt;p&gt;We can see that is still very readable. we only have put information about the type
 and dimension in the vector parameters and about the variables, using the keyword
 cdef.&lt;/p&gt;
-&lt;p&gt;Let&#39;s see as an example the first method, the crossover operator, implemented
+&lt;p&gt;Let&amp;rsquo;s see as an example the first method, the crossover operator, implemented
 in the crossBLX method:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import numpy as np
 import math
@@ -788,7 +788,7 @@ defined directly implement the many operations, the following code:&lt;/p&gt;
     return C
 
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;It&#39;s true that the source code is more complicated, but it is still very readable.
+&lt;p&gt;It&amp;rsquo;s true that the source code is more complicated, but it is still very readable.
 I have compared the two implementation to make sure both return the same values.&lt;/p&gt;
 &lt;h2 id=&#34;measuring-the-improvement&#34;&gt;Measuring the improvement&lt;/h2&gt;
 &lt;p&gt;How much these small changes in the code?
@@ -914,8 +914,8 @@ in a cluster of computers. Unfortunately, an implementation in Mathlab not only 
 also, for licensing reasons, it could not run in parallel without limit.&lt;/p&gt;
 &lt;p&gt;In resume, we can uses python code, not only to create experimental prototypes, but also to create
 functional prototypes.&lt;/p&gt;
-&lt;p&gt;And about the possible testing problem, I&#39;ve been working on it, but I think it is enough for a post,
-didn&#39;t it? :-)&lt;/p&gt;
+&lt;p&gt;And about the possible testing problem, I&amp;rsquo;ve been working on it, but I think it is enough for a post,
+didn&amp;rsquo;t it? :-)&lt;/p&gt;
 &lt;p&gt;All the code refered in the post, both in python and cython, is available at &lt;a href=&#34;https://github.com/dmolina/pyreal&#34;&gt;github&lt;/a&gt;, if you want to see it.&lt;/p&gt;
 </description>
     </item>
@@ -927,8 +927,8 @@ didn&#39;t it? :-)&lt;/p&gt;
       <guid>/post/rmain/</guid>
       <description>&lt;p&gt;Today I was making a little programming using the mathematical software R (very useful
 for statistics, by the way), for a little test.&lt;/p&gt;
-&lt;p&gt;I&#39;m one of the authors of a Cran package (&lt;a href=&#34;http://cran.r-project.org/web/packages/Rmalschains/index.html&#34;&gt;Rmalschains&lt;/a&gt;) for continuous optimization, and I was testing another packages to compare results.&lt;/p&gt;
-&lt;p&gt;Comparing a particular package I realise that the API doesn&#39;t give me enough control for
+&lt;p&gt;I&amp;rsquo;m one of the authors of a Cran package (&lt;a href=&#34;http://cran.r-project.org/web/packages/Rmalschains/index.html&#34;&gt;Rmalschains&lt;/a&gt;) for continuous optimization, and I was testing another packages to compare results.&lt;/p&gt;
+&lt;p&gt;Comparing a particular package I realise that the API doesn&amp;rsquo;t give me enough control for
 the comparisons. Briefly, to compare different algorithms all of them should stop when the same
 number of solutions is achieved. Unfortunately, for the DE package, the stopping criterion is the
 maximum iterations number, and for one strategy (the default strategy) this number differs,
@@ -995,11 +995,11 @@ maximum number of call, and it stops when the maximum calls number is achieved
       <guid>/post/languages/</guid>
       <description>&lt;p&gt;I love to learn new programming languages, specially whose that has new features that could be used to change your personal
 programming way. Also, it is very useful to get used to accept new ideas and avoid get in in the famous &lt;em&gt;language wars&lt;/em&gt;.
-In this post, I&#39;m going to give my personal idea of these languages, starting from a C/C++ and Java
+In this post, I&amp;rsquo;m going to give my personal idea of these languages, starting from a C/C++ and Java
 programmer. Over all, this is my personal opinion, after hours of working in these languages, not only using a
 joy program.&lt;/p&gt;
 &lt;h2 id=&#34;perl&#34;&gt;Perl&lt;/h2&gt;
-&lt;p&gt;It was my first &lt;em&gt;scripting language&lt;/em&gt;, and I&#39;ve been working in Perl in a proyect for a private company for two years
+&lt;p&gt;It was my first &lt;em&gt;scripting language&lt;/em&gt;, and I&amp;rsquo;ve been working in Perl in a proyect for a private company for two years
 eight hours per day (my first job without extra hours without been paid). In that case, it was a good language decision,
 and I learnt many tricks to write readable programs in &lt;strong&gt;Perl&lt;/strong&gt;.&lt;/p&gt;
 &lt;ul&gt;
@@ -1017,17 +1017,17 @@ you want them.&lt;/p&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;span class=&#34;underline&#34;&gt;The bad:&lt;/span&gt;
 The original Object-Oriented, the complexity in creating your own modules (in comparisons to the simpler
-packages model like python). Also, if you don&#39;t want to use object-oriented, sometimes you need to create complex
+packages model like python). Also, if you don&amp;rsquo;t want to use object-oriented, sometimes you need to create complex
 combinations of &lt;em&gt;hashes&lt;/em&gt; and &lt;em&gt;arrays&lt;/em&gt; with references, and it is not very readable.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;span class=&#34;underline&#34;&gt;Developer tools&lt;/span&gt;: I usually edit with &lt;a href=&#34;http://www.vim.org&#34;&gt;Vim&lt;/a&gt;, I don&#39;t need any particular framework, but I strongly recommend strict
+&lt;p&gt;&lt;span class=&#34;underline&#34;&gt;Developer tools&lt;/span&gt;: I usually edit with &lt;a href=&#34;http://www.vim.org&#34;&gt;Vim&lt;/a&gt;, I don&amp;rsquo;t need any particular framework, but I strongly recommend strict
 mode, and essential packages like &lt;a href=&#34;http://search.cpan.org/search?q%3Dautodie&#34;&gt;autodie&lt;/a&gt;, &lt;a href=&#34;http://search.cpan.org/search?q%3DMoose&#34;&gt;Moose&lt;/a&gt;, &lt;a href=&#34;http://search.cpan.org/search?q%3DFile::IO&#34;&gt;&amp;lt;:IO&amp;gt;&lt;/a&gt;, test packages like &lt;a href=&#34;http://search.cpan.org/search?q%3DTest::More&#34;&gt;Test::More&lt;/a&gt;. Always check &lt;a href=&#34;http://www.cpan.org&#34;&gt;CPAN&lt;/a&gt; before a new
 proyect.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;I resume, although many people say that Perl is dead, it is still alive, and if you learn it, you don&#39;t regret it, it is
-a very useful tool. I still makes many small programs almost everyday using Perl because it&#39;s a very useful language,
+&lt;p&gt;I resume, although many people say that Perl is dead, it is still alive, and if you learn it, you don&amp;rsquo;t regret it, it is
+a very useful tool. I still makes many small programs almost everyday using Perl because it&amp;rsquo;s a very useful language,
 mainly for text processing (probably the best one).&lt;/p&gt;
 &lt;p&gt;To learn more I recommend the free book &lt;a href=&#34;http://hop.perl.plover.com/&#34;&gt;Higher-Order Perl&lt;/a&gt;, it is a opening book. Also, the freely book &lt;a href=&#34;http://www.modernperlbooks.com&#34;&gt;Modern Perl&lt;/a&gt; is a
 useful book to see new modern programming ways and wonderful packages.&lt;/p&gt;
@@ -1081,7 +1081,7 @@ be stronger and widely used.&lt;/p&gt;
 &lt;h2 id=&#34;in-resume&#34;&gt;In resume&lt;/h2&gt;
 &lt;p&gt;I always recommend to learn new languages. You can learn many possibilites: clojure, immutability, libraries, &amp;hellip; that are not
 so visible in your current main language.&lt;/p&gt;
-&lt;p&gt;PS: I have let out other languages that I&#39;ve been playing in: R, Ruby, Haskell, groovy, F# because I want to write only about languages
+&lt;p&gt;PS: I have let out other languages that I&amp;rsquo;ve been playing in: R, Ruby, Haskell, groovy, F# because I want to write only about languages
 in which I have a strong knowledge, and used it in real-word projects (and not only joy projects).&lt;/p&gt;
 </description>
     </item>

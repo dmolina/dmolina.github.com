@@ -41,7 +41,7 @@
 &lt;/figure&gt;
 
 &lt;p&gt;I write because I am organizing the &lt;a href=&#34;https://www.tflsgo.org/special%5Fsessions/wcci2020.html&#34;&gt;Large-Scale Global Optimization Competition&lt;/a&gt;
-at the &lt;a href=&#34;https://wcci2020.org/&#34;&gt;IEEE Congress on Evolutionary Computation WCCI&#39;2020&lt;/a&gt;, with interesting
+at the &lt;a href=&#34;https://wcci2020.org/&#34;&gt;IEEE Congress on Evolutionary Computation WCCI&amp;rsquo;2020&lt;/a&gt;, with interesting
 news:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -92,7 +92,7 @@ Thus, sometimes I have to wrap the source code for the benchmarks in competition
 to python ☺.&lt;/p&gt;
 &lt;p&gt;This is the story of the my new package at PyPi:
 &lt;a href=&#34;https://pypi.org/project/cec2019comp100digit/&#34;&gt;https://pypi.org/project/cec2019comp100digit/&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;This package is for being able to participate in the &lt;a href=&#34;http://cec2019.org/programs/competitions.html#cec-06&#34;&gt;CEC&#39;2019 100-Digit Challenge
+&lt;p&gt;This package is for being able to participate in the &lt;a href=&#34;http://cec2019.org/programs/competitions.html#cec-06&#34;&gt;CEC&amp;rsquo;2019 100-Digit Challenge
 Competition&lt;/a&gt;, website here:
 &lt;a href=&#34;http://www.ntu.edu.sg/home/epnsugan/index%5Ffiles/CEC2019/CEC2019.htm&#34;&gt;http://www.ntu.edu.sg/home/epnsugan/index%5Ffiles/CEC2019/CEC2019.htm&lt;/a&gt;.
 That website was the source code in C/C++ and Matlab (using mex), but it was
@@ -167,7 +167,7 @@ sol = np.random.rand(10)
       <pubDate>Thu, 13 Dec 2018 11:47:00 +0100</pubDate>
       <guid>/post/lsgo_cec2019/</guid>
       <description>&lt;p&gt;I write because I am organizing the &lt;a href=&#34;http://www.tflsgo.org/special%5Fsessions/cec2019.html&#34;&gt;Large-Scale Global Optimization Competition&lt;/a&gt;
-at the &lt;a href=&#34;http://cec2019.org/&#34;&gt;IEEE Congress on Evolutionary Computation CEC&#39;2019&lt;/a&gt;, with interesting
+at the &lt;a href=&#34;http://cec2019.org/&#34;&gt;IEEE Congress on Evolutionary Computation CEC&amp;rsquo;2019&lt;/a&gt;, with interesting
 news:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -196,7 +196,7 @@ do the tables, figures and comparisons for you (including statistical testing).&
       <pubDate>Tue, 13 Nov 2018 14:09:00 +0100</pubDate>
       <guid>/post/cec2018/</guid>
       <description>&lt;p&gt;Several weeks ago, I was at the the &lt;a href=&#34;http://www.ecomp.poli.br/~wcci2018/&#34;&gt;IEEE Conference on Evolutionary Computation
-(CEC&#39;2018)&lt;/a&gt;, and also at the National Conference on Artificial Intelligence,
+(CEC&amp;rsquo;2018)&lt;/a&gt;, and also at the National Conference on Artificial Intelligence,
 in Spain, &lt;a href=&#34;https://sci2s.ugr.es/caepia18/inicio.html&#34;&gt;website&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;In &lt;a href=&#34;https://speakerdeck.com/dmolina&#34;&gt;https://speakerdeck.com/dmolina&lt;/a&gt; there are the slides of my
 presentations in the International Conference.&lt;/p&gt;

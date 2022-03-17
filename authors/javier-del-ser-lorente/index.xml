@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JAVIER DEL SER LORENTE | Daniel Molina profile</title>
+    <link>/authors/javier-del-ser-lorente/</link>
+      <atom:link href="/authors/javier-del-ser-lorente/index.xml" rel="self" type="application/rss+xml" />
+    <description>JAVIER DEL SER LORENTE</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>JAVIER DEL SER LORENTE</title>
+      <link>/authors/javier-del-ser-lorente/</link>
+    </image>
+    
+    <item>
+      <title>NATURE- AND BIO-INSPIRED OPTIMIZATION: THE GOOD, THE BAD, THE UGLY AND THE HOPEFUL</title>
+      <link>/publication/d-molina-108955831/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/d-molina-108955831/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

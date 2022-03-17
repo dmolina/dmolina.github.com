@@ -627,14 +627,14 @@ many areas. For my research work, I usually creates/designs algorithms for conti
 good performance (to publish, it is usual to have to make many comparisons between algorithms, so the performance
 could be critical. However, for testing new ideas, many authors uses other tools like Mathlab that reduces the
 developer time at the cost of a higher computing time.</p>
-<p>I agree that Mathlab is great for numerical algorithms, but I still prefer Python over Mathlab, because I'm more confortable
-with it, and have many libraries, and it's more simpler to call code in other languages, written in C or Java. That allow us
+<p>I agree that Mathlab is great for numerical algorithms, but I still prefer Python over Mathlab, because I&rsquo;m more confortable
+with it, and have many libraries, and it&rsquo;s more simpler to call code in other languages, written in C or Java. That allow us
 to increase the performance, and I like to test how much it could be improved.</p>
 <p>Several months ago, I start writing my most succesful algorithm, <a href="http://sci2s.ugr.es/EAMHCO/#macmals">Memetic Algorithms based on LS Chaining</a>, in Python. I had several
 doubts about the performance, so I start writing one element, an Steady-State Genetic Algorithm, in Python.</p>
 <h2 id="calling-c-c-code-from-python">Calling C/C++ code from python</h2>
 <p>The first challenge I had to tackle was to allow my python program to use the same benchmark functions than other implementations,
-<a href="http://sci2s.ugr.es/EAMHCO/#TestF">CEC'2005 benchmark</a>.
+<a href="http://sci2s.ugr.es/EAMHCO/#TestF">CEC&rsquo;2005 benchmark</a>.
 This benchmark define the functions to optimize, thus its main funtionality is
 evaluate my solutions, when each solution is a vector of real numbers, with a real fitness value.
 The benchmark code was implemented (by its authors) in C/C++. So, my python code have to call C++ code.</p>
@@ -762,7 +762,7 @@ of the computing time.</p>
 <p>That proves the majority of computing time is due to a minority of the code,
 only three methods. If we can optimize these methods, our code could be
 improved a lot.</p>
-<p>We can uses again the <a href="http://www.boost.org/doc/libs/1_50_0/libs/python/doc/index.html">boost::python</a> package, but it's a bit tedious to use it. So, we have
+<p>We can uses again the <a href="http://www.boost.org/doc/libs/1_50_0/libs/python/doc/index.html">boost::python</a> package, but it&rsquo;s a bit tedious to use it. So, we have
 used the <a href="http://www.cython.org/">cython</a> package. With cython we can optimize the source code adding
 information about the types.</p>
 <p>For instead, Instead of the following code:</p>
@@ -816,7 +816,7 @@ def distance(np.ndarray[DTYPE_t, ndim=1]ind1, np.ndarray[DTYPE_t, ndim=1] ind2):
 <p>We can see that is still very readable. we only have put information about the type
 and dimension in the vector parameters and about the variables, using the keyword
 cdef.</p>
-<p>Let's see as an example the first method, the crossover operator, implemented
+<p>Let&rsquo;s see as an example the first method, the crossover operator, implemented
 in the crossBLX method:</p>
 <pre><code class="language-python">import numpy as np
 import math
@@ -888,7 +888,7 @@ defined directly implement the many operations, the following code:</p>
     return C
 
 </code></pre>
-<p>It's true that the source code is more complicated, but it is still very readable.
+<p>It&rsquo;s true that the source code is more complicated, but it is still very readable.
 I have compared the two implementation to make sure both return the same values.</p>
 <h2 id="measuring-the-improvement">Measuring the improvement</h2>
 <p>How much these small changes in the code?
@@ -1014,8 +1014,8 @@ in a cluster of computers. Unfortunately, an implementation in Mathlab not only 
 also, for licensing reasons, it could not run in parallel without limit.</p>
 <p>In resume, we can uses python code, not only to create experimental prototypes, but also to create
 functional prototypes.</p>
-<p>And about the possible testing problem, I've been working on it, but I think it is enough for a post,
-didn't it? :-)</p>
+<p>And about the possible testing problem, I&rsquo;ve been working on it, but I think it is enough for a post,
+didn&rsquo;t it? :-)</p>
 <p>All the code refered in the post, both in python and cython, is available at <a href="https://github.com/dmolina/pyreal">github</a>, if you want to see it.</p>
 
     </div>
@@ -1328,6 +1328,13 @@ didn't it? :-)</p>
   
   <div class="container">
     <footer class="site-footer">
+  
+  <p class="powered-by">
+    
+      <a href="/tags/privacy/">Privacy</a>
+    
+    
+  </p>
   
 
   <p class="powered-by">

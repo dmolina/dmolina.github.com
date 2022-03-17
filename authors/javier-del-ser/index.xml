@@ -5,7 +5,7 @@
     <link>/authors/javier-del-ser/</link>
       <atom:link href="/authors/javier-del-ser/index.xml" rel="self" type="application/rss+xml" />
     <description>Javier Del Ser</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Javier Del Ser</title>
@@ -17,6 +17,14 @@
       <link>/publication/barredoarrieta-202082/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>/publication/barredoarrieta-202082/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bio-inspired computation: Where we stand and what′s next</title>
+      <link>/publication/del-ser-2019/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/del-ser-2019/</guid>
       <description></description>
     </item>
     

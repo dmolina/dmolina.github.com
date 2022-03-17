@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>A. Latorre | Daniel Molina profile</title>
+    <title>A. LaTorre | Daniel Molina profile</title>
     <link>/authors/a.-latorre/</link>
       <atom:link href="/authors/a.-latorre/index.xml" rel="self" type="application/rss+xml" />
-    <description>A. Latorre</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <description>A. LaTorre</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
-      <title>A. Latorre</title>
+      <title>A. LaTorre</title>
       <link>/authors/a.-latorre/</link>
     </image>
+    
+    <item>
+      <title>On the Role of Execution Order in Hybrid Evolutionary Algorithms</title>
+      <link>/publication/molina-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/molina-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comparing Large-Scale Global Optimization Competition winners in a real-world problem</title>
+      <link>/publication/molina-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/molina-2019/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Comparing Large-Scale Global Optimization Competition winners in a real-world problem</title>
@@ -29,7 +45,7 @@
     </item>
     
     <item>
-      <title>SHADE with Iterative Local Search for Large-Scale Global Optimization</title>
+      <title>Toolkit for the Automatic Comparison of Optimizers: Comparing Large-Scale Global Optimizers Made Easy</title>
       <link>/publication/molina-2018/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>/publication/molina-2018/</guid>

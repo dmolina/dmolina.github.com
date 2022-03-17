@@ -3,58 +3,263 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/categories/</loc>
-    <lastmod>2020-08-21T22:14:44+02:00</lastmod>
+    <loc>/publication_types/2/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2020-08-21T22:14:44+02:00</lastmod>
+    <loc>/authors/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/d.-molina/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/daniel-molina/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/daniel-molina-cabrera/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/eneko-osaba/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/eneko-osaba-icedo/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/francisco-herrera/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/francisco-herrera-triguero/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/javier-del-ser/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/javier-del-ser-lorente/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/javier-poyatos-amador/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/d-molina-108955831/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/barbara-fernandez/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/cristina-moral/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/eugenio-martinez-camara/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/francisco-j.-melero/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/ivan-palomares/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/javier-perez-de-vargas/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/juan-chiachio/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/manuel-chiachio/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/alonso-2021/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/pablo-garcia-moral/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/rosana-montes/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/rosario-marchena/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/sergio-alonso/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/a.d.-martinez/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/e.-osaba/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/e.-villar-rodriguez/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/f.-herrer/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/f.-herrera/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/j.-del-ser/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/j.-poyatos/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/molina-2021/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/s.-tabik/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/andrea-valsecchi/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/enrique-bermejo/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/oscar-cordon/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/oscar-gomez/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/oscar-ibanez/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/g-mez-2020/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/julia/</loc>
-    <lastmod>2020-08-21T22:14:44+02:00</lastmod>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
   </url>
   
   <url>
     <loc>/post/julia_journey/</loc>
-    <lastmod>2020-08-21T22:14:44+02:00</lastmod>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
   </url>
   
   <url>
     <loc>/categories/programming/</loc>
-    <lastmod>2020-08-21T22:14:44+02:00</lastmod>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2020-08-21T22:14:44+02:00</lastmod>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/teaching/</loc>
-    <lastmod>2020-08-21T22:14:44+02:00</lastmod>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
   </url>
   
   <url>
     <loc>/categories/teaching/</loc>
-    <lastmod>2020-08-21T22:14:44+02:00</lastmod>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
   </url>
   
   <url>
     <loc>/post/moodlequestions/</loc>
-    <lastmod>2020-03-27T23:58:01+01:00</lastmod>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
   </url>
   
   <url>
     <loc>/post/online_teaching/</loc>
-    <lastmod>2020-03-27T22:45:58+01:00</lastmod>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/online/</loc>
-    <lastmod>2020-03-27T22:45:58+01:00</lastmod>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
   </url>
   
   <url>
@@ -83,143 +288,163 @@
   </url>
   
   <url>
-    <loc>/publication_types/2/</loc>
-    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
+    <loc>/authors/a.-latorre/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/accountability/</loc>
-    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/adrien-bennetot/</loc>
-    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/alberto-barbado/</loc>
-    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/alejandro-barredo-arrieta/</loc>
-    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/</loc>
-    <lastmod>2020-01-21T22:56:12+01:00</lastmod>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/comprehensibility/</loc>
-    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/daniel-molina/</loc>
-    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/data-fusion/</loc>
-    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/deep-learning/</loc>
-    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/explainable-artificial-intelligence/</loc>
-    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
   </url>
   
   <url>
     <loc>/publication/barredoarrieta-202082/</loc>
-    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/fairness/</loc>
-    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/francisco-herrera/</loc>
-    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/interpretability/</loc>
-    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/javier-del-ser/</loc>
-    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/machine-learning/</loc>
-    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/natalia-diaz-rodriguez/</loc>
-    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/molina-2020/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/privacy/</loc>
-    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2020-01-21T22:56:12+01:00</lastmod>
+    <loc>/tags/r/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/raja-chatila/</loc>
-    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/responsible-artificial-intelligence/</loc>
-    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/richard-benjamins/</loc>
-    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/salvador-garcia/</loc>
-    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/sergio-gil-lopez/</loc>
-    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/siham-tabik/</loc>
-    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/transparency/</loc>
-    <lastmod>2020-01-21T22:42:20+01:00</lastmod>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/del-ser-2019/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/carlos-a.-coello-coello/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/david-camacho/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/ponnuthurai-n.-suganthan/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/sancho-salcedo-sanz/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/swagatam-das/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/xin-she-yang/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
   </url>
   
   <url>
     <loc>/publication_types/1/</loc>
-    <lastmod>2020-01-21T22:56:12+01:00</lastmod>
+    <lastmod>2019-12-30T17:54:46+01:00</lastmod>
   </url>
   
   <url>
@@ -228,13 +453,8 @@
   </url>
   
   <url>
-    <loc>/authors/a.-latorre/</loc>
-    <lastmod>2020-01-21T22:56:12+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/authors/a.r.-nesterenko/</loc>
-    <lastmod>2019-12-30T17:50:00+01:00</lastmod>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
   </url>
   
   <url>
@@ -253,32 +473,17 @@
   </url>
   
   <url>
+    <loc>/publication/molina-2019/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication/molina-2019359/</loc>
     <lastmod>2019-12-30T17:50:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/d.-camacho/</loc>
-    <lastmod>2019-12-30T18:18:30+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/d.-molina/</loc>
-    <lastmod>2020-01-21T22:56:12+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/e.-osaba/</loc>
-    <lastmod>2019-12-30T18:18:30+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/f.-herrera/</loc>
-    <lastmod>2020-01-21T22:56:12+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/j.-del-ser/</loc>
     <lastmod>2019-12-30T18:18:30+01:00</lastmod>
   </url>
   
@@ -349,7 +554,7 @@
   
   <url>
     <loc>/publication/molina-2018/</loc>
-    <lastmod>2020-01-21T22:56:12+01:00</lastmod>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
   </url>
   
   <url>
@@ -428,6 +633,11 @@
   </url>
   
   <url>
+    <loc>/publication/molina-2017/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication/molina-2017805/</loc>
     <lastmod>2019-12-30T17:50:00+01:00</lastmod>
   </url>
@@ -439,17 +649,22 @@
   
   <url>
     <loc>/authors/f.-moreno-garcia/</loc>
-    <lastmod>2019-12-30T17:50:00+01:00</lastmod>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/m.-lozano/</loc>
-    <lastmod>2019-12-30T17:50:00+01:00</lastmod>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/p.d.-gutierrez/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/d-molina-63696793/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
   </url>
   
   <url>
@@ -464,7 +679,7 @@
   
   <url>
     <loc>/authors/b.-lacroix/</loc>
-    <lastmod>2019-12-30T17:50:00+01:00</lastmod>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
   </url>
   
   <url>
@@ -483,6 +698,11 @@
   </url>
   
   <url>
+    <loc>/publication/d-molina-63696760/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication/bergmeir-2016/</loc>
     <lastmod>2019-12-30T16:02:53+01:00</lastmod>
   </url>
@@ -490,6 +710,11 @@
   <url>
     <loc>/publication/lacroix-2016719/</loc>
     <lastmod>2019-12-30T16:02:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/molina-2016/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
   </url>
   
   <url>
@@ -523,13 +748,18 @@
   </url>
   
   <url>
+    <loc>/publication/molina-2015/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/authors/t.-liao/</loc>
-    <lastmod>2019-12-30T17:50:00+01:00</lastmod>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/t.-stutzle/</loc>
-    <lastmod>2019-12-30T17:50:00+01:00</lastmod>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
   </url>
   
   <url>
@@ -553,8 +783,13 @@
   </url>
   
   <url>
+    <loc>/publication/molina-2014/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/authors/a.-puris/</loc>
-    <lastmod>2019-12-30T17:50:00+01:00</lastmod>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
   </url>
   
   <url>
@@ -564,7 +799,12 @@
   
   <url>
     <loc>/authors/r.-bello/</loc>
-    <lastmod>2019-12-30T17:50:00+01:00</lastmod>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/molina-2013/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
   </url>
   
   <url>
@@ -574,12 +814,17 @@
   
   <url>
     <loc>/post/posts/</loc>
-    <lastmod>2020-01-20T15:11:13+01:00</lastmod>
+    <lastmod>2022-01-03T18:11:19+01:00</lastmod>
   </url>
   
   <url>
     <loc>/about/</loc>
-    <lastmod>2019-12-30T18:07:38+01:00</lastmod>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
   </url>
   
   <url>
@@ -589,7 +834,7 @@
   
   <url>
     <loc>/tags/menu/</loc>
-    <lastmod>2019-12-30T18:07:38+01:00</lastmod>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
   </url>
   
   <url>
@@ -599,16 +844,11 @@
   
   <url>
     <loc>/categories/personal/</loc>
-    <lastmod>2019-12-30T18:07:38+01:00</lastmod>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
   </url>
   
   <url>
     <loc>/post/rmain/</loc>
-    <lastmod>2019-12-30T15:42:23+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/r/</loc>
     <lastmod>2019-12-30T15:42:23+01:00</lastmod>
   </url>
   
@@ -673,6 +913,11 @@
   </url>
   
   <url>
+    <loc>/publication/molina-2012/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication/puris-2012511/</loc>
     <lastmod>2019-12-30T16:02:53+01:00</lastmod>
   </url>
@@ -689,7 +934,7 @@
   
   <url>
     <loc>/authors/a.m.-sanchez/</loc>
-    <lastmod>2019-12-30T16:02:53+01:00</lastmod>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
   </url>
   
   <url>
@@ -708,6 +953,11 @@
   </url>
   
   <url>
+    <loc>/publication/molina-2011/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication/molina-20112201/</loc>
     <lastmod>2019-12-30T16:02:53+01:00</lastmod>
   </url>
@@ -718,8 +968,38 @@
   </url>
   
   <url>
+    <loc>/authors/c-garcia-martinez/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/c.-garcia-mart%5Cnez/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/d-molina/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/f-herrera/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/m-lozano/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/rid-0417161430923-1/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication/molina-2010/</loc>
-    <lastmod>2019-12-30T17:50:00+01:00</lastmod>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
   </url>
   
   <url>
@@ -733,11 +1013,6 @@
   </url>
   
   <url>
-    <loc>/authors/f.-herrer/</loc>
-    <lastmod>2019-12-30T17:50:00+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication/molina-20091068/</loc>
     <lastmod>2019-12-30T17:50:00+01:00</lastmod>
   </url>
@@ -745,6 +1020,11 @@
   <url>
     <loc>/publication/molina-2009830/</loc>
     <lastmod>2019-12-30T17:50:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/molina-2009/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
   </url>
   
   <url>
@@ -760,6 +1040,11 @@
   <url>
     <loc>/publication/molina-200858/</loc>
     <lastmod>2019-12-30T16:02:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/molina-2008/</loc>
+    <lastmod>2022-03-17T17:24:53+01:00</lastmod>
   </url>
   
   <url>

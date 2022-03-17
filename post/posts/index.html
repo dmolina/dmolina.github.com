@@ -230,7 +230,7 @@ However, the introduction of Javascript and specifically Vue.js have produce tha
     
       <meta property="article:published_time" content="2012-07-15T00:00:00&#43;02:00">
     
-    <meta property="article:modified_time" content="2020-01-20T15:11:13&#43;01:00">
+    <meta property="article:modified_time" content="2022-01-03T18:11:19&#43;01:00">
   
 
   
@@ -261,7 +261,7 @@ However, the introduction of Javascript and specifically Vue.js have produce tha
   "headline": "",
   
   "datePublished": "2012-07-15T00:00:00+02:00",
-  "dateModified": "2020-01-20T15:11:13+01:00",
+  "dateModified": "2022-01-03T18:11:19+01:00",
   
   "author": {
     "@type": "Person",
@@ -571,7 +571,7 @@ However, the introduction of Javascript and specifically Vue.js have produce tha
           Last updated on
       
     
-    Jan 20, 2020
+    Jan 3, 2022
   </span>
   
 
@@ -580,7 +580,7 @@ However, the introduction of Javascript and specifically Vue.js have produce tha
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    26 min read
+    32 min read
   </span>
   
 
@@ -629,7 +629,7 @@ service with Python.</p>
 <a href="https://flask-restful.readthedocs.io/en/latest/">Flask-Restful</a> by its simplicity (and <a href="http://flask-sqlalchemy.pocoo.org/2.3/">Flask-SQLAlchemy</a> for the communication with
 the database).</p>
 <p>The problem with that was how to serve the <a href="https://bokeh.pydata.org/en/latest/">Bokeh</a> figures as Rest services. I
-starting reading websites and manual and searching but I didn't get any
+starting reading websites and manual and searching but I didn&rsquo;t get any
 satisfactory answer.</p>
 <p>Hours later, I obtained the answer, so I am going to explain it to avoid the reader
 to waste his/her time.</p>
@@ -803,14 +803,14 @@ many areas. For my research work, I usually creates/designs algorithms for conti
 good performance (to publish, it is usual to have to make many comparisons between algorithms, so the performance
 could be critical. However, for testing new ideas, many authors uses other tools like Mathlab that reduces the
 developer time at the cost of a higher computing time.</p>
-<p>I agree that Mathlab is great for numerical algorithms, but I still prefer Python over Mathlab, because I'm more confortable
-with it, and have many libraries, and it's more simpler to call code in other languages, written in C or Java. That allow us
+<p>I agree that Mathlab is great for numerical algorithms, but I still prefer Python over Mathlab, because I&rsquo;m more confortable
+with it, and have many libraries, and it&rsquo;s more simpler to call code in other languages, written in C or Java. That allow us
 to increase the performance, and I like to test how much it could be improved.</p>
 <p>Several months ago, I start writing my most succesful algorithm, <a href="http://sci2s.ugr.es/EAMHCO/#macmals">Memetic Algorithms based on LS Chaining</a>, in Python. I had several
 doubts about the performance, so I start writing one element, an Steady-State Genetic Algorithm, in Python.</p>
 <h4 id="calling-c-c-plus-plus-code-from-python">Calling C/C++ code from python</h4>
 <p>The first challenge I had to tackle was to allow my python program to use the same benchmark functions than other implementations,
-<a href="http://sci2s.ugr.es/EAMHCO/#TestF">CEC'2005 benchmark</a>.
+<a href="http://sci2s.ugr.es/EAMHCO/#TestF">CEC&rsquo;2005 benchmark</a>.
 This benchmark define the functions to optimize, thus its main funtionality is
 evaluate my solutions, when each solution is a vector of real numbers, with a real fitness value.
 The benchmark code was implemented (by its authors) in C/C++. So, my python code have to call C++ code.</p>
@@ -938,7 +938,7 @@ of the computing time.</p>
 <p>That proves the majority of computing time is due to a minority of the code,
 only three methods. If we can optimize these methods, our code could be
 improved a lot.</p>
-<p>We can uses again the <a href="http://www.boost.org/doc/libs/1%5F50%5F0/libs/python/doc/index.html">boost::python</a> package, but it's a bit tedious to use it. So, we have
+<p>We can uses again the <a href="http://www.boost.org/doc/libs/1%5F50%5F0/libs/python/doc/index.html">boost::python</a> package, but it&rsquo;s a bit tedious to use it. So, we have
 used the <a href="http://www.cython.org/">cython</a> package. With cython we can optimize the source code adding
 information about the types.</p>
 <p>For instead, Instead of the following code:</p>
@@ -992,7 +992,7 @@ def distance(np.ndarray[DTYPE_t, ndim=1]ind1, np.ndarray[DTYPE_t, ndim=1] ind2):
 <p>We can see that is still very readable. we only have put information about the type
 and dimension in the vector parameters and about the variables, using the keyword
 cdef.</p>
-<p>Let's see as an example the first method, the crossover operator, implemented
+<p>Let&rsquo;s see as an example the first method, the crossover operator, implemented
 in the crossBLX method:</p>
 <pre><code class="language-python">import numpy as np
 import math
@@ -1064,7 +1064,7 @@ defined directly implement the many operations, the following code:</p>
     return C
 
 </code></pre>
-<p>It's true that the source code is more complicated, but it is still very readable.
+<p>It&rsquo;s true that the source code is more complicated, but it is still very readable.
 I have compared the two implementation to make sure both return the same values.</p>
 <h4 id="measuring-the-improvement">Measuring the improvement</h4>
 <p>How much these small changes in the code?
@@ -1190,14 +1190,14 @@ in a cluster of computers. Unfortunately, an implementation in Mathlab not only 
 also, for licensing reasons, it could not run in parallel without limit.</p>
 <p>In resume, we can uses python code, not only to create experimental prototypes, but also to create
 functional prototypes.</p>
-<p>And about the possible testing problem, I've been working on it, but I think it is enough for a post,
-didn't it? :-)</p>
+<p>And about the possible testing problem, I&rsquo;ve been working on it, but I think it is enough for a post,
+didn&rsquo;t it? :-)</p>
 <p>All the code refered in the post, both in python and cython, is available at <a href="https://github.com/dmolina/pyreal">github</a>, if you want to see it.</p>
 <h3 id="callback-that-stop-algorithm-in-r"><span class="org-todo done DONE">DONE</span> Callback that stop algorithm in R</h3>
 <p>Today I was making a little programming using the mathematical software R (very useful
 for statistics, by the way), for a little test.</p>
-<p>I'm one of the authors of a Cran package (<a href="http://cran.r-project.org/web/packages/Rmalschains/index.html">Rmalschains</a>) for continuous optimization, and I was testing another packages to compare results.</p>
-<p>Comparing a particular package I realise that the API doesn't give me enough control for
+<p>I&rsquo;m one of the authors of a Cran package (<a href="http://cran.r-project.org/web/packages/Rmalschains/index.html">Rmalschains</a>) for continuous optimization, and I was testing another packages to compare results.</p>
+<p>Comparing a particular package I realise that the API doesn&rsquo;t give me enough control for
 the comparisons. Briefly, to compare different algorithms all of them should stop when the same
 number of solutions is achieved. Unfortunately, for the DE package, the stopping criterion is the
 maximum iterations number, and for one strategy (the default strategy) this number differs,
@@ -1252,7 +1252,7 @@ Because the function only does a run of the  algorithm (<strong>DEOptim</strong>
 Also, to make it more elegant, I use a closure <strong>fitnessCheck</strong>  that receives a function and a
 maximum number of call, and it stops when the maximum calls number is achieved
 (<em>total</em> and <em>bestFitness</em> are global variable, so the way to modify their values is using
-&laquo;- instead of the classical &lt;- or =).</p>
+&lt;&lt;- instead of the classical &lt;- or =).</p>
 <p>By the way, <strong>capture.output</strong> is a function that disables all the output of DEoptim algorithm.</p>
 <h3 id="property-based-testing"><span class="org-todo done DONE">DONE</span> Property-Based Testing</h3>
 <p>Today I was reviewing a paper that I am doing in collaboration with other colleagues,
@@ -1407,15 +1407,16 @@ while nevals &lt;= maxevals:
 </code></pre>
 <p>I have to organize it a little, but in only 35 lines (including comments) a complete
 <a href="https://en.wikipedia.org/wiki/Differential%5Fevolution">Differential Evolution</a> can be implemented. Numpy is awesome!</p>
-<h3 id="introduction-to-julia"><span class="org-todo todo TODO">TODO</span> Introduction to Julia</h3>
+<h3 id="introduction-to-julia"><span class="org-todo done DONE">DONE</span> Introduction to Julia</h3>
 <p>The last year I have been working in a promising programming language,
 <a href="http://julialang.org/">Julia</a>.</p>
-<p>hola
-Even I have done a presentation focused on people with Computer Science
-background (so the talk compares Julia against Python),
-<a href="https://github.com/dmolina/julia%5Fpresentacion/blob/master/Julia%5FPresentation%5Fslides.pdf">Julia Talk in English</a>
-and <a href="https://github.com/dmolina/julia%5Fpresentacion/blob/master/Julia%5FPresentacion%5Fslides.pdf">Julia Talk in
-Spanish</a></p>
+<p>Even I have done a presentation focused on people with Computer Science
+background (so the talk compares Julia against Python),</p>
+<p><a href="https://github.com/dmolina/julia%5Fpresentacion/raw/master/Julia%5FPresentation%5Fslides.pdf">Talk in English</a>
+<img src="/img/julia_intro_en.png" alt=""></p>
+<p>Also it was given in Spanish</p>
+<p><a href="https://github.com/dmolina/julia%5Fpresentacion/blob/master/Julia%5FPresentacion%5Fslides.pdf">Julia Talk in Spanish</a>
+<img src="/img/julia_intro_es.png" alt=""></p>
 <p>The resources of that talk are available at <a href="https://github.com/dmolina/julia%5Fpresentacion/">Github
 Repository</a>.</p>
 <h2 id="emacs">Emacs</h2>
@@ -1642,31 +1643,164 @@ for compiling, expecting they use it more, by its simpler syntax.</p>
 
 <p>All the source code (in <a href="https://github.com/hakimel/reveal.js/">reveal.js</a>, through <a href="https://github.com/yjwen/org-reveal/">org-reveal</a>) are available at:
 <a href="https://github.com/dmolina/intro%5Fcmake">https://github.com/dmolina/intro%5Fcmake</a></p>
-<h3 id="introducción-a-cmake"><span class="org-todo todo TODO">TODO</span> Introducción a CMake</h3>
-<p>En mi último curso, decidí dar una pequeña introducción sobre CMake:</p>
+<h3 id="about-online-teaching"><span class="org-todo done DONE">DONE</span> About <em>online teaching</em></h3>
+<p>These days we have to be enclosed in our houses by the coronavirus (COVID-19),
+so in my University (in Granada) as the others in Spain, we had to became
+in <em>online teaching expert</em> in a weekend.</p>
+<p>For the courses we have following different approaches: Additional written
+material, several short videos about the materials, or conferences for
+giving the courses by video-conferences. All options have its advantages and
+drawbacks. However, because I like the feedback with the students (for instance,
+to make several examples in code about the concepts in my programming course),
+I have finally decided to give the course by video-conference. For
+recommendation of my university I use <a href="https://meet.google.com/">google meet</a>, used also for the other
+teachers in the course. Personally, I prefer <a href="https://meet.jit.si/">Jitsi</a>, not only it is open source,
+but it also it is comparable in features to the google option, it is a great
+option.</p>
+<p>A part of the teaching by video-conference, I have put all the slides in the
+Moodle of the courses (actually, it was previously there), and I will try to put
+some Quiz to allow students to have a better feedback about their knowledge.</p>
+<p>The main problem has been to have a deaf student. The video-conference is not
+good, and I have spent several days trying several tools to automatic caption
+the voice, but in Spanish too many tools do not give a good performance (they
+have a lot of errors), finally the best option was <a href="https://abilityconnect.ua.es/?lang=en">Ability Connect</a>, a tool from
+University of Alicante (Spain) for that. Unfortunately, sometimes it freezes.</p>
+<p>Some people should think that I will have less work, but actually the situation
+have put me more work in teaching. It is good to learn new skills, but it takes
+a lot of time.</p>
+<h3 id="my-first-julia-package"><span class="org-todo done DONE">DONE</span> My first Julia Package</h3>
+<p>For online teaching I use Moodle. I have a lot of experience using it (for more
+than 10 years). Unfortunately, the software could be improved a lot. My main
+complains are:</p>
+<ul>
+<li>
+<p>You can import the grades using an Excel file. However, you cannot import the
+comments.  I like to give comment to explain the reason of the qualifications.</p>
+</li>
+<li>
+<p>The Quiz is potent, but the creation of questions is very slow. Also, in my
+University several teachers have historically used another software. However,
+Moodle is unable to import these questions (in a different XML format).</p>
+</li>
+</ul>
+<p>In order to solve the second one, and in conjunction with my interest in Julia,
+I have created a package: <a href="https://github.com/dmolina/MoodleQuestions.jl">MoodleQuestions</a>. Not only it is able to export from
+the previous software, but it is also able to create the questions in a
+MoodleXML from a more intuitive file, in text file:</p>
+<h4 id="input-text-file-format">Input text file format</h4>
+<p>This package is able to read a text file. The format has been designed to be as simple and readable as possible.</p>
+<pre><code class="language-text"> * Category 1
 
+Question 1
 
+- Option 1.1.
+- Option 1.2.
++ Option 1.3.
 
+ * Category 2
 
+Question 2
 
-
-
-
-
-
-
-
-
-<figure>
-
-
-  <a data-fancybox="" href="/img/capture_spanish.png" >
-<img data-src="/img/capture_spanish.png" class="lazyload" alt="" ></a>
-
-
-
-</figure>
-
++ Option 2.1.
+- Option 2.2.
+</code></pre>
+<p>The sentences starting with * is a new category, with the name.</p>
+<p>The sentences without *, +, or - are the text of the question. It is expected to
+be from only one line.</p>
+<p>The sentences starting with - or + and the different answers for the previous
+question. The - means that the answer is false, and the + means that the
+sentence is the right answer.</p>
+<p>The answers in the question are shuffle, except when one of the word of A, B,
+&hellip; is used. In these cases, the order of the options is maintained.</p>
+<p>In my opinion, to create a text file with the questions in that format is a lot
+easier than using the web interface of Moodle.</p>
+<h4 id="my-experience-creating-a-package">My experience creating a package</h4>
+<p>I have experience creating a PyPI package in Python, and I only can say that
+creating a Julia package is a lot easier.</p>
+<ol>
+<li>
+<p>First, there are packages like <a href="https://github.com/invenia/PkgTemplates.jl">PkgTemplates</a> that create all the structure of
+the code.</p>
+</li>
+<li>
+<p>Because in Julia you can add a non-official package adding the github url,
+you can use the package working (and share it) without have to register it.</p>
+</li>
+<li>
+<p>The tests can be tested very easily with <a href="https://travis-ci.com/dmolina/MoodleQuestions.jl">Tracis CI</a>, for different Julia
+version and Operative System (it detected an error only in Windows). However,
+because Julia is not officially supported and the Sandbox implies to install
+all required packages for each time, the time in the test implies a lot of
+time, more than 1m30 in several versions. At least, it gives the tranquility
+of working in different julia versions.</p>
+</li>
+<li>
+<p>The documentation can be done very easily with <a href="https://github.com/JuliaDocs/Documenter.jl">Documenter.jl</a>, and it publish
+in Github Pages (the only problem was to define the DOCUMENTER_KEY
+environment variable, but the error was clear).</p>
+</li>
+<li>
+<p>The Registration is was very simple. Originally, you had to do a Pull Request
+to the <a href="https://github.com/JuliaRegistries/General">https://github.com/JuliaRegistries/General</a> repository. However,
+nowadays you should use <a href="https://github.com/JuliaRegistries/Registrator.jl">https://github.com/JuliaRegistries/Registrator.jl</a>,
+that with a simple web interface it will do the PR for you (only the URL is
+required).</p>
+</li>
+</ol>
+<p>To summarise, the experience has been very positive. In my opinion, you are a
+lot more lost than in Python when you have to create your first setup.py, and it
+is easier to follow the good practices of Continous Integration with tests and
+Documentation. Also, there is a great presentation at
+<a href="https://www.youtube.com/watch?v=QVmU29rCjaA">https://www.youtube.com/watch?v=QVmU29rCjaA</a>.</p>
+<h3 id="my-julia-journey"><span class="org-todo done DONE">DONE</span> My Julia journey</h3>
+<p>In this post I am going to tell my Julia journey.</p>
+<p>I have read about Julia but not actually use it before version 0.7 just before
+1.0. I work on Machine Learning and stochastic optimization (with evolutionary
+computation). In Machine Learning (and Deep Learning) I work nicely with Python
+(Scikit-learn and Keras/PyTorch). However, in optimization I usually did
+prototype in Python, and later have to translate to C++ for performance (well,
+not while the function evaluation takes too much). Now I starting using Julia
+for these algorithms (I prefer it a lot against Numpy). For ML I am actually
+testing options with Julia
+(<a href="https://github.com/alan-turing-institute/MLJ.jl">MLJ.jl</a> and
+<a href="https://github.com/FluxML/Flux.jl">Flux</a> mainly).</p>
+<p>My main problem is the lack of examples/tutorials in the documentation for
+several packages. Also, some missing functionality. I am going to explain it
+with an example. I did a small website in Julia to receive a file and transform
+it (for learning, I have experience in other technologies like Python/JS, ..)
+<a href="http://pradofacil.danimolina.net/">http://pradofacil.danimolina.net/</a>. I did it using Frankling have to create my
+own website, it was nice. The server side I have two problems:</p>
+<ul>
+<li>
+<p>HTTP.jl is simple but not very complete, I have to create my own function to
+extract the POST parameters.</p>
+</li>
+<li>
+<p>I wanted to have error messages in two different languages (English and
+Spanish), but the Gettext package did required Python, and I do not want to
+install it in the server only for that. So, I create my own package
+<a href="https://github.com/dmolina/SimpleTranslations.jl">SimpleTranslation.jl</a> to
+translate easy messages in a simple way.</p>
+</li>
+</ul>
+<p>Usually I create scripts, but in Julia the time required to load the packages
+make them slower than similar to Python. In order to reduce that problem I
+recently created <a href="https://github.com/dmolina/DaemonMode.jl">DaemonMode.jl</a>
+package, that got a great interest (even it was mentioned in JuliaCon 2020!).</p>
+<p>The good and bad:</p>
+<ul>
+<li>
+<p>good: How easily is to create packages, and register it. The syntax, and many
+great packages: DataFrames, Plots, &hellip;</p>
+</li>
+<li>
+<p>bad: documentation of several packages. There is the API, but learning to use
+them usually implies several tests.</p>
+</li>
+</ul>
+<p>To summarise, it is a great language. When you use it, sometimes to affort small
+problems due to a not too mature ecosystem, but the evolution is clearly to
+best. For sure I will use it!</p>
 <h2 id="opensource">OpenSource</h2>
 <h3 id="firefox-3-dot-5-and-mouseless"><span class="org-todo done DONE">DONE</span> Firefox 3.5 and Mouseless</h3>
 <p>I have recently changed to <a href="https://www.mozilla.org/en-US/firefox/new/">Firefox 3.5</a>, and it is awesome!!</p>
@@ -1715,10 +1849,16 @@ like me :-).</p>
 </ul>
 <p>To summarize, if you do not like use the mouse for almost everything, and you
 want to browse more easily, try <a href="https://addons.mozilla.org/en-US/firefox/addon/tridactyl-vim/">Tridactyl</a>.</p>
+<h3 id="año-nuevo">Año nuevo</h3>
+<p>! Bienvenidos !</p>
+<p>En este año 2022 me he planteado usar mucho más el blog. Tras mucho pensar he
+llegado a la conclusión que para agilizarlo voy a empezar a escribir en Español.</p>
+<p>Mi idea inicial era escribir en inglés pero eso hace que tenga <strong>mucha pereza</strong> en
+escribirlo.</p>
 <h2 id="computer-science">Computer_Science</h2>
-<h3 id="participation-in-ieee-congress-on-evolutionary-computation-cec-2018"><span class="org-todo done DONE">DONE</span> Participation in IEEE Congress on Evolutionary Computation CEC'2018</h3>
+<h3 id="participation-in-ieee-congress-on-evolutionary-computation-cec-2018"><span class="org-todo done DONE">DONE</span> Participation in IEEE Congress on Evolutionary Computation CEC&rsquo;2018</h3>
 <p>Several weeks ago, I was at the the <a href="http://www.ecomp.poli.br/~wcci2018/">IEEE Conference on Evolutionary Computation
-(CEC'2018)</a>, and also at the National Conference on Artificial Intelligence,
+(CEC&rsquo;2018)</a>, and also at the National Conference on Artificial Intelligence,
 in Spain, <a href="https://sci2s.ugr.es/caepia18/inicio.html">website</a>.</p>
 <p>In <a href="https://speakerdeck.com/dmolina">https://speakerdeck.com/dmolina</a> there are the slides of my
 presentations in the International Conference.</p>
@@ -1727,14 +1867,14 @@ presentations in the International Conference.</p>
 <li>A new algorithm, <strong>SHADE-ILS</strong> which won the Large Scale Global Optimization,
 <a href="https://speakerdeck.com/dmolina/shade-with-iterative-local-search-for-large-scale-global-optimization">slides</a>. You spanish readers, there is also a new <a href="https://speakerdeck.com/dmolina/shade-con-una-busqueda-local-iterativa-para-optimizacion-continua-de-alta-dimensionalidad">version in Spanish.</a></li>
 </ul>
-<p><strong>In English</strong></p>
-<script async class="speakerdeck-embed"
-data-id="22192a5760234cb8984632450bec1b42" data-ratio="1.33333333333333"
-src="//speakerdeck.com/assets/embed.js"></script>
-<p><strong>In Spanish</strong></p>
-<script async class="speakerdeck-embed"
-data-id="91646e938fd34096b1613126a1828101" data-ratio="1.33333333333333"
-src="//speakerdeck.com/assets/embed.js"></script>
+<p><strong>In English</strong>
+&lt;script async class=&quot;speakerdeck-embed&rdquo;
+data-id=&quot;22192a5760234cb8984632450bec1b42&rdquo; data-ratio=&quot;1.33333333333333&rdquo;
+src=&rdquo;//speakerdeck.com/assets/embed.js&rdquo;&gt;&lt;/script&gt;</p>
+<p><strong>In Spanish</strong>
+&lt;script async class=&quot;speakerdeck-embed&rdquo;
+data-id=&quot;91646e938fd34096b1613126a1828101&rdquo; data-ratio=&quot;1.33333333333333&rdquo;
+src=&rdquo;//speakerdeck.com/assets/embed.js&rdquo;&gt;&lt;/script&gt;</p>
 
 
 
@@ -1770,9 +1910,9 @@ described <a href="https://speakerdeck.com/dmolina/taco-toolkit-for-automatic-co
 </ul>
 <p><strong>PS</strong>: I will talk about the Tacolab website in next entries, because it is the
 results of many weeks of works.</p>
-<h3 id="new-lsgo-competition-at-the-cec-2019"><span class="org-todo done DONE">DONE</span> New LSGO Competition at the CEC'2019</h3>
+<h3 id="new-lsgo-competition-at-the-cec-2019"><span class="org-todo done DONE">DONE</span> New LSGO Competition at the CEC&rsquo;2019</h3>
 <p>I write because I am organizing the <a href="http://www.tflsgo.org/special%5Fsessions/cec2019.html">Large-Scale Global Optimization Competition</a>
-at the <a href="http://cec2019.org/">IEEE Congress on Evolutionary Computation CEC'2019</a>, with interesting
+at the <a href="http://cec2019.org/">IEEE Congress on Evolutionary Computation CEC&rsquo;2019</a>, with interesting
 news:</p>
 <ul>
 <li>
@@ -1792,7 +1932,7 @@ do the tables, figures and comparisons for you (including statistical testing).<
 </li>
 </ul>
 <p>There is not excuse for not participating!</p>
-<h3 id="packages-in-python-for-cec-2019-100-digit-competition"><span class="org-todo done DONE">DONE</span> Packages in Python for CEC'2019 100 Digit Competition</h3>
+<h3 id="packages-in-python-for-cec-2019-100-digit-competition"><span class="org-todo done DONE">DONE</span> Packages in Python for CEC&rsquo;2019 100 Digit Competition</h3>
 <p>I usually design my evolutionary algorithms in Python (initially for
 prototyping, but I am too lazy for doing later a version in C/C++ or similar).
 However, unfortunately, the majority of people in my area work in Matlab 😭.
@@ -1800,7 +1940,7 @@ Thus, sometimes I have to wrap the source code for the benchmarks in competition
 to python ☺.</p>
 <p>This is the story of the my new package at PyPi:
 <a href="https://pypi.org/project/cec2019comp100digit/">https://pypi.org/project/cec2019comp100digit/</a>.</p>
-<p>This package is for being able to participate in the <a href="http://cec2019.org/programs/competitions.html#cec-06">CEC'2019 100-Digit Challenge
+<p>This package is for being able to participate in the <a href="http://cec2019.org/programs/competitions.html#cec-06">CEC&rsquo;2019 100-Digit Challenge
 Competition</a>, website here:
 <a href="http://www.ntu.edu.sg/home/epnsugan/index%5Ffiles/CEC2019/CEC2019.htm">http://www.ntu.edu.sg/home/epnsugan/index%5Ffiles/CEC2019/CEC2019.htm</a>.
 That website was the source code in C/C++ and Matlab (using mex), but it was
@@ -1866,6 +2006,48 @@ sol = np.random.rand(10)
 <p>You can also use it for participate in the competition.</p>
 <p>I would like to take this opportunity to remind you that I too am organising
 <a href="https://dmolina.github.io/en/post/lsgo%5Fcec2019/">another competition</a>, you do not any excuse 😄.</p>
+<h3 id="new-lsgo-competition-at-the-wcci-2020"><span class="org-todo done DONE">DONE</span> New LSGO Competition at the WCCI&rsquo;2020</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure>
+
+
+  <a data-fancybox="" href="/img/wcci2020.png" >
+<img data-src="/img/wcci2020.png" class="lazyload" alt="" ></a>
+
+
+
+</figure>
+
+<p>I write because I am organizing the <a href="https://www.tflsgo.org/special%5Fsessions/wcci2020.html">Large-Scale Global Optimization Competition</a>
+at the <a href="https://wcci2020.org/">IEEE Congress on Evolutionary Computation WCCI&rsquo;2020</a>, with interesting
+news:</p>
+<ul>
+<li>
+<p>I am not more the Chair of the IEEE CIS Task Force on Large Scale Global
+Optimization, but I organize in collaboration with them.</p>
+</li>
+<li>
+<p>The new site <a href="https://tacolab.org">tacolab.org</a> to compare your own proposals with existings ones, it
+do the tables, figures and comparisons for you (including statistical
+testing). Also, it includes data of all previous winners!</p>
+</li>
+<li>
+<p>The deadline is 30 January, there is still time.</p>
+</li>
+</ul>
+<p>So, there is not excuse for not participating, I wait you in Glasglow!</p>
 
     </div>
 
@@ -2169,6 +2351,13 @@ sol = np.random.rand(10)
   
   <div class="container">
     <footer class="site-footer">
+  
+  <p class="powered-by">
+    
+      <a href="/tags/privacy/">Privacy</a>
+    
+    
+  </p>
   
 
   <p class="powered-by">

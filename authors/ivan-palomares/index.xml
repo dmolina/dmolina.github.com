@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Iván Palomares | Daniel Molina profile</title>
+    <link>/authors/ivan-palomares/</link>
+      <atom:link href="/authors/ivan-palomares/index.xml" rel="self" type="application/rss+xml" />
+    <description>Iván Palomares</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Iván Palomares</title>
+      <link>/authors/ivan-palomares/</link>
+    </image>
+    
+    <item>
+      <title>Ordering Artificial Intelligence Based Recommendations to Tackle the SDGs with a Decision-Making Model Based on Surveys</title>
+      <link>/publication/alonso-2021/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/alonso-2021/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

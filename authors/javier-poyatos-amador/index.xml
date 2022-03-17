@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JAVIER POYATOS AMADOR | Daniel Molina profile</title>
+    <link>/authors/javier-poyatos-amador/</link>
+      <atom:link href="/authors/javier-poyatos-amador/index.xml" rel="self" type="application/rss+xml" />
+    <description>JAVIER POYATOS AMADOR</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>JAVIER POYATOS AMADOR</title>
+      <link>/authors/javier-poyatos-amador/</link>
+    </image>
+    
+    <item>
+      <title>NATURE- AND BIO-INSPIRED OPTIMIZATION: THE GOOD, THE BAD, THE UGLY AND THE HOPEFUL</title>
+      <link>/publication/d-molina-108955831/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/d-molina-108955831/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
