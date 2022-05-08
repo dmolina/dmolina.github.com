@@ -30,9 +30,7 @@
   
   <meta name="description" content="Sometimes I create functions that receive a function as parameter, but in Julia the type is Function without any information, so when the function pass as parameter is not right, the error message is not very informative:
 By example:
-``` julia&gt; function fun_demo(f::Function) values = [1.0, 2.3, 3.4] return f.(values) end each (generic function with 1 method)
-julia&gt; fun_demo(sin) 3-element Vector{Float64}: 0.8414709848078965 0.7457052121767203 -0.2555411020268312 ```
-However, when the function is not right, the error is difficult to understand:">
+julia&gt; function fun_demo(f::Function) values = [1.0, 2.3, 3.4] return f.(values) end each (generic function with 1 method) julia&gt; fun_demo(sin) 3-element Vector{Float64}: 0.8414709848078965 0.7457052121767203 -0.2555411020268312  However, when the function is not right, the error is difficult to understand:">
 
   
   <link rel="alternate" hreflang="en-us" href="/post/julia_fun/">
@@ -228,15 +226,13 @@ However, when the function is not right, the error is difficult to understand:">
   <meta property="og:title" content="How to check the possible parameters for a function in Julia | Daniel Molina profile">
   <meta property="og:description" content="Sometimes I create functions that receive a function as parameter, but in Julia the type is Function without any information, so when the function pass as parameter is not right, the error message is not very informative:
 By example:
-``` julia&gt; function fun_demo(f::Function) values = [1.0, 2.3, 3.4] return f.(values) end each (generic function with 1 method)
-julia&gt; fun_demo(sin) 3-element Vector{Float64}: 0.8414709848078965 0.7457052121767203 -0.2555411020268312 ```
-However, when the function is not right, the error is difficult to understand:"><meta property="og:image" content="/img/icon-192.png">
+julia&gt; function fun_demo(f::Function) values = [1.0, 2.3, 3.4] return f.(values) end each (generic function with 1 method) julia&gt; fun_demo(sin) 3-element Vector{Float64}: 0.8414709848078965 0.7457052121767203 -0.2555411020268312  However, when the function is not right, the error is difficult to understand:"><meta property="og:image" content="/img/icon-192.png">
   <meta property="twitter:image" content="/img/icon-192.png"><meta property="og:locale" content="en-us">
   
     
       <meta property="article:published_time" content="2022-05-08T20:20:00&#43;02:00">
     
-    <meta property="article:modified_time" content="2022-05-08T20:20:43&#43;02:00">
+    <meta property="article:modified_time" content="2022-05-08T20:26:01&#43;02:00">
   
 
   
@@ -267,7 +263,7 @@ However, when the function is not right, the error is difficult to understand:">
   "headline": "How to check the possible parameters for a function in Julia",
   
   "datePublished": "2022-05-08T20:20:00+02:00",
-  "dateModified": "2022-05-08T20:20:43+02:00",
+  "dateModified": "2022-05-08T20:26:01+02:00",
   
   "author": {
     "@type": "Person",
@@ -282,7 +278,7 @@ However, when the function is not right, the error is difficult to understand:">
       "url": "/img/icon-512.png"
     }
   },
-  "description": "Sometimes I create functions that receive a function as parameter, but in Julia the type is Function without any information, so when the function pass as parameter is not right, the error message is not very informative:\nBy example:\n``` julia\u0026gt; function fun_demo(f::Function) values = [1.0, 2.3, 3.4] return f.(values) end each (generic function with 1 method)\njulia\u0026gt; fun_demo(sin) 3-element Vector{Float64}: 0.8414709848078965 0.7457052121767203 -0.2555411020268312 ```\nHowever, when the function is not right, the error is difficult to understand:"
+  "description": "Sometimes I create functions that receive a function as parameter, but in Julia the type is Function without any information, so when the function pass as parameter is not right, the error message is not very informative:\nBy example:\njulia\u0026gt; function fun_demo(f::Function) values = [1.0, 2.3, 3.4] return f.(values) end each (generic function with 1 method) julia\u0026gt; fun_demo(sin) 3-element Vector{Float64}: 0.8414709848078965 0.7457052121767203 -0.2555411020268312  However, when the function is not right, the error is difficult to understand:"
 }
 </script>
 
@@ -628,70 +624,69 @@ However, when the function is not right, the error is difficult to understand:">
     <div class="article-style">
       <p>Sometimes I create functions that receive a function as parameter, but in Julia the type is Function without any information, so when the function pass as parameter is not right, the error message is not very informative:</p>
 <p>By example:</p>
-<p>```
-julia&gt; function fun_demo(f::Function)
-values = [1.0, 2.3, 3.4]
-return f.(values)
-end
-each (generic function with 1 method)</p>
-<p>julia&gt; fun_demo(sin)
+<pre><code class="language-sh">julia&gt; function fun_demo(f::Function)
+       values = [1.0, 2.3, 3.4]
+       return f.(values)
+       end
+each (generic function with 1 method)
+
+julia&gt; fun_demo(sin)
 3-element Vector{Float64}:
-0.8414709848078965
-0.7457052121767203
--0.2555411020268312
-```</p>
+  0.8414709848078965
+  0.7457052121767203
+ -0.2555411020268312
+</code></pre>
 <p>However, when the function is not right, the error is difficult to understand:</p>
-<p>```
-julia&gt; fun_demo(lowercase)
+<pre><code class="language-sh">julia&gt; fun_demo(lowercase)
 ERROR: MethodError: no method matching lowercase(::Float64)
 Closest candidates are:
-lowercase(::T) where T&lt;:AbstractChar at ~/packages/julias/julia-1.7/share/julia/base/strings/unicode.jl:249
-lowercase(::AbstractString) at ~/packages/julias/julia-1.7/share/julia/base/strings/unicode.jl:540
+  lowercase(::T) where T&lt;:AbstractChar at ~/packages/julias/julia-1.7/share/julia/base/strings/unicode.jl:249
+  lowercase(::AbstractString) at ~/packages/julias/julia-1.7/share/julia/base/strings/unicode.jl:540
 Stacktrace:
-&hellip;
-```</p>
+     ...
+</code></pre>
 <p>That information is very confusing for the user that pass the function.
 I order to detect that, I have created a small function checkFunType:</p>
-<p>```
-function checkFunType(fun::Function,type::DataType)
-if (type &lt;: Tuple)
-meths = methods(fun, type)
-else
-meths = methods(fun, Tuple{type})
+<pre><code class="language-julia">function checkFunType(fun::Function,type::DataType)
+    if (type &lt;: Tuple)
+        meths = methods(fun, type)
+    else
+        meths = methods(fun, Tuple{type})
+    end
+    return !isempty(meths)
 end
-return !isempty(meths)
-end
-```
-So, we can do a more informative error message to user with:</p>
-<p>```
-function fun_demo(f::Function)
-@assert checkFunType(f, Float64) &ldquo;Error: &lsquo;fun_demo&rsquo; requires a function that receive a float and function &lsquo;$(f)&rsquo; does not do that&rdquo;
-values = [1.0, 2.3, 3.4]
-return f.(values)
-end
-```
-In that case, the error is more useful:</p>
-<p>```
-ulia&gt; fun_demo(lowercase)
-ERROR: AssertionError: Error: &lsquo;fun_demo&rsquo; requires a function that receive a float and function &lsquo;lowercase&rsquo; does not do that
+</code></pre>
+<p>So, we can do a more informative error message to user with:</p>
+<pre><code class="language-julia">function fun_demo(f::Function)
+            @assert checkFunType(f, Float64) &quot;Error: 'fun_demo' requires a function that receive a float and function '$(f)' does not do that&quot;
+           values = [1.0, 2.3, 3.4]
+           return f.(values)
+       end
+</code></pre>
+<p>In that case, the error is more useful:</p>
+<pre><code class="language-sh">ulia&gt; fun_demo(lowercase)
+ERROR: AssertionError: Error: 'fun_demo' requires a function that receive a float and function 'lowercase' does not do that
 Stacktrace:
-&hellip;
-```</p>
+     ...
+</code></pre>
 <p>Of course, you can be more gentle that using @assert. The important think is that you can check the parameters that the function could receive, and act as you wish.</p>
 <p>I have found it extremely useful when you are working with functions as parameters.  I hope this could be useful for anyone.</p>
 <p><strong><strong>PS</strong></strong> It also work with generic types and with several parameters:</p>
-<p>```julia
-julia&gt; checkFunType(sin, Int32)
-true</p>
-<p>julia&gt; checkFunType(sin, String)
-false</p>
-<p>julia&gt; checkFunType(sin, Real)
-true</p>
-<p>julia&gt; checkFunType(+, Tuple{Int32, Int32})
-true</p>
-<p>julia&gt; checkFunType(+, Tuple{Int32, String})
+<pre><code class="language-julia">julia&gt; checkFunType(sin, Int32)
+true
+
+julia&gt; checkFunType(sin, String)
 false
-```</p>
+
+julia&gt; checkFunType(sin, Real)
+true
+
+julia&gt; checkFunType(+, Tuple{Int32, Int32})
+true
+
+julia&gt; checkFunType(+, Tuple{Int32, String})
+false
+</code></pre>
 
     </div>
 
