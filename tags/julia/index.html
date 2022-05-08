@@ -227,7 +227,7 @@
   <meta property="og:description" content="Professor of Artificial Intelligence"><meta property="og:image" content="/img/icon-192.png">
   <meta property="twitter:image" content="/img/icon-192.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2020-08-21T22:08:00&#43;02:00">
+    <meta property="og:updated_time" content="2022-05-08T20:20:00&#43;02:00">
   
 
   
@@ -513,6 +513,19 @@
   
 
   
+  
+  <div>
+    <h2><a href="/post/julia_fun/">How to check the possible parameters for a function in Julia</a></h2>
+    <div class="article-style">
+      
+      Sometimes I create functions that receive a function as parameter, but in Julia the type is Function without any information, so when the function pass as parameter is not right, the error message is not very informative:
+By example:
+``` julia&gt; function fun_demo(f::Function) values = [1.0, 2.3, 3.4] return f.(values) end each (generic function with 1 method)
+julia&gt; fun_demo(sin) 3-element Vector{Float64}: 0.8414709848078965 0.7457052121767203 -0.2555411020268312 ```
+However, when the function is not right, the error is difficult to understand:
+      
+    </div>
+  </div>
   
   <div>
     <h2><a href="/post/julia_journey/">My Julia journey</a></h2>

@@ -28,10 +28,14 @@
   
     
   
-  <meta name="description" content="Professor of Artificial Intelligence">
+  <meta name="description" content="Sometimes I create functions that receive a function as parameter, but in Julia the type is Function without any information, so when the function pass as parameter is not right, the error message is not very informative:
+By example:
+``` julia&gt; function fun_demo(f::Function) values = [1.0, 2.3, 3.4] return f.(values) end each (generic function with 1 method)
+julia&gt; fun_demo(sin) 3-element Vector{Float64}: 0.8414709848078965 0.7457052121767203 -0.2555411020268312 ```
+However, when the function is not right, the error is difficult to understand:">
 
   
-  <link rel="alternate" hreflang="en-us" href="/authors/eneko-osaba/">
+  <link rel="alternate" hreflang="en-us" href="/post/julia_fun/">
 
   
 
@@ -202,14 +206,12 @@
 
 
   
-  <link rel="alternate" href="/authors/eneko-osaba/index.xml" type="application/rss+xml" title="Daniel Molina profile">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/authors/eneko-osaba/">
+  <link rel="canonical" href="/post/julia_fun/">
 
   
   
@@ -222,18 +224,69 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Daniel Molina profile">
-  <meta property="og:url" content="/authors/eneko-osaba/">
-  <meta property="og:title" content="Eneko Osaba | Daniel Molina profile">
-  <meta property="og:description" content="Professor of Artificial Intelligence"><meta property="og:image" content="/img/icon-192.png">
+  <meta property="og:url" content="/post/julia_fun/">
+  <meta property="og:title" content="How to check the possible parameters for a function in Julia | Daniel Molina profile">
+  <meta property="og:description" content="Sometimes I create functions that receive a function as parameter, but in Julia the type is Function without any information, so when the function pass as parameter is not right, the error message is not very informative:
+By example:
+``` julia&gt; function fun_demo(f::Function) values = [1.0, 2.3, 3.4] return f.(values) end each (generic function with 1 method)
+julia&gt; fun_demo(sin) 3-element Vector{Float64}: 0.8414709848078965 0.7457052121767203 -0.2555411020268312 ```
+However, when the function is not right, the error is difficult to understand:"><meta property="og:image" content="/img/icon-192.png">
   <meta property="twitter:image" content="/img/icon-192.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2019-08-01T00:00:00&#43;00:00">
+    
+      <meta property="article:published_time" content="2022-05-08T20:20:00&#43;02:00">
+    
+    <meta property="article:modified_time" content="2022-05-08T20:20:43&#43;02:00">
   
 
   
 
 
+    
 
+
+
+
+
+
+  
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/post/julia_fun/"
+  },
+  "headline": "How to check the possible parameters for a function in Julia",
+  
+  "datePublished": "2022-05-08T20:20:00+02:00",
+  "dateModified": "2022-05-08T20:20:43+02:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Daniel Molina"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "University of Granada",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/img/icon-512.png"
+    }
+  },
+  "description": "Sometimes I create functions that receive a function as parameter, but in Julia the type is Function without any information, so when the function pass as parameter is not right, the error message is not very informative:\nBy example:\n``` julia\u0026gt; function fun_demo(f::Function) values = [1.0, 2.3, 3.4] return f.(values) end each (generic function with 1 method)\njulia\u0026gt; fun_demo(sin) 3-element Vector{Float64}: 0.8414709848078965 0.7457052121767203 -0.2555411020268312 ```\nHowever, when the function is not right, the error is difficult to understand:"
+}
+</script>
+
+  
 
   
 
@@ -241,10 +294,13 @@
   
 
 
+  
 
 
 
-  <title>Eneko Osaba | Daniel Molina profile</title>
+
+
+  <title>How to check the possible parameters for a function in Julia | Daniel Molina profile</title>
 
 </head>
 
@@ -479,34 +535,379 @@
 </nav>
 
 
+  <article class="article">
+
   
 
-<div class="universal-wrapper pt-3">
-  <h1>Eneko Osaba</h1>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>How to check the possible parameters for a function in Julia</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    May 8, 2022
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    2 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/categories/programming/">programming</a>, <a href="/categories/opensource/">opensource</a></span>
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 </div>
 
 
-<section id="profile-page" class="pt-5">
-  <div class="container">
-    
-    
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>Sometimes I create functions that receive a function as parameter, but in Julia the type is Function without any information, so when the function pass as parameter is not right, the error message is not very informative:</p>
+<p>By example:</p>
+<p>```
+julia&gt; function fun_demo(f::Function)
+values = [1.0, 2.3, 3.4]
+return f.(values)
+end
+each (generic function with 1 method)</p>
+<p>julia&gt; fun_demo(sin)
+3-element Vector{Float64}:
+0.8414709848078965
+0.7457052121767203
+-0.2555411020268312
+```</p>
+<p>However, when the function is not right, the error is difficult to understand:</p>
+<p>```
+julia&gt; fun_demo(lowercase)
+ERROR: MethodError: no method matching lowercase(::Float64)
+Closest candidates are:
+lowercase(::T) where T&lt;:AbstractChar at ~/packages/julias/julia-1.7/share/julia/base/strings/unicode.jl:249
+lowercase(::AbstractString) at ~/packages/julias/julia-1.7/share/julia/base/strings/unicode.jl:540
+Stacktrace:
+&hellip;
+```</p>
+<p>That information is very confusing for the user that pass the function.
+I order to detect that, I have created a small function checkFunType:</p>
+<p>```
+function checkFunType(fun::Function,type::DataType)
+if (type &lt;: Tuple)
+meths = methods(fun, type)
+else
+meths = methods(fun, Tuple{type})
+end
+return !isempty(meths)
+end
+```
+So, we can do a more informative error message to user with:</p>
+<p>```
+function fun_demo(f::Function)
+@assert checkFunType(f, Float64) &ldquo;Error: &lsquo;fun_demo&rsquo; requires a function that receive a float and function &lsquo;$(f)&rsquo; does not do that&rdquo;
+values = [1.0, 2.3, 3.4]
+return f.(values)
+end
+```
+In that case, the error is more useful:</p>
+<p>```
+ulia&gt; fun_demo(lowercase)
+ERROR: AssertionError: Error: &lsquo;fun_demo&rsquo; requires a function that receive a float and function &lsquo;lowercase&rsquo; does not do that
+Stacktrace:
+&hellip;
+```</p>
+<p>Of course, you can be more gentle that using @assert. The important think is that you can check the parameters that the function could receive, and act as you wish.</p>
+<p>I have found it extremely useful when you are working with functions as parameters.  I hope this could be useful for anyone.</p>
+<p><strong><strong>PS</strong></strong> It also work with generic types and with several parameters:</p>
+<p>```julia
+julia&gt; checkFunType(sin, Int32)
+true</p>
+<p>julia&gt; checkFunType(sin, String)
+false</p>
+<p>julia&gt; checkFunType(sin, Real)
+true</p>
+<p>julia&gt; checkFunType(+, Tuple{Int32, Int32})
+true</p>
+<p>julia&gt; checkFunType(+, Tuple{Int32, String})
+false
+```</p>
+
+    </div>
 
     
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/julia/">julia</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=/post/julia_fun/&amp;text=How%20to%20check%20the%20possible%20parameters%20for%20a%20function%20in%20Julia" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=/post/julia_fun/&amp;t=How%20to%20check%20the%20possible%20parameters%20for%20a%20function%20in%20Julia" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=How%20to%20check%20the%20possible%20parameters%20for%20a%20function%20in%20Julia&amp;body=/post/julia_fun/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=/post/julia_fun/&amp;title=How%20to%20check%20the%20possible%20parameters%20for%20a%20function%20in%20Julia" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=How%20to%20check%20the%20possible%20parameters%20for%20a%20function%20in%20Julia%20/post/julia_fun/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=/post/julia_fun/&amp;title=How%20to%20check%20the%20possible%20parameters%20for%20a%20function%20in%20Julia" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      <img class="portrait mr-3" src="https://s.gravatar.com/avatar/e8b4c754f59079ee0f56ba77d7f2066f?s=200')" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/">Daniel Molina</a></h5>
+      <h6 class="card-subtitle">Professor of Artificial Intelligence</h6>
+      <p class="card-text">My research interests include distributed robotics, mobile computing and programmable matter.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
     
     
-    <div class="article-widget content-widget-hr">
-      <h3>Latest</h3>
-      <ul>
-        
-        <li>
-          <a href="/publication/del-ser-2019/">Bio-inspired computation: Where we stand and what′s next</a>
-        </li>
-        
-      </ul>
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:dmolina@decsai.ugr.es" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=jlv-GY0AAAAJ" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/dmolina" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
     </div>
-    
   </div>
-</section>
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/post/julia_journey/">My Julia journey</a></li>
+      
+      <li><a href="/post/moodlequestions/">My first Julia Package</a></li>
+      
+      <li><a href="/post/julia_intro/">Introduction to Julia</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+  </div>
+</article>
 
       
 
